@@ -17,7 +17,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
-		<title><?php wp_title( '&laquo;', true, 'right' ); ?></title>
+		<title><?php wp_title( ' - ', true, 'left' ); ?></title>
 		
 		<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.ico" />
 
