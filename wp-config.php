@@ -28,7 +28,7 @@ define('DB_USER', 'yogaspor_wordpre');
 define('DB_PASSWORD', 'IGXSjV4M2s9bN6koQ');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 's2-vancouver.accountservergroup.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
