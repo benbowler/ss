@@ -29,6 +29,8 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
+		<?php if ( is_front_page() ): ?><div id="header-bg"> </div><?php endif; ?>
+
 		<div class="container">
 			<div id="page" class="hfeed row">
 				<?php tha_header_before(); ?>
@@ -41,7 +43,7 @@
 							'container'			=>	'nav',
 							'container_class'	=>	'subnav clearfix',
 							'theme_location'	=>	'header-menu',
-							'menu_class'		=>	'nav nav-pills pull-right',
+							'menu_class'		=>	'',
 							'depth'				=>	1,
 							'fallback_cb'		=>	false
 						) ); ?>
