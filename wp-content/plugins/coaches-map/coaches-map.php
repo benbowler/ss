@@ -38,19 +38,38 @@ function coaches_map_handler() {
 }
 
 function coaches_map_function() {
-  /*
-  $users = get_users();
-
-  foreach ($users as &$user) {
-    $meta = get_userdata($user->ID);
-    $user->data = $meta->data;
-  }
-
-  var_dump($users);
-  */
-
-
-//return "<ul>" . fb_list_authors(1, TRUE) . "</ul>";
+  coaches_map_generate_coords();
+  return require_once("map.php");
 }
 
+// Cron
+//wp_get_schedule(, '');
 
+function coaches_map_generate_coords() {
+  global $wpdb;
+
+  $users = get_users(array(
+  'role' => 'administrator'
+  ));
+
+  foreach ($users as &$user) {
+    $user->data = get_userdata($user->ID);
+
+    //$user->location = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "'");
+    $city = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 5");
+    $country = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 2");
+    //$lat = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 9");
+    //$long = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 10");
+
+    // $user->coords = $coords;
+
+    $user->city = $city[0]->value;
+    $user->country = $country[0]->value;
+
+    if($user->city) {
+      $location = "{$user->city}, {$user->country}";
+      echo file_get_contents('http://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($location) . '&sensor=true');
+
+    }
+  }
+}
