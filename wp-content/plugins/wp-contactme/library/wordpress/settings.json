@@ -1,0 +1,12 @@
+{
+	"schedules":
+	{
+		"hourly":"Hourly",
+		"twicedaily":"Twice Daily",
+		"daily":"Daily"
+	},
+	"multisite":
+	{
+		"blog_id":""
+	}
+}

@@ -1,0 +1,116 @@
+.wppl-admin-map-holder {
+  float:left; 
+  width:100%;float: right;
+  width: 45%;
+}
+
+.wppl-admin-map-holder #map {
+ 	border: 3px solid #CCC;
+	width: 300px;
+	height: 300px;
+	margin: 0px 0 0 10px;
+	float: right;
+	padding: 5px;
+	background: white;
+}
+
+#wppl-lookup-options-holder {
+	float: left;
+	width: 55%;
+	}
+
+#wppl-lookup-options-holder h2{
+	font-size:14px !important;
+	margin:0px !important;
+	border:none;
+	}
+	
+#wppl-lookup-options-holder h1{
+	font-size:16px !important;
+	}
+
+.tab1 #legend {
+  float: left;
+  font-size: 12px;
+  font-style: italic;
+  margin: 10px 0px 0px 430px;
+}
+
+.tab1 .ui-menu .ui-menu-item a {
+  font-size: 12px;
+} 
+
+
+
+/**
+ * Metabox Tabs
+ */
+ul.metabox-tabs {
+display: none;
+margin-top: 12px;
+margin-bottom: 3px;
+}
+
+.metabox-tabs-div {
+	float: left;
+	width: 97%;
+	}
+	
+.metabox-tabs-div ul {
+list-style: none;
+}
+.metabox-tabs li {
+display: inline;
+}
+ul.metabox-tabs li.active {
+border-style: solid solid none;
+border-width: 1px 1px 0;
+}
+ul.metabox-tabs li {
+padding: 7px;
+-moz-border-radius: 3px 3px 0 0;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+-khtml-border-top-left-radius: 3px;
+-khtml-border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+background: #CCC;
+border: 1px solid #AAA;
+}
+.metabox-tabs a {
+text-decoration: none;
+font-size: 16px;
+font-family: georgia, serif;
+color: #666;
+text-shadow: 1px 1px 1px white;
+
+}
+.metabox-tabs-div div.tabs-panel {
+overflow: auto;
+padding: 0.5em 0.9em;
+border-style: solid;
+border-width: 1px;
+}
+.heading {
+padding-left:10px;
+}
+.tab-content{
+overflow: auto;
+padding: 0.5em 0.9em;
+border-style: solid;
+border-width: 1px;
+}
+
+ul.metabox-tabs li.active {
+background-color: #F1F1F1;
+}
+ul.metabox-tabs li.active, div.tab-content {
+border-color: #DFDFDF;
+padding: 8px 11px;
+}
+.metabox-tabs .active a {
+color: #333;
+//font-size: 16px;
+//font-family: georgia, serif;
+}

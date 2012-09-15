@@ -1,0 +1,42 @@
+<th>
+	<label><?php echo $this->value['text'];?></label>
+	<input 	name="field_definitions[<?php echo $this->value['field'];?>][type]"
+			type = "hidden"
+			value="<?php echo $this->value['type'];?>">
+</th>
+<th>
+	<ul	class='subsubsub'>
+		<li class="mandatory">
+			<label class='<?php echo $this->value['mandatory_disabled'];?>' for="mandatory_<?php echo $this->value['field'];?>">Mandatory</label>
+			<input 	type="hidden"
+					<?php echo $this->value['mandatory_disabled'];?>
+					name="field_definitions[<?php echo $this->value['field'];?>][mandatory]"
+					value="" />
+			<input 	<?php echo $this->value['mandatory'];?>
+					<?php echo $this->value['mandatory_disabled'];?>
+					type="checkbox"
+					name="field_definitions[<?php echo $this->value['field'];?>][mandatory]"
+					id="mandatory_<?php echo $this->value['field'];?>"
+					value="checked" />
+		</li>
+		<li class="delete">
+			<label for="delete_<?php echo $this->value['field'];?>"><span class = "v48fv_20x20_delete"></span></label>
+			<input	type="checkbox"
+					<?php echo $this->value['delete_disabled'];?>
+					id="delete_<?php echo $this->value['field'];?>"
+					name="field_definitions[<?php echo $this->value['field'];?>][delete]"
+					value="" />
+		</li>
+		<li class="field">
+		<?php if($this->value['fixed_field']===null): ?>
+			<label>Field #</label>
+			<select class="number"
+					name="field_definitions[<?php echo $this->value['field'];?>][field]" />
+			<?php for($cnt=1;$cnt<=$this->cnt;$cnt++){ ?>
+				<option <?php echo $this->selected($cnt,$this->value['field']);?>><?php echo $cnt;?></option>
+			<?php }; ?>
+			</select>
+		<?php endif; ?>
+		</li>
+	</ul>
+</th>

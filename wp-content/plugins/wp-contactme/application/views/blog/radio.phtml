@@ -1,0 +1,20 @@
+<label	for='<?php echo $this->field_id;?>'
+<?php if(isset($this->field_definition['question_long']) && !empty($this->field_definition['question_long'])):?>
+		class='concise_prompt'
+<?php else:?>
+		class='concise_prompt inline'
+<?php endif;?>
+		><?php echo $this->field_definition['question']?></label>
+<?php if(isset($this->field_definition['question_long']) && !empty($this->field_definition['question_long'])):?>
+<label	for='<?php echo $this->field_id;?>'
+		class='expanded_prompt inline'><?php echo $this->field_definition['question_long']?></label>
+<?php endif;?>
+	<input	type="hidden"
+		name="<?php echo $this->field_name?>"
+		value='0' />
+	<input	type="radio"
+		<?php checked($this->field_definition['value'],1);?>
+		<?php echo $this->readonly; ?>
+		id="<?php echo "{$this->field_id}";?>" 
+		name="<?php echo $this->field_name?>"
+		value='1' />

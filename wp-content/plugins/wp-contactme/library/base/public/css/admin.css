@@ -1,0 +1,177 @@
+/***********************************************************************************
+* Menu Tweaks
+***********************************************************************************/
+.v48fv ul.subsubsub li
+{
+	padding-left: 1px;
+	padding-right: 0;
+	border-left: 1px solid #aaaaaa;
+}
+.v48fv ul.subsubsub li:first-child
+{
+	padding-left: 0;
+	border-left: none;
+}
+/***********************************************************************************
+* Table
+***********************************************************************************/
+.v48fv caption
+{
+	padding-top:1em;
+	font-weight: bold;
+	text-align:left;
+}
+.v48fv table input[type="text"]
+{
+	width:100%;
+	max-width:200px;
+	margin:0;
+}
+.v48fv table select
+{
+	width:100%;
+	max-width:170px;
+	margin:0;
+}
+.v48fv table textarea
+{
+	width:100%;
+	margin:0;
+	height:2em;
+}
+.v48fv table textarea.expand:focus
+{
+	height:20em;
+}
+.v48fv table input[type="text"].number
+{
+	width:3em;
+}
+.v48fv table select.number
+{
+	width:4em;
+}
+.v48fv table input[type="text"].color_number,
+.v48fv table textarea.color_number
+{
+	width:6em;
+}
+.v48fv col
+{
+	width:200px;
+}
+.v48fv col:last-child
+{
+	width:auto;
+}
+.v48fv table.survey_list .col5
+{
+	width:200px;
+}
+.v48fv table.survey_list .col6
+{
+	width:200px;
+}
+label[disabled]
+{
+	color:#999999;
+}
+.v48fv table.exportreaders_list .col1,
+.v48fv table.redactor_list .col1,
+.v48fv table.delete_list .col1,
+.v48fv table.survey_list .col1,
+.v48fv table.survey_list .col2,
+.v48fv table.survey_list .col4
+{
+	width:22px;
+}
+.v48fv tbody th
+{
+	text-align: right;
+	vertical-align: top;
+}
+table.v48fv_dummy
+{
+	border:none;
+	padding:0;
+	margin:0;
+}
+ul.v48fv_field_definitions,
+ul.v48fv_field_definitions li,
+ul.v48fv_field_definitions table
+{
+	margin:0;
+	padding:0;
+}
+.v48fv_show_hide .subsubsub
+{
+	margin:0;
+	padding:0;
+	font-size:.8em;
+}
+.v48fv_body
+{
+	padding-right:29em;
+}
+.v48fv_body .v48fv_inner
+{
+	padding:0;
+}
+.v48fv_sidebar
+{
+	position: absolute;
+	top:71px;
+	right:20px;
+	width:28em;
+}
+v48fv_field_definitions td ul.subsubsub,
+v48fv_field_definitions td li
+{
+	margin:0!important;
+	padding:0!important;
+}
+.v48fv label.disabled
+{
+	color:gray;
+}
+.v48fv_sidebar table.v48fv_general .col1
+{
+	width:100px;
+}
+
+.v48fv th ul.subsubsub
+{
+	margin:0;
+}
+.v48fv input.shortcode
+{
+	border:none;
+	background-color:transparent;
+}
+.v48fv table .type
+{
+	background-color:#dddddd;
+}
+.v48fv table.middle
+{
+	border-bottom:none;
+	margin-bottom:1em;
+}
+.v48fv table.top
+{
+	border:none;
+}
+.v48fv_show_hide .subsubsub
+{
+	display:none;
+}
+div.showhide
+{
+	overflow:hidden;
+	height:1.5em;
+}
+div.showhide:hover
+{
+	height:30em;
+	overflow:scroll;
+}

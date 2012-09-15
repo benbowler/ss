@@ -1,0 +1,8 @@
+<th>Status</th>
+<td>
+	<select name="general[status]">
+		<?php foreach($this->general['options']['status'] as $option):?>
+			<option  <?php echo $option['selected'];?> value="<?php echo $option['value'];?>"><?php echo $option["text"];?></option>
+		<?php endforeach;?>
+	</select>
+</td>

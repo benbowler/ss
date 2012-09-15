@@ -1,0 +1,356 @@
+/* Wish List Stylesheet */
+
+/* @group Original Legacy CSS */
+
+tr.wlm_new_taxonomy th, tr.wlm_new_taxonomy td{
+	border-top:4px solid #ccc;
+}
+
+.WLRequired {
+	background: url(../images/asterisk.gif) no-repeat right 10px;
+}
+
+.WLSubMenu {
+	list-style: none;
+	margin: 0 0 5px 0;
+	padding: 0;
+	height: 2em;
+	font-size: 14px;
+	clear: both;
+	background: #ECECEC none repeat scroll 0 0;
+}
+
+.WLSubMenu li {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.WLSubMenu li a {
+	display: block;
+	float: left;
+	margin: 0 0 0 12px;
+	padding: 0 5px;
+	text-decoration: none;
+	line-height: 200%;
+}
+
+.WLSubMenu li a.current {
+	color: #D54E21;
+}
+
+#submenu li {
+	padding: 0;
+	margin: 0;
+}
+
+#submenu li a {
+	margin: 0 0 0 12px;
+	padding: 0 5px;
+	display: block;
+	float: left;
+}
+
+#submenu li a.current {
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	background: #ECECEC none repeat scroll 0 0;
+}
+
+/* @end */
+
+/* @group Member News Widget */
+
+.rss-widget ul {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+/* @end */
+
+/* @group Miscellaneous Fixes */
+
+body.wl-plugins_page_WishListMember .postbox h3 {
+	cursor: default !important;
+}
+
+.wrap {
+	clear: both;
+	margin-top: 20px;
+	min-width: 950px !important;
+}
+
+.wrap h2 {
+	padding-left: 0;
+	margin-top: 20px;
+	width: 100%;
+	min-width: 950px !important;
+}
+
+.wrap h2.small {
+	font-size: 18px;
+}
+
+.wrap h2.noline {
+	border: 0;
+}
+
+.wrap h3 {
+	padding-left: 10px;
+	/* margin-top: 20px; */
+}
+
+tr.underline {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+hr, hr.clear {
+	clear: both;
+	border: 0;
+	border-bottom: 1px solid #dfdfdf;
+	padding: 5px 0;
+}
+
+a.large {
+	font-size: 18px !important;
+}
+
+.integrationInstructions {
+	margin-left: 30px;
+}
+
+.integrationInstructions h2 {
+	padding-left: 0px;
+}
+
+/* @end */
+
+/* @group Dashboard */
+
+body.wl-plugins_page_WishListMember .postbox-container {
+	min-width: 410px;
+}
+
+.table.table_content {
+	min-width: 220px;
+}
+
+.table.table_discussion {
+	max-width: 150px;
+}
+
+#dashboard_right_now a.button{float:none;clear:right;position:relative;}
+
+/* @end */
+
+/* @group Menus */
+
+h2.nav-tab-wrapper {
+	width: 98%;
+	min-width: 1070px !important;
+	clear: both;
+	height: 36px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+a.nav-tab, a.nav-tab:hover, a.nav-tab:active {
+	font-size: 18px !important;
+	line-height: 35px !important;
+	padding: 0 10px 0 10px !important;
+	border-bottom: 1px solid #ccc;
+	margin-left: -1px;
+
+}
+
+a.nav-tab-active, a.nav-tab-active:hover, a.nav-tab-active:active {
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+}
+
+a.has-sub-menu, a.has-sub-menu:active, a.has-sub-menu:hover {
+	border-bottom: 1px solid #f7f7f7;
+	background-color: #f7f7f7;
+}
+
+ul.wlm-sub-menu {
+	width: 98%;
+	min-width: 950px !important;
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 10px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #dfdfdf;
+	height: 36px;
+}
+
+ul.wlm-sub-menu li {
+	display: inline;
+}
+
+ul.wlm-sub-menu a {
+	text-decoration: none;
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 5px 4px 0 0;
+	padding: 3px 10px 3px 10px;
+	color: #21759b;
+	text-shadow:rgba(255,255,255,1) 0 1px 0;
+	padding: 4px 14px 6px;
+	-moz-border-radius:3px 3px 0 0;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-khtml-border-top-left-radius:3px;
+	-khtml-border-top-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-color:#f7f7f7 #f7f7f7 #fff;
+	border-style:solid;
+	border-width:1px 1px 0;
+	display:inline-block;
+}
+
+ul.wlm-sub-menu li.current a {
+	color: #464646;
+	background-color: #fff;
+	border-color:#dfdfdf #dfdfdf #fff;
+	height: 21px;
+}
+
+ul.wlm-sub-menu a:hover, ul.wlm-sub-menu a:active, ul.wlm-sub-menu li.current a:hover {
+	color: #D54E21;
+}
+
+ul.wlm-sub-menu li.has-sub-menu a, ul.wlm-sub-menu li.has-sub-menu a:active, ul.wlm-sub-menu li.has-sub-menu a:hover {
+	background-color: #fbfbfb;
+	border-color:#dfdfdf #dfdfdf #fff;
+}
+
+ul.has-sub-sub a {
+	color: #a0a0a0;
+}
+
+ul.sub-sub {
+	background-color: #fbfbfb;
+}
+
+ul.sub-sub a {
+	background-color: #fbfbfb;
+	border-color:#fbfbfb #fbfbfb #fff;
+}
+
+/* @end */
+
+/* @group Add Member Popup */
+
+.popupWindow h3 {
+	font: normal normal 24px/1.5px Georgia, "Times New Roman", Times, serif;
+	color: #464646;
+	border-bottom: 1px solid #dbdbdb;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.popupWindow table.describe {
+	width: 100%;
+}
+
+.popupWindow table.describe td.field {
+	padding: 3px;
+}
+
+.popupWindow table.describe input {
+	width: 150px !important;
+}
+
+.popupWindow a.button {
+	color: #ffffff !important;
+}
+
+.popupWindow a.button:hover {
+	color: #EAF2FA !important;
+}
+
+/* @end */
+
+/* @group Member Levels */
+
+.widefat td {
+	background-color: none;
+}
+
+table.MembershipLevelsAdvanced td {
+	border: 0px;
+	border-left: 1px solid #dbdbdb;
+	background: none;
+}
+
+table.MembershipLevelsAdvanced td.first, table.MembershipLevelsAdvanced td td {
+	background: none;
+	border-left: 0px;
+}
+
+table tr.wpm_level_row_editor td {
+	border-bottom: 1px solid #dbdbdb !important;
+}
+
+.widefat thead th {
+	color: #767676 !important;
+}
+
+.widefat thead th a {
+	color: #21759b;
+}
+
+.widefat thead th a:hover {
+	color: #d54e21;
+}
+
+.widefat select {
+	white-space: nowrap;
+}
+
+.wlmEditRow td {
+	padding: 0px !important;
+	border-top: 0px;
+}
+
+.wlmEditRow .widefat {
+	border: 0px;
+}
+
+.wlmEditRow .widefat th {
+	background: none !important;
+	color: #464646 !important;
+	border-bottom: 0px;
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	padding: 5px 0 0 7px !important;
+	text-shadow: #fff 0 1px 0;
+}
+
+.wlmEditRow .widefat tr {
+	background-color: #f7fbff;
+	padding-top: 10px;
+}
+
+.wlmEditRow .widefat td {
+	padding: 7px !important;
+}
+
+.wlmEditRow .widefat th {
+	padding: 7px;
+}
+
+.wpm_level_row_editor_advanced td {
+}
+
+.form-table label{
+	display:inline-block;
+	min-width:40px;
+}
+
+/* @end */

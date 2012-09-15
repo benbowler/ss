@@ -1,0 +1,600 @@
+.zfaces-form {
+}
+
+/**** Errors ****/
+#error_message {
+	background: #fff;
+	border: 1px dotted red;
+	margin-bottom: 1em;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 4px;
+	text-align: center;
+	width: 97%;
+}
+
+#error_message_title {
+	color: #DF0000;
+	font-size: 125%;
+	margin: 7px 0 5px !important;
+	padding: 0 !important;
+}
+
+#error_message_desc {
+	color: #000;
+	font-size: 100%;
+	margin: 0 0 .8em !important;
+}
+
+#error_message_desc strong {
+	background-color: #FFDFDF;
+	color: red;
+	padding: 2px 3px;
+}
+
+.zferror {
+	background-color: #FFDFDF !important;
+	border-bottom: 1px solid #EACBCC;
+	border-right: 1px solid #EACBCC;
+	margin: 3px 0;
+}
+
+.zferror label {
+	color: #DF0000 !important;
+}
+
+.zferror p {
+	clear: both;
+	color: red;
+	font-size: 10px;
+	font-weight: 700;
+	margin: 0 0 5px !important;
+}
+
+#main_body form .required {
+	color: red !important;
+	float: none !important;
+	font-weight: 700;
+}
+
+/**** Guidelines and Error Highlight ****/
+.zfaces-form form li.highlighted {
+	background-color: #fff7c0;
+}
+
+.zfaces-form p.guidelines {
+	padding: 0;
+	margin: 0;
+	font-size: smaller;
+} 
+/*** Success Message ****/
+.form_success {
+	clear: both;
+	margin: 0;
+	padding: 90px 0pt 100px;
+	text-align: center
+}
+
+.form_success h2 {
+	clear: left;
+	font-size: 160%;
+	font-weight: normal;
+	margin: 0pt 0pt 3px;
+}
+
+/*** Password ****/
+#main_body ul.password {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.password h2 {
+	color: #DF0000;
+	font-weight: bold;
+	margin: 0pt auto 10px;
+}
+
+.password input.text {
+	font-size: 170% !important;
+	width: 380px;
+	text-align: center;
+}
+
+.password label {
+	display: block;
+	font-size: 120% !important;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#li_captcha {
+	padding-left: 5px;
+}
+
+#li_captcha span {
+	float: none;
+	padding: 0px !important;
+}
+
+#li_captcha div {
+	padding: 0px !important;
+}
+
+#captcha_image {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#captcha_response_field {
+	margin-bottom: 10px;
+}
+
+#dummy_captcha_internal {
+	height: 8px;
+}
+
+/** Embedded Form **/
+.embed #top,.embed #bottom,.embed h1 {
+	display: none;
+}
+
+.embed #form_container {
+	border: none;
+	width: 100%;
+	background: none;
+}
+
+.embed #footer {
+	text-align: left;
+	padding-left: 10px;
+	width: 99%;
+}
+
+.embed #footer.success {
+	text-align: center;
+	/*blink*/
+	display: none;
+}
+
+/** Integrated Form **/
+.integrated * {
+	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	color: #000;
+}
+
+.integrated #top,.integrated #bottom,.integrated h1 {
+	display: none;
+}
+
+.integrated #form_container {
+	border: none;
+	width: 99%;
+	background: none;
+}
+
+.integrated #footer {
+	text-align: left;
+	padding-left: 10px;
+	width: 99%;
+}
+
+.integrated #footer.success {
+	text-align: center;
+}
+
+.integrated form .section_break h3 {
+	border: none !important;
+}
+
+.integrated #error_message h3 {
+	border: none !important;
+}
+
+/*** Calendar **********************/
+div.calendar {
+	position: relative;
+}
+
+.calendar table {
+	cursor: pointer;
+	border: 1px solid #ccc;
+	font-size: 11px;
+	color: #000;
+	background: #fff;
+	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+
+.calendar table .title,.calendar table .button {
+	font-size: 11px;
+}
+
+.calendar * {
+	font-size: 11px;
+	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+
+.calendar .button {
+	text-align: center;
+	padding: 2px;
+}
+
+.calendar .nav {
+	background: #f5f5f5;
+}
+
+.calendar thead .title {
+	font-weight: bold;
+	text-align: center;
+	background: #dedede;
+	color: #000;
+	padding: 2px 0 3px 0;
+}
+
+.calendar thead .headrow {
+	background: #f5f5f5;
+	color: #444;
+	font-weight: bold;
+}
+
+.calendar thead .daynames {
+	background: #fff;
+	color: #333;
+	font-weight: bold;
+}
+
+.calendar thead .name {
+	border-bottom: 1px dotted #ccc;
+	padding: 2px;
+	text-align: center;
+	color: #000;
+}
+
+.calendar thead .weekend {
+	color: #666;
+}
+
+.calendar thead .hilite {
+	background-color: #444;
+	color: #fff;
+	padding: 1px;
+}
+
+.calendar thead .active {
+	background-color: #d12f19;
+	color: #fff;
+	padding: 2px 0px 0px 2px;
+}
+
+.calendar tbody .day {
+	width: 1.8em;
+	color: #222;
+	text-align: right;
+	padding: 2px 2px 2px 2px;
+}
+
+.calendar tbody .day.othermonth {
+	font-size: 80%;
+	color: #bbb;
+}
+
+.calendar tbody .day.othermonth.oweekend {
+	color: #fbb;
+}
+
+.calendar table .wn {
+	padding: 2px 2px 2px 2px;
+	border-right: 1px solid #000;
+	background: #666;
+}
+
+.calendar tbody .rowhilite td {
+	background: #FFF1AF;
+}
+
+.calendar tbody .rowhilite td.wn {
+	background: #FFF1AF;
+}
+
+.calendar tbody td.hilite {
+	padding: 1px 1px 1px 1px;
+	background: #444 !important;
+	color: #fff !important;
+}
+
+.calendar tbody td.active {
+	color: #fff;
+	background: #529214 !important;
+	padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected {
+	font-weight: bold;
+	border: 1px solid #888;
+	padding: 1px 1px 1px 1px;
+	background: #f5f5f5 !important;
+	color: #222 !important;
+}
+
+.calendar tbody td.weekend {
+	color: #666;
+}
+
+.calendar tbody td.today {
+	font-weight: bold;
+	color: #529214;
+	background: #D9EFC2;
+}
+
+.calendar tbody .disabled {
+	color: #999;
+}
+
+.calendar tbody .emptycell {
+	visibility: hidden;
+}
+
+.calendar tbody .emptyrow {
+	display: none;
+}
+
+.calendar tfoot .footrow {
+	text-align: center;
+	background: #556;
+	color: #fff;
+}
+
+.calendar tfoot .ttip {
+	background: #222;
+	color: #fff;
+	font-size: 10px;
+	border-top: 1px solid #dedede;
+	padding: 3px;
+}
+
+.calendar tfoot .hilite {
+	background: #aaf;
+	border: 1px solid #04f;
+	color: #000;
+	padding: 1px;
+}
+
+.calendar tfoot .active {
+	background: #77c;
+	padding: 2px 0px 0px 2px;
+}
+
+.calendar .combo {
+	position: absolute;
+	display: none;
+	top: 0px;
+	left: 0px;
+	width: 4em;
+	border: 1px solid #ccc;
+	background: #f5f5f5;
+	color: #222;
+	font-size: 90%;
+	z-index: 100;
+}
+
+.calendar .combo .label,.calendar .combo .label-IEfix {
+	text-align: center;
+	padding: 1px;
+}
+
+.calendar .combo .label-IEfix {
+	width: 4em;
+}
+
+.calendar .combo .hilite {
+	background: #444;
+	color: #fff;
+}
+
+.calendar .combo .active {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	background: #dedede;
+	font-weight: bold;
+}
+
+/** Form Review **/
+#machform_review_table tbody tr:hover {
+	background-color: #FFF7C0;
+}
+
+.alt {
+	background: #efefef;
+}
+
+#machform_review_table td {
+	text-align: left;
+	border-bottom: 1px solid #DEDEDE;
+	padding: 5px 10px;
+}
+
+/******************** Faces ******************/
+.zfsub {
+	float: left;
+	/*border:1px solid blue;*/
+}
+
+.zfclear {
+	clear: both;
+	height: 0px;
+	background-color:red;
+}
+
+.zfsub label {
+	clear: both;
+	/*color:white;*/
+	display: block;
+	font-size: 9px;
+	line-height: 9px;
+	margin: 0;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: left;
+}
+
+.zfedit {
+	border: 0px;
+}
+
+.zfaces {
+	background-color:#F8F8F8; 
+	border-radius: 12px;
+	-moz-border-radius: 12px;	
+}
+
+.zfli {
+	background-image: none; /*FIXME: doesnt work*/
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.zflist li {
+	width: 50%;
+}
+
+.zflistshow {
+	background: #DEDEDE;
+}
+
+.zflisthide {
+	background: red;
+}
+
+.zfimg {
+	vertical-align:middle;
+	margin: 0px;
+	padding: 0px;
+}
+
+.zfelement { 
+	padding-bottom:4px;
+	padding-top: 10px;
+}
+
+.zfli input:focus {
+	background-color: bisque;
+}
+
+.zfsubelements {
+	float: left;
+	width: 75%;
+}
+
+.zfelabel {
+	width: 24%;
+	/*font-weight: bold;*/
+	text-align: left;
+	clear: both;
+	/*border:1px solid blue;*/
+	float: left;
+}
+
+.zfalert {
+	text-align: center;
+	/*align:center;*/ /*FIXME*/
+	color: red;
+	border: 1px solid #ccc;
+	width: 400px;
+}
+
+.zfrequired {
+	color: red !important;
+	float: none !important;
+	font-weight: 700;
+}
+
+.faces {
+	float: left;
+}
+
+.faces.fw100 {
+	width: 100%;
+}
+
+.faces.lw66 {
+	width: 66%;
+	float: left
+}
+
+.faces.rw66 {
+	width: 66%;
+	float: right
+}
+
+.faces.lw33 {
+	width: 33%;
+	float: left
+}
+
+.faces.rw33 {
+	width: 33%;
+	float: right
+}
+
+.faces.lw50 {
+	width: 50%;
+	float: left
+}
+
+.faces.rw50 {
+	width: 50%;
+	float: right
+}
+
+.faces.lw25 {
+	width: 25%;
+	float: left
+}
+
+.faces.rw25 {
+	width: 25%;
+	float: right
+}
+
+.faces.lw75 {
+	width: 75%;
+	float: left
+}
+
+.faces.rw75 {
+	width: 75%;
+	float: right
+}
+
+div.faces ul,div#zfaces ul,ul#zfaces,ul.zfaces {
+	list-style-type: none;
+	list-style-image: none;
+	margin-left: 0px;
+  	padding-left: 0px
+}
+
+li.zfacestab {
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+	margin-left:10px;
+	margin-right:0px;
+	background: #F8F8F8;
+	margin-bottom:0px;
+}
+
+.aphps_form_buttons {
+	position:relative;
+	clear:both;
+	text-align:center;
+}
+
+.aphps-list-table th {
+	padding-right:20px;
+	text-align:left;
+}
+
+/* Form */
+li.zfli {
+	list-style-type: none !important;
+}

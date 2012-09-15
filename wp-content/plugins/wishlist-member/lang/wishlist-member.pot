@@ -1,0 +1,5753 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WishList Member 2.71.1330\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-06 13:46-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wishlist-member/core/ShortCodes.php:487
+#: wishlist-member/core/PluginMethods.php:3826
+#: wishlist-member/core/PluginMethods.php:3884
+#: wishlist-member/admin/post_page_options.php:142
+#: wishlist-member/admin/post_page_options.php:228
+#: wishlist-member/admin/members.default.php:357
+#: wishlist-member/admin/members.default.php:495 wishlist-member/wpm.php:2156
+msgid "Username"
+msgstr ""
+
+#: wishlist-member/core/ShortCodes.php:488
+#: wishlist-member/core/PluginMethods.php:3827 wishlist-member/wpm.php:2157
+msgid "Password"
+msgstr ""
+
+#: wishlist-member/core/ShortCodes.php:489 wishlist-member/wpm.php:2158
+msgid "Remember Me"
+msgstr ""
+
+#: wishlist-member/core/ShortCodes.php:490 wishlist-member/wpm.php:2163
+msgid "Lost your Password?"
+msgstr ""
+
+#: wishlist-member/core/ShortCodes.php:491
+#: wishlist-member/core/PluginMethods.php:3828 wishlist-member/wpm.php:2159
+msgid "Login"
+msgstr ""
+
+#: wishlist-member/core/User.php:110
+msgid "Active"
+msgstr ""
+
+#: wishlist-member/core/User.php:113
+#: wishlist-member/core/PluginMethods.php:389
+msgid "Unconfirmed"
+msgstr ""
+
+#: wishlist-member/core/User.php:114
+msgid "For Approval"
+msgstr ""
+
+#: wishlist-member/core/User.php:115
+#: wishlist-member/core/PluginMethods.php:371
+msgid "Cancelled"
+msgstr ""
+
+#: wishlist-member/core/User.php:116
+msgid "Expired"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:88
+msgid "<b>Content Protection updated.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:90
+msgid "<b>Pay Per Post access updated.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:92
+msgid "<b>Membership Level access updated.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:371
+msgid "Uncancelled"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:383
+#: wishlist-member/core/PluginMethods.php:391
+#: wishlist-member/core/PluginMethods.php:399
+#, php-format
+msgid "<b>Selected members %1$s from %2$s.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:389
+msgid "Confirmed"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:397
+msgid "Unapproved"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:397
+msgid "Approved"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:406
+msgid "ENABLED"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:406
+msgid "DISABLED"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:408
+#, php-format
+msgid "<b>Sequential Upgrade %s for selected members.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:418
+msgid "<b>Selected members DELETED.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:440
+msgid "ADDED"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:443
+msgid "MOVED"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:446
+msgid "Removed"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:468
+#, php-format
+msgid "<b>Selected members %1$s to %2$s.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:702
+msgid "Sequential Delivery Configuration Updated"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1023
+msgid "<b>Membership level access updated.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1485
+msgid "An unknown error occured.  Please try again."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1488
+msgid "All required fields must be filled-in."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1491
+#: wishlist-member/core/PluginMethods.php:1772
+msgid "The reCAPTCHA wasn't entered correctly. Go back and try it again"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1494
+msgid "The passwords you entered do not match."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1500
+msgid "The email you entered is already in our database."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1503
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1506
+msgid "Please enter your first name and your last name."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1509
+msgid "The username you chose already exists.  Please try another one."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1511
+msgid ""
+"If you are already a member and are upgrading your membership access, please "
+"click the \"Existing Members\" link below."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1514
+msgid "Please enter a username"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1569
+msgid "Already assigned"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1776
+msgid "You are already registered to this level."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1780
+msgid "Invalid username and/or password."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1940
+#, php-format
+msgid "Incomplete data on row #%1$d."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1946
+#, php-format
+msgid "%1$d users moved to Membership Level %2$s"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1946
+#, php-format
+msgid "%1$d duplicates ignored"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1947
+#, php-format
+msgid ""
+"%1$d new users imported.<br />%2$s.<br />%3$d errors encountered.<br />%4$d "
+"total rows processed."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:1949
+msgid "Errors"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3829
+msgid "Existing Member Login"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3831
+msgid "Forgot Password?"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3883
+#: wishlist-member/admin/settings.registration.redbox.php:26
+msgid "New Member Registration"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3885
+#: wishlist-member/admin/post_page_options.php:224
+#: wishlist-member/admin/members.default.php:502
+msgid "First Name"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3886
+#: wishlist-member/admin/post_page_options.php:225
+#: wishlist-member/admin/members.default.php:509
+msgid "Last Name"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3887
+#: wishlist-member/admin/post_page_options.php:143
+#: wishlist-member/admin/post_page_options.php:226
+#: wishlist-member/admin/members.default.php:358
+#: wishlist-member/admin/members.default.php:516 wishlist-member/wpm.php:2651
+msgid "E-mail"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3888
+#: wishlist-member/admin/members.default.php:523
+msgid "Password (twice)"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3893
+msgid "Submit Registration"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3957
+msgid ""
+"Please wait while we process your submission and kindly do not click your "
+"browser's back or refresh button."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:3958
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Click here</a> if you are not redirected in %2$d seconds."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:4131
+msgid "There was an error sending you message. Please try again."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:4202
+msgid "Message is now being sent to members of selected levels."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:4806
+msgid "<b>File Protection updated.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5488
+#: wishlist-member/core/PluginMethods.php:5499
+#, php-format
+msgid ""
+"ERROR: Cannot create backup file. Please check file permissions for <b>%s</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5541
+#, php-format
+msgid "WishList Member successfully backed-up on %s."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5554
+msgid "Backup file not found."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5581
+#, php-format
+msgid "WishList Member Settings successfully restored to %s."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5584
+msgid "An error occured while trying to restore WishList Member Settings"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5628
+#, php-format
+msgid "WishList Member Settings \"%s\" deleted."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5677
+msgid "An error occured while trying to import file"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5687
+msgid "An SQL error occured while trying to import file."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5694
+msgid "WishList Member Settings successfully imported."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5708
+msgid "WishList Member reset to default settings"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5710
+msgid "Reset Aborted. Failed to backup current settings."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:5888
+msgid "<b>Folder Protection updated.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:6363
+msgid "<b>Could not create folder.</b><br>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:6370
+#, php-format
+msgid "Parent Folder is set to <b>%1$s</b> Folder."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:6458
+msgid ""
+"<b>Parent Folder can not be one of WordPress default folders such as wp-"
+"content, wp-includes, wp-admin, uploads, themes or plugins folder. Try to "
+"create a folder inside your WordPress instalation path and set it as Parent "
+"Folder. </b><br>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:6475
+msgid "<b>Parent Folder Updated.</b><br>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:6873
+msgid "<b>Custom Registration Form Saved.</b>"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:6887
+msgid "Form deleted."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:6901
+#, php-format
+msgid "Form <b>%1$s</b> cloned to <b>%2$s</b>."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:7302
+msgid "E-mail not found"
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:7304
+msgid "Please enter the e-mail address you used for paying to continue."
+msgstr ""
+
+#: wishlist-member/core/PluginMethods.php:7305
+msgid "Continue"
+msgstr ""
+
+#: wishlist-member/core/AnotherWidget.php:16
+msgid "Another WishList Member Login"
+msgstr ""
+
+#: wishlist-member/core/AnotherWidget.php:18
+msgid "Another Wishlist Member"
+msgstr ""
+
+#: wishlist-member/core/AnotherWidget.php:51
+msgid "Title when logged in:"
+msgstr ""
+
+#: wishlist-member/core/AnotherWidget.php:55
+msgid "Title when logged out::"
+msgstr ""
+
+#: wishlist-member/core/Class.php:151
+msgid "Other WishList Products Plugins"
+msgstr ""
+
+#: wishlist-member/core/Class.php:176
+msgid "Dashboard"
+msgstr ""
+
+#: wishlist-member/core/Class.php:185 wishlist-member/core/Class.php:186
+msgid "Error"
+msgstr ""
+
+#: wishlist-member/core/Class.php:239
+msgid ""
+"<h2>Other WishList Products Plugins</h2><p>For more Wordpress tools and "
+"resources please visit the <a href=\"http://wishlistproducts.com/blog\" "
+"target=\"_blank\">WishList Products Blog</a></p>"
+msgstr ""
+
+#: wishlist-member/core/Class.php:253
+msgid ""
+"Please enter your WishList Products Key and Email below to activate this "
+"plugin"
+msgstr ""
+
+#: wishlist-member/core/Class.php:256
+msgid "WishList Products Key"
+msgstr ""
+
+#: wishlist-member/core/Class.php:258
+msgid "(This was sent to the email you used during your purchase)"
+msgstr ""
+
+#: wishlist-member/core/Class.php:261
+msgid "WishList Products Email"
+msgstr ""
+
+#: wishlist-member/core/Class.php:263
+msgid "(Please enter the email you used during your registration/purchase)"
+msgstr ""
+
+#: wishlist-member/core/Class.php:282
+msgid ""
+"Warning: Unable to contact License Activation Server. We will keep on "
+"trying. <a href=\"http://wlplink.com/go/activation\" target=\"_blank\">Click "
+"here for more info.</a>"
+msgstr ""
+
+#: wishlist-member/core/Class.php:565
+msgid "<strong>Error:</strong> Fields marked with an asterisk (*) are required"
+msgstr ""
+
+#: wishlist-member/core/Class.php:573
+msgid "Settings Saved"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:17
+msgid "<i>[Content protected for [level] members only]</i>"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:29
+msgid "Congrats - You are registered!"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:30
+msgid ""
+"Dear [firstname],\n"
+"\n"
+"You have successfully registered as one of our [memberlevel] members.\n"
+"\n"
+"Please keep this information safe as it contains your username and "
+"password.\n"
+"\n"
+"Your Membership Info:\n"
+"U: [username]\n"
+"P: [password]\n"
+"\n"
+"Login URL: [loginurl]\n"
+"\n"
+"Be sure to drop by the site as we are continuously adding to the members "
+"area.\n"
+"\n"
+"To your success!"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:46
+msgid "RE: Your membership login info"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:47
+msgid ""
+"Dear [firstname],\n"
+"\n"
+"Our records show that you recently asked to reset the password for your "
+"account.\n"
+"\n"
+"Your current information is:\n"
+"Username: [username]\n"
+"Membership: [memberlevel]\n"
+"\n"
+"As a security measure all passwords are encrypted in our database and cannot "
+"be retrieved. However, you can easily reset it.\n"
+"\n"
+"To reset your password visit the following URL, otherwise just ignore this "
+"email and your membership info will remain the same.\n"
+"\n"
+"[reseturl]\n"
+"\n"
+"Thanks again!"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:63
+msgid "Please confirm your registration"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:64
+msgid ""
+"Hi [firstname]\n"
+"\n"
+"Thank You for registering for [memberlevel]\n"
+"\n"
+"Your registration must be confirmed before it is active.\n"
+"\n"
+"Confirm by visiting the link below:\n"
+"\n"
+"[confirmurl]\n"
+"\n"
+"Thank You."
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:76
+msgid "A New Member has Registered"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:77
+msgid ""
+"A new member has registered with the following info:\n"
+"\n"
+"First Name: [firstname]\n"
+"Last Name: [lastname]\n"
+"Email: [email]\n"
+"Membership Level: [memberlevel]\n"
+"Username: [username]\n"
+"\n"
+"Thank you."
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:87
+msgid "A Member has Unsubscribed"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:88
+msgid ""
+"A Member has unsubscribed with the following info:\n"
+"\n"
+"First Name: [firstname]\n"
+"Last Name: [lastname]\n"
+"Email: [email]\n"
+"Username: [username]\n"
+"\n"
+"Thank you."
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:97
+msgid "Please Complete Your Registration"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:98
+msgid ""
+"Hi,\n"
+"\n"
+"Thank You for registering for [memberlevel]\n"
+"\n"
+"Complete your registration by visiting the link below:\n"
+"\n"
+"[incregurl]\n"
+"\n"
+"Thank You."
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:108
+msgid ""
+"<p>To complete your registration, please select one of the two options:</p>\n"
+"<ol>\n"
+"<li>Existing members, please <a href=\"[existinglink]\">click here</a>.</"
+"li>\n"
+"<li>New members, please fill in the form below to complete<br />your <b>"
+"[level]</b> application.</li>\n"
+"</ol>"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:114
+msgid ""
+"<p>Please fill in the form below to complete your <b>[level]</b> "
+"registration.</p>"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:116
+msgid ""
+"<p>To complete your registration, please select one of the two options:</p>\n"
+"<ol>\n"
+"<li>New members, please <a href=\"[newlink]\">click here</a>.</li>\n"
+"<li>Existing members, please fill in the form below to complete<br />your <b>"
+"[level]</b> application.</li>\n"
+"</ol>"
+msgstr ""
+
+#: wishlist-member/core/InitialValues.php:184
+msgid "You are not allowed to view comments on this post."
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.css.php:8
+msgid "Registration Form CSS"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.css.php:11
+msgid "CSS for the Registration Form"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.css.php:23
+#: wishlist-member/admin/settings.email.php:246
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:137
+#: wishlist-member/admin/settings.registration.php:87
+#: wishlist-member/admin/settings.default.other.php:160
+#: wishlist-member/admin/settings.default.protectdefaults.php:138
+#: wishlist-member/admin/membershiplevels.payperpost.php:61
+#: wishlist-member/admin/settings.default.systempages.php:174
+#: wishlist-member/admin/members.blacklist.php:54
+#: wishlist-member/admin/settings.default.customposttypes.php:29
+#: wishlist-member/admin/settings.registration.recaptcha.php:27
+#: wishlist-member/admin/membershiplevels.default.php:566
+#: wishlist-member/admin/settings.advanced.php:48
+#: wishlist-member/admin/settings.registration.redbox.php:60
+msgid "Save Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:1
+#: wishlist-member/admin/settings.backup.php:3
+#: wishlist-member/admin/settings.wizard.php:1
+#: wishlist-member/admin/settings.advanced.php:1
+#: wishlist-member/admin/settings.import.php:1
+#: wishlist-member/admin/settings.regpage.php:1
+#: wishlist-member/admin/settings.default.php:11
+msgid "WL Member &raquo; Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:4
+msgid "Sender Information"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:7
+msgid ""
+"Please enter the sender that information that will be used when WishList "
+"Member sends out an email:"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:10
+msgid "Sender Name"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:14
+msgid "Sender E-mail"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:19
+msgid "E-mail Throttling"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:22
+msgid "E-mails per Hour"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:25
+msgid ""
+"Make sure to configure WishList Member's Cron job for a more timely "
+"processing of queued e-mails."
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:29
+#: wishlist-member/admin/sequential.php:55
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Click here</a> for instructions on how to set-up a Cron Job "
+"for WishList Member."
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:35
+msgid "Memory Allocation"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:46
+msgid ""
+"Increase the value if you are having issue sending email broadcast "
+"especially if you have large number of members."
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:50
+msgid "E-mail Subscription"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:52
+msgid "Notify admin when someone unsubscribes: "
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:55
+#: wishlist-member/admin/settings.email.php:213
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:127
+#: wishlist-member/admin/settings.default.other.php:7
+#: wishlist-member/admin/settings.default.other.php:18
+#: wishlist-member/admin/settings.default.other.php:31
+#: wishlist-member/admin/settings.default.other.php:58
+#: wishlist-member/admin/settings.default.other.php:82
+#: wishlist-member/admin/settings.default.other.php:92
+#: wishlist-member/admin/settings.default.protectdefaults.php:8
+#: wishlist-member/admin/settings.default.protectdefaults.php:18
+#: wishlist-member/admin/settings.default.protectdefaults.php:28
+#: wishlist-member/admin/settings.default.protectdefaults.php:38
+#: wishlist-member/admin/settings.default.protectdefaults.php:48
+#: wishlist-member/admin/settings.default.protectdefaults.php:63
+#: wishlist-member/admin/settings.default.protectdefaults.php:93
+#: wishlist-member/admin/settings.default.protectdefaults.php:103
+#: wishlist-member/admin/membershiplevels.payperpost.php:43
+#: wishlist-member/admin/membershiplevels.content.folders1.php:114
+#: wishlist-member/admin/members.default.php:400 wishlist-member/wpm.php:2455
+msgid "Yes"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:58
+#: wishlist-member/admin/settings.email.php:216
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:130
+#: wishlist-member/admin/settings.default.other.php:10
+#: wishlist-member/admin/settings.default.other.php:21
+#: wishlist-member/admin/settings.default.other.php:34
+#: wishlist-member/admin/settings.default.other.php:61
+#: wishlist-member/admin/settings.default.other.php:85
+#: wishlist-member/admin/settings.default.other.php:95
+#: wishlist-member/admin/settings.default.protectdefaults.php:11
+#: wishlist-member/admin/settings.default.protectdefaults.php:21
+#: wishlist-member/admin/settings.default.protectdefaults.php:31
+#: wishlist-member/admin/settings.default.protectdefaults.php:41
+#: wishlist-member/admin/settings.default.protectdefaults.php:51
+#: wishlist-member/admin/settings.default.protectdefaults.php:66
+#: wishlist-member/admin/settings.default.protectdefaults.php:96
+#: wishlist-member/admin/settings.default.protectdefaults.php:106
+#: wishlist-member/admin/membershiplevels.payperpost.php:45
+#: wishlist-member/admin/membershiplevels.content.folders1.php:112
+#: wishlist-member/admin/members.default.php:400 wishlist-member/wpm.php:2456
+msgid "No"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:62
+msgid "E-mail Templates"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:63
+msgid "Registration"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:66
+msgid ""
+"Please enter the email you would like to be sent to a member once they "
+"register:"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:69
+#: wishlist-member/admin/settings.email.php:97
+#: wishlist-member/admin/settings.email.php:129
+#: wishlist-member/admin/settings.email.php:161
+#: wishlist-member/admin/settings.email.php:186
+#: wishlist-member/admin/settings.email.php:227
+#: wishlist-member/admin/members.broadcast.php:149
+#: wishlist-member/admin/members.sendbroadcast.php:81
+msgid "Subject"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:73
+#: wishlist-member/admin/settings.email.php:101
+#: wishlist-member/admin/settings.email.php:133
+#: wishlist-member/admin/settings.email.php:165
+#: wishlist-member/admin/settings.email.php:190
+#: wishlist-member/admin/settings.email.php:231
+msgid "Body"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:77
+#: wishlist-member/admin/settings.email.php:105
+#: wishlist-member/admin/settings.email.php:137
+#: wishlist-member/admin/settings.email.php:169
+#: wishlist-member/admin/settings.email.php:194
+msgid "Insert First Name"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:78
+#: wishlist-member/admin/settings.email.php:106
+#: wishlist-member/admin/settings.email.php:138
+#: wishlist-member/admin/settings.email.php:170
+#: wishlist-member/admin/settings.email.php:195
+msgid "Insert Last Name"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:79
+#: wishlist-member/admin/settings.email.php:107
+#: wishlist-member/admin/settings.email.php:139
+#: wishlist-member/admin/settings.email.php:171
+#: wishlist-member/admin/settings.email.php:196
+msgid "Insert Email"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:80
+#: wishlist-member/admin/settings.email.php:108
+#: wishlist-member/admin/settings.email.php:140
+#: wishlist-member/admin/settings.email.php:172
+#: wishlist-member/admin/settings.email.php:197
+msgid "Insert Username"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:81
+#: wishlist-member/admin/settings.email.php:141
+msgid "Insert Password"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:82
+#: wishlist-member/admin/settings.email.php:110
+#: wishlist-member/admin/settings.email.php:142
+msgid "Insert Login URL"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:83
+#: wishlist-member/admin/settings.email.php:111
+#: wishlist-member/admin/settings.email.php:143
+#: wishlist-member/admin/settings.email.php:198
+#: wishlist-member/admin/settings.email.php:235
+msgid "Insert Membership Level"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:86
+#: wishlist-member/admin/settings.email.php:114
+#: wishlist-member/admin/settings.email.php:146
+#: wishlist-member/admin/settings.email.php:175
+#: wishlist-member/admin/settings.email.php:202
+msgid ""
+"If you would like to insert info for the individual member<br />please click "
+"the merge field codes on the right."
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:91
+msgid "Lost Info"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:94
+msgid ""
+"Please enter the email you would like to be sent to a member if they request "
+"their login info to be sent to them:"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:109
+msgid "Insert Reset URL"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:119
+msgid "New Member Notification"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:122
+msgid ""
+"Please enter the email you would like to be sent to the admin if a new user "
+"has registered:"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:125
+#: wishlist-member/admin/settings.email.php:157
+msgid "Admin's Email"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:151
+msgid "A Member Unsubscribes"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:154
+msgid ""
+"Please enter the email you would like to be sent to the admin if a member "
+"has unsubscribe:"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:180
+msgid "Registration E-Mail Confirmation"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:183
+msgid ""
+"Please enter the confirmation email you would like to send to a newly "
+"registered user:"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:199
+msgid "Insert Confirmation URL"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:207
+msgid "Incomplete Registration Notification"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:210
+msgid "Enable Notification for Incomplete Registration: "
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:220
+msgid "Max no. of Notifications:"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:224
+msgid ""
+"Please enter the notification email you would like to send to users with "
+"incomplete registrations:"
+msgstr ""
+
+#: wishlist-member/admin/settings.email.php:236
+msgid "Insert Registration URL"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.getresponse.php:23
+#: wishlist-member/admin/integration.autoresponder.constantcontact.php:83
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:77
+#: wishlist-member/admin/settings.wizard.php:127
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:83
+#: wishlist-member/admin/settings.registration.php:29
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:115
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:91
+#: wishlist-member/admin/integration.autoresponder.getresponseapi.php:31
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:80
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:82
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:112
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:90
+#: wishlist-member/admin/post_page_options.php:227
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:125
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:147
+#: wishlist-member/admin/integration.autoresponder.mailchimp.php:44
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:78
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:80
+#: wishlist-member/admin/integration.autoresponder.generic.php:19
+#: wishlist-member/admin/members.export.php:12
+#: wishlist-member/admin/integration.shoppingcart.eway.php:173
+#: wishlist-member/admin/integration.shoppingcart.eway.php:207
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:54
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:115
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:80
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:109
+#: wishlist-member/admin/membershiplevels.default.php:180
+#: wishlist-member/admin/membershiplevels.default.php:256
+#: wishlist-member/admin/membershiplevels.default.php:424
+#: wishlist-member/admin/settings.advanced.php:7
+#: wishlist-member/admin/members.broadcast.php:152
+#: wishlist-member/admin/settings.registration.redbox.php:3
+#: wishlist-member/admin/membershiplevels.movemembership.php:15
+#: wishlist-member/admin/integration.autoresponder.aweber.php:21
+#: wishlist-member/admin/members.default.php:530
+#: wishlist-member/admin/sequential.php:13
+#: wishlist-member/admin/integration.autoresponder.icontact.php:161
+#: wishlist-member/admin/integration.webinar.gotomeeting.php:9
+#: wishlist-member/admin/members.sendbroadcast.php:328
+#: wishlist-member/admin/integration.shoppingcart.generic.php:83
+#: wishlist-member/admin/integration.autoresponder.arp.php:34
+#: wishlist-member/wpm.php:2649
+msgid "Membership Level"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.getresponse.php:24
+msgid "Autoresponder Email"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.getresponse.php:28
+#: wishlist-member/admin/integration.autoresponder.generic.php:24
+msgid "Unsubscribe Email"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.getresponse.php:44
+#: wishlist-member/admin/integration.autoresponder.getresponseapi.php:50
+#: wishlist-member/admin/integration.autoresponder.generic.php:40
+#: wishlist-member/admin/integration.autoresponder.aweberapi.php:106
+#: wishlist-member/admin/integration.autoresponder.aweber.php:42
+#: wishlist-member/admin/integration.autoresponder.arp.php:60
+msgid "Update Autoresponder Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:4
+msgid "Backup/Restore/Reset WLM Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:6
+msgid "Backup WishList Member"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:7
+msgid "Make a backup of your current WishList Member settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:9
+msgid "Include "
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:11
+#: wishlist-member/admin/settings.backup.php:45
+msgid "Users"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:12
+#: wishlist-member/admin/settings.backup.php:47
+msgid "Content"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:15
+msgid "Create Backup"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:22
+msgid "Restore Backup"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:23
+msgid "Restore your WishList Member settings to an earlier backup"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:27
+#: wishlist-member/admin/membershiplevels.content.posts.php:107
+#: wishlist-member/wpm.php:2653
+msgid "Date"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:28
+msgid "Contains"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:29
+msgid "WLM Version"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:30
+#: wishlist-member/admin/settings.backup.php:59
+msgid "Restore"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:31
+#: wishlist-member/admin/settings.backup.php:66
+msgid "Download"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:32
+#: wishlist-member/admin/settings.backup.php:73
+msgid "Delete"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:43
+msgid "WLM Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:84
+msgid "Restore Backup from File"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:85
+msgid "Restore your WishList Member settings from a backup file"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:94
+msgid "Run Backup before Import"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:96
+msgid "Upload and Restore WLM settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:101
+msgid "Reset WishList Member Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:102
+msgid ""
+"Warning: This will remove your current WLM settings and will restore it to "
+"the default settings.  <b>All your current settings will be lost!</b>"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:106
+msgid "I want to remove all my current WLM settings."
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:109
+msgid "Reset Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:112
+#: wishlist-member/admin/settings.backup.php:117
+msgid "Reset your WLM Settings?"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:114
+msgid "Please confirm to remove all your current WLM settings."
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:119
+msgid ""
+"All levels and WLM settings will be permanently deleted and cannot be "
+"recovered. Are you sure?"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:122
+#: wishlist-member/admin/settings.backup.php:128
+msgid "Restore WLM Settings?"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:124
+msgid ""
+"Restoring to a previous backup will replace your current configuration.  "
+"This will also include users, pages, posts, and comments if they are "
+"included in the backup."
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:125
+msgid "Are you sure you want to continue?"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:130
+msgid "Are you sure you want to delete this backup?"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:143
+msgid "Ok"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:160
+msgid "Reset WLM Settings to default"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:187
+msgid "Restore Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.backup.php:209
+msgid "Delete Backup"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.constantcontact.php:54
+msgid "Step 1. Constant Contact Authentication"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.constantcontact.php:62
+msgid "Username: "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.constantcontact.php:69
+msgid "Password: "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.constantcontact.php:76
+msgid "Step 2. Constant Contact List And Membership Level Assignment"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.constantcontact.php:84
+msgid "List"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.constantcontact.php:87
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:95
+#: wishlist-member/admin/integration.autoresponder.getresponseapi.php:35
+#: wishlist-member/admin/integration.autoresponder.mailchimp.php:48
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:58
+#: wishlist-member/admin/integration.autoresponder.arp.php:38
+msgid "Unsubscribe if Removed from Level"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.constantcontact.php:113
+msgid "Update ConstantContact Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.custom.php:156
+msgid "Insert Minimum Password Length"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.custom.php:173
+msgid "Create New Form"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.cron.php:1
+#: wishlist-member/admin/settings.cron.php:2
+msgid ""
+"A Cron Job allows WishList Member to execute its scheduled tasks such as "
+"sequential upgrades and sending of queued mails more reliably."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.cron.php:2
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:113
+#: wishlist-member/admin/settings.cron.php:3
+msgid "Cron Job Details"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.cron.php:3
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:114
+#: wishlist-member/admin/settings.cron.php:4
+msgid "Settings:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.cron.php:5
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:116
+#: wishlist-member/admin/settings.cron.php:6
+msgid "Command:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.cron.php:7
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:118
+#: wishlist-member/admin/settings.cron.php:8
+msgid ""
+"Copy the line above and paste it into the command line of your Cron job."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.cron.php:8
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:119
+#: wishlist-member/admin/settings.cron.php:9
+msgid ""
+"Note: If the above command doesn't work, please try the following instead:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:25
+msgid "<p><b>Error:</b> 1ShoppingCart Thank You URL ("
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:28
+msgid ""
+"<p>Thank You URL Changed.&nbsp; Make sure to update 1ShoppingCart with the "
+"new Thank You URL to make it work.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:31
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:33
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:36
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:37
+msgid ""
+"<p><b>Error:</b> Thank You URL may only contain letters and numbers.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:42
+msgid "<p>API Settings Updated.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:59
+msgid "1ShoppingCart Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:60
+msgid "Integrating WL Member to 1ShoppingCart can be done in 3 steps"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:63
+msgid ""
+"Step 1. Set the \"Thank You URL\" of your 1ShoppingCart account<br />or the "
+"\"Thank You URL\" of each product to the following URL:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:64
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:102
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:94
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:62
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:61
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:83
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:60
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:62
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:102
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:59
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:131
+#: wishlist-member/admin/integration.shoppingcart.generic.php:62
+msgid "change"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:69
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:67
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:76
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:106
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:87
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:91
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:99
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:105
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:66
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:71
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:66
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:72
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:88
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:94
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:102
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:64
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:69
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:66
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:107
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:64
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:70
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:133
+#: wishlist-member/admin/integration.shoppingcart.generic.php:67
+#: wishlist-member/admin/integration.shoppingcart.generic.php:73
+msgid "Change"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:73
+msgid ""
+"Step 2. Create a product for each membership level using the SKU specified "
+"below"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:78
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:84
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:116
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:81
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:83
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:113
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:79
+#: wishlist-member/admin/integration.shoppingcart-payperpost-skus.php:25
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:81
+#: wishlist-member/admin/integration.shoppingcart.generic.php:84
+msgid "SKU"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:95
+msgid "Step 3. (Optional) Setup 1ShoppingCart API Settings"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:96
+msgid ""
+"Entering your API Settings below allows WishList Member to fully integrate "
+"with 1ShoppingCart."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:100
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:84
+msgid "Merchant ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:107
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:89
+msgid "API Key"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:114
+msgid "Retry Grace Period"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:117
+#: wishlist-member/admin/membershiplevels.default.php:312
+#: wishlist-member/admin/membershiplevels.default.php:476
+msgid "Days"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:119
+msgid ""
+"Enter the number of days that a failed credit card should be retried for "
+"recurring payments."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.1shoppingcart.php:124
+msgid "Process Upsells"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:87
+msgid "Congratulations, your setup is complete!"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:88
+msgid "What would you like to do now?"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:90
+msgid "Return to Wishlist Member Dashboard"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:94
+msgid "Take a Video Tour of Wishlist Member"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:99
+msgid "Nexts Steps..."
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:100
+msgid ""
+"Now that your basic settings are in place you can get started using Wishlist "
+"Member"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:101
+msgid ""
+"One of the first things you'll likely want to do is add some content on your "
+"Error and Redirect Pages that you established in your setup"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:102
+msgid ""
+"In addition, we encourage you to explore the many video tutorials available "
+"so that you can learn all the other features contained within Wishlist "
+"Member."
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:109
+#: wishlist-member/admin/settings.php:33
+msgid "Setup Wizard"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:136
+msgid "Add another level"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:139
+#: wishlist-member/admin/settings.wizard.php:242
+#: wishlist-member/admin/settings.wizard.php:294
+msgid "Next"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:171
+msgid "Select your Non-Member page:"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:200
+msgid "Select your Cancellation page:"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:226
+msgid "Select your Wrong Member error page:"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:241
+#: wishlist-member/admin/settings.wizard.php:293
+#: wishlist-member/admin/settings.wizard.php:361
+msgid "Previous"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:266
+msgid "Automatically protect all posts/pages?"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:286
+msgid "Turn hide/show protection on?"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:318
+msgid "Select the first page you want users to see after registering"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:347
+msgid "Select the first page you want users to see when they login"
+msgstr ""
+
+#: wishlist-member/admin/settings.wizard.php:375
+msgid "Save This Setup"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:27
+msgid "<p><b>Error:</b> Infusionsoft Thank You URL ("
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:30
+msgid ""
+"<p>Thank You URL Changed.&nbsp; Make sure to update Infusionsoft with the "
+"same Thank You URL to make it work.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:42
+msgid ""
+"<p>API Key Changed.&nbsp; Make sure that your API Key matches the one "
+"specified in your Infusionsoft account to make it work.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:44
+msgid "<p><b>Error:</b> API Key may only contain letters and numbers.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:51
+msgid "<p>Machine Name Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:61
+msgid "Infusionsoft Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:62
+msgid "Integrating WL Member to Infusionsoft can be done in 5 steps"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:65
+msgid "Step 1. Machine Name"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:74
+msgid "Step 2. Encrypted Key"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:79
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:76
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:74
+msgid ""
+"Step 3. Create a product for each membership level using the SKUs specified "
+"below"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:101
+msgid ""
+"Step 4. Create an Order Form for each product created and set the Thank You "
+"URL to the ff:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:108
+msgid ""
+"The field for the Thank You URL can be found by selecting \"Send to a web "
+"page\" under \"Other Options\"."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:109
+msgid ""
+"* Note: You must check \"Pass Person's info to \"Thank You\" page url (This "
+"is for techies)\" for this to work properly."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:111
+msgid "Step 5. Setup Cron Job"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.infusionsoft.php:112
+msgid ""
+"In order for Wishlist Member to work in sync with Infusionsoft, you must "
+"create a Cron job on your server."
+msgstr ""
+
+#: wishlist-member/admin/settings.php:9
+msgid "Configuration"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:13
+#: wishlist-member/admin/settings.import.php:27
+msgid "Email Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:17
+msgid "Registration Page"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:21
+msgid "Advanced"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:25
+msgid "Backup"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:29
+msgid "Import/Export"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:38
+#: wishlist-member/admin/settings.regpage.php:25
+msgid "Header/Footer"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:39
+#: wishlist-member/admin/settings.regpage.php:15
+msgid "Signup Text"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:40
+#: wishlist-member/admin/settings.regpage.php:10
+msgid "Custom Registration Forms"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:41
+#: wishlist-member/admin/settings.regpage.php:5
+msgid "Custom CSS"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:42
+msgid "reCaptcha"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:47
+#: wishlist-member/admin/settings.default.php:36
+msgid "System Pages"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:48
+#: wishlist-member/admin/settings.default.php:20
+msgid "Protection Defaults"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:49
+#: wishlist-member/admin/settings.default.php:28
+msgid "Custom Post Types"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:50
+#: wishlist-member/admin/settings.default.php:16
+msgid "Miscellaneous"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:51
+#: wishlist-member/admin/settings.cron.php:1
+#: wishlist-member/admin/settings.default.php:24
+msgid "Cron Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.php:52
+#: wishlist-member/admin/settings.default.php:32
+msgid "Logs"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.tooltips.php:7
+msgid ""
+"The desired Auto Responder option can be selected to display the "
+"corresponding unique integration steps."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.quickpaypro.tooltips.php:7
+#: wishlist-member/admin/tooltips/integration.shoppingcart.cydec.tooltips.php:7
+msgid ""
+"The end string of the displayed Post To URL can be edited if desired.  Note "
+"that this Post To URL must be copied and pasted exactly without any spaces "
+"before or after it."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.quickpaypro.tooltips.php:12
+#: wishlist-member/admin/tooltips/integration.shoppingcart.ultracart.tooltips.php:12
+#: wishlist-member/admin/tooltips/integration.shoppingcart.generic.tooltips.php:12
+#: wishlist-member/admin/tooltips/integration.shoppingcart.clickbank.tooltips.php:12
+#: wishlist-member/admin/tooltips/integration.shoppingcart.2co.tooltips.php:12
+#: wishlist-member/admin/tooltips/integration.shoppingcart.cydec.tooltips.php:12
+#: wishlist-member/admin/tooltips/integration.shoppingcart.pwc.tooltips.php:12
+#: wishlist-member/admin/tooltips/integration.shoppingcart.redoakcart.tooltips.php:12
+msgid ""
+"The Secret Word can be edited if desired.  Note that this Secret Word must "
+"be copied and pasted exactly without any spaces before or after it."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.quickpaypro.tooltips.php:17
+#: wishlist-member/admin/tooltips/integration.shoppingcart.cydec.tooltips.php:17
+msgid ""
+"Each Membership Level has a unique Level ID that must be used for each "
+"product that needs to be created in the online payment option."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.import.tooltips.php:7
+msgid "Helpful when replicating your membership site configurations."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.import.tooltips.php:12
+msgid ""
+"Choose a your WLM settings file and click \"Import Settings\". Status of you "
+"import process will show below this line."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.import.tooltips.php:17
+msgid ""
+"Please select the settings file you exported. WLM also checks the file for "
+"possible inconsistency and corruption."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.import.tooltips.php:22
+msgid ""
+"Select the settings you want to export below. It will download the settings "
+"you choose in an encrypted file which you can use for settings import."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.import.tooltips.php:27
+msgid ""
+"Includes all the settings in Settings->Configuration except RSS Key.(eg. "
+"Error Pages,Recaptcha Key)"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.import.tooltips.php:32
+msgid ""
+"Includes all the settings in Settings->Email Settings (eg. Email Throttling,"
+"Email Templates)"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.import.tooltips.php:37
+msgid ""
+"Includes all the settings in Settings->Advance Settings (eg. CSS,"
+"Registration Instructions)"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.import.tooltips.php:42
+msgid ""
+"Includes all your membership levels and their settings in Membership Level "
+"Tab and Settings->Registration Pages"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.ultracart.tooltips.php:7
+#: wishlist-member/admin/tooltips/integration.shoppingcart.generic.tooltips.php:7
+#: wishlist-member/admin/tooltips/integration.shoppingcart.2co.tooltips.php:7
+#: wishlist-member/admin/tooltips/integration.shoppingcart.pwc.tooltips.php:7
+#: wishlist-member/admin/tooltips/integration.shoppingcart.redoakcart.tooltips.php:7
+msgid ""
+"The end string of the displayed Post URL can be edited if desired.  Note "
+"that this Post URL must be copied and pasted exactly without any spaces "
+"before or after it."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.ultracart.tooltips.php:17
+#: wishlist-member/admin/tooltips/integration.shoppingcart.generic.tooltips.php:17
+#: wishlist-member/admin/tooltips/integration.shoppingcart.2co.tooltips.php:22
+#: wishlist-member/admin/tooltips/integration.shoppingcart.pwc.tooltips.php:17
+#: wishlist-member/admin/tooltips/integration.shoppingcart.redoakcart.tooltips.php:17
+#: wishlist-member/admin/tooltips/integration.shoppingcart.1shoppingcart.tooltips.php:22
+#: wishlist-member/admin/tooltips/integration.shoppingcart.infusionsoft.tooltips.php:17
+#: wishlist-member/admin/tooltips/shoppingcart.tooltips.php:12
+msgid ""
+"Each Membership Level has a unique SKU that must be used for each product "
+"that needs to be created in the online payment option."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.wizard.tooltips.php:7
+msgid ""
+"On your error pages it's recommended to tell people why they've landed on "
+"that page and then include instructions on what to do next.\n"
+"    <br/>\n"
+"    For example, you might say \"Thank you for your interest in the Members "
+"Only Content. If you're a member, please login to the right and if you're "
+"not a member you can register here\"."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.wizard.tooltips.php:14
+msgid ""
+"Turn the \"Hide/Show Protection\" off if you want to provide \"teasers\" "
+"with your content. This means Non-Members can see all the content up to the "
+"\"more tag\" but when they click to view more, they will be redirected to "
+"the Non-member error page."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.wizard.tooltips.php:20
+msgid ""
+"The <em>Registration Redirect</em> can be used to give a special \"Welcome"
+"\", upsell offer or anything else that maybe limited (since your members "
+"will only see it one time)\n"
+"<br/>\n"
+"Be sure to include links to the various areas of your site on your <em>Login "
+"Redirect</em> page. I's also a great place to include any \"messages\" you "
+"want to give your members."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.tooltips.php:7
+msgid "The Membership Level to work with can be selected from the dropdown."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.tooltips.php:12
+msgid ""
+"Any HTML insert into this area will appear ABOVE the Registration Form for "
+"the selected Membership Level."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.tooltips.php:17
+msgid ""
+"Any HTML insert into this area will appear BELOW the Registration Form for "
+"the selected Membership Level."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.default.tooltips.php:7
+msgid "A Member can be manually added by clicking this link."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.default.tooltips.php:12
+msgid "The desired action can be selected from the dropdown."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.default.tooltips.php:17
+msgid ""
+"Click the Go button once the desired action and appropriate Membership Level "
+"have each been selected to perform the action."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.default.tooltips.php:22
+msgid ""
+"The desired Member(s) can be selected by clicking the appropriate check box "
+"to the left of their name(s)."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.default.tooltips.php:27
+msgid ""
+"A new Member can be manually added by filling in the fields accordingly."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.default.tooltips.php:32
+msgid "Search or Filter Members with more options"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.default.tooltips.php:37
+msgid ""
+"Enter the date that you would like this member to be canceled. To cancel "
+"them immediately enter todays date."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.default.tooltips.php:42
+msgid ""
+"A : Active<br />\n"
+"U : Unconfirmed<br />\n"
+"N : Needs Approval<br />\n"
+"C : Canceled<br />\n"
+"E : Expired"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:4
+msgid "The Label will be displayed on the left side of the corresponding field"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:9
+msgid "The Name is the variable that is sent to the database upon submission"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:14
+msgid "The Value will be displayed within the corresponding field"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:19
+msgid "The Width of the corresponding field in characters"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:24
+msgid "The Height of the corresponding field in lines"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:29
+msgid "The Default value for the corresponding field"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:34
+msgid "The Description will appear under the corresponding field"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:39
+msgid ""
+"Enter the HTML for the paragraph. You can enter as many paragraphs as you "
+"want."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:44
+msgid "Click to close this edit screen"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:49
+msgid "Click to clone or delete an option"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:54
+msgid "Click to require user completion of this action"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:59
+msgid "Enter options to appear in a list format"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:64
+msgid ""
+"Enter options to appear beside corresponding radio buttons in a list "
+"format<br />\n"
+"\t\tNOTE: a value and colon can be added before the option if a different "
+"value is to be sent to the database upon submission. (Ex. A:Option A)"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:70
+msgid ""
+"Enter options to appear beside corresponding checkboxes in a list format<br /"
+">\n"
+"\t\tNOTE: a value and colon can be added before the option if a different "
+"value is to be sent to the database upon submission. (Ex. A:Option A)"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:76
+msgid "Enter the text to display beside the Terms of Service checkbox"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:81
+msgid "Enter the text to display as section header"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:86
+msgid "Enter your Terms of Service in HTML format"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.custom.tooltips.php:91
+msgid "Click to display Terms of Service in a LightBox"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.clickbank.tooltips.php:7
+#: wishlist-member/admin/tooltips/integration.shoppingcart.authorize.tooltips.php:7
+#: wishlist-member/admin/tooltips/integration.shoppingcart.paypal.tooltips.php:22
+#: wishlist-member/admin/tooltips/integration.shoppingcart.1shoppingcart.tooltips.php:17
+#: wishlist-member/admin/tooltips/integration.shoppingcart.infusionsoft.tooltips.php:22
+#: wishlist-member/admin/tooltips/shoppingcart.tooltips.php:7
+msgid ""
+"The end string of the displayed Thank You URL can be edited if desired.  "
+"Note that this Thank You URL must be copied and pasted exactly without any "
+"spaces before or after it."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.clickbank.tooltips.php:17
+msgid ""
+"Each Membership Level has a unique Payment Link that must be used for each "
+"product that needs to be created in the online payment option."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.email.tooltips.php:7
+msgid ""
+"The Registration Email will automatically be sent to all newly registered "
+"Members immediately after the Registration Form has been filled out."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.email.tooltips.php:12
+#: wishlist-member/admin/tooltips/members.broadcast.tooltips.php:7
+msgid ""
+"When clicked on, these Merge Codes will be inserted into the body of the "
+"email.  The Merge Codes will appear as their corresponding information when "
+"the email is received."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.email.tooltips.php:17
+msgid ""
+"The Lost Info Email will automatically be sent to anyone who clicks the Lost "
+"Password option in WishList Member."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.email.tooltips.php:22
+msgid ""
+"The New Member Notification Email will automatically be sent to the site "
+"admin when a new Member registers for a Membership Level."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.email.tooltips.php:27
+msgid ""
+"A Notification Email automatically sent to the site admin when a Member "
+"unsubscribes from mailing list."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.email.tooltips.php:32
+msgid ""
+"A Notification Email automatically sent to the Members with incomplete "
+"registration."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.email.tooltips.php:37
+msgid ""
+"The Notification email will be set to the admin email address in this field."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.email.tooltips.php:42
+msgid ""
+"The Registration E-mail Confirmation Email will automatically be sent to "
+"newly registered members to confirm their email."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.blacklist.tooltips.php:7
+msgid ""
+"Each Email address to be Blacklisted can be added to the area separated by a "
+"line."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.blacklist.tooltips.php:12
+msgid ""
+"Each IP address to be Blacklisted can be added to the area separated by a "
+"line."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.blacklist.tooltips.php:17
+msgid "Each type of Blacklist needs to be accompanied by a message."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.content.folders.tooltips.php:7
+#: wishlist-member/admin/tooltips/membershiplevels.content.files.tooltips.php:7
+#: wishlist-member/admin/tooltips/membershiplevels.content.cats.tooltips.php:6
+#: wishlist-member/admin/tooltips/membershiplevels.content.posts.tooltips.php:6
+msgid ""
+"Once all the desired settings have been selected, click the Set Protection "
+"button."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.content.folders.tooltips.php:12
+msgid ""
+"The desired File(s) can be selected by clicking the appropriate check box to "
+"the left of the folder name(s)."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.content.folders.tooltips.php:17
+#: wishlist-member/admin/tooltips/membershiplevels.content.folders.tooltips.php:25
+msgid ""
+"<p>Specify the path to the root of the folders that you want to protect.</"
+"p>\n"
+"<p>For example:</p>\n"
+"<code>/home/account/public_html/downloads</code>\n"
+"<p>Once you specify the root folder and click Save, all subfolders will be "
+"displayed in a list below.</p>"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.2co.tooltips.php:17
+msgid ""
+"The Vendor ID is the id given to you from 2Checkout. The id must be exact "
+"with no spaces in front or back."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.mailchimp.tooltips.php:7
+msgid "Input MailChip API Key"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.mailchimp.tooltips.php:12
+msgid "Input List's Unique Id"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.eway.tooltips.php:5
+msgid ""
+"The full URL to the eway connector. The connector is required for recurring "
+"payments to work."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.eway.tooltips.php:8
+msgid "Use these URLs to get payment"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.constantcontact.tooltips.php:7
+msgid "Your Constant Contact Username"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.constantcontact.tooltips.php:12
+msgid "Your Constant Contact Password"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.constantcontact.tooltips.php:17
+msgid "Your Constant Contact List. Select from your current lists below."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.export.tooltips.php:7
+msgid "Select the desired Membership Level to export to a .csv file."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.arp.tooltips.php:7
+msgid ""
+"Copy the example URL displayed below the ARP Application URL field and paste "
+"it into the corresponding field and replace \"your-domain\" portion with the "
+"correct domain name."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.arp.tooltips.php:12
+msgid ""
+"Paste the copied Autoresponder ID number from AutoResponse Plus into the "
+"corresponding membership level's Autoresponder ID field."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/sequential.tooltips.php:7
+msgid "The Membership Level that will be upgraded to must be set."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/sequential.tooltips.php:12
+msgid ""
+"The Move OR Add upgrade method must be selected.  If a Member is ADDED, they "
+"will be a part of both Membership Levels.  If the Member is MOVED, they will "
+"be removed from the previous Membership Level and will only be a part of the "
+"new membership Level."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/sequential.tooltips.php:17
+msgid "The number of days between the upgrade must be set."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.spreedly.tooltips.php:7
+msgid "Your Spreedly Short Site Name"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.spreedly.tooltips.php:12
+msgid "Your Spreedly API Authentication Token"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.spreedly.tooltips.php:17
+msgid "Use this link to let the people subscribe in your site."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.authorize.tooltips.php:12
+msgid "Input API ID"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.authorize.tooltips.php:17
+msgid "Input Transaction Key"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.authorize.tooltips.php:22
+msgid "Input MD5 Hash Key"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.authorize.tooltips.php:27
+msgid "Set Test or Live Mode."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.authorize.tooltips.php:32
+msgid "Copy and paste the appropriate Merge Code accordingly."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.import.tooltips.php:7
+msgid ""
+"Browse files so that a properly formatted .csv file can be used to import a "
+"list of Members to a Membership Level.  Note that there is a sample .csv "
+"file that must be used to ensure proper fields."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.import.tooltips.php:12
+msgid ""
+"The desired Membership Level must be selected to import the list of Members "
+"to."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.import.tooltips.php:17
+msgid "The desired method to handle duplicate Members must be set."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.import.tooltips.php:22
+msgid ""
+"A default password can be created and set for the imported Members.  Leave "
+"this field blank to generate random passwords for each member. Note: This "
+"field will be ignored if your .csv file contains passwords for each user."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.import.tooltips.php:27
+msgid ""
+"If set to YES, a notification email will be sent to every imported member."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.paypal.tooltips.php:7
+msgid ""
+"Users with PayPal personal accounts need to follow the instructions below "
+"before moving forward with the integration."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.paypal.tooltips.php:12
+msgid ""
+"The PDT Identity Token must be copied from PayPal and placed into the "
+"appropriate field."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.paypal.tooltips.php:17
+msgid ""
+"Each Membership Level has a unique Item/Subscription ID that must be used "
+"for each product that needs to be created in the online payment option."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.redbox.tooltips.php:7
+#: wishlist-member/admin/tooltips/settings.advanced.tooltips.php:12
+msgid ""
+"Check this box and click the Save Settings button on the bottom of the page "
+"to reset to default."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.redbox.tooltips.php:12
+msgid ""
+"The red outlined information box that appears above the Registration Form "
+"can be adjusted using HTML."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.redbox.tooltips.php:17
+msgid ""
+"The red outlined information box that appears above the Registration Form IF "
+"the Existing Users Link is disabled can be adjusted using HTML."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.redbox.tooltips.php:22
+msgid ""
+"The red outlined information box that appears above the Login section if the "
+"Existing Users Link has been clicked on the Registration Form can be "
+"adjusted using HTML."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.content.tooltips.php:7
+msgid ""
+"Content Protection OR a Membership Level to set ACCESS for can be chosen."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.content.tooltips.php:12
+msgid "The type of content can be chosen to edit."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.generic.tooltips.php:7
+msgid ""
+"Create an auto responder email list in the AutoResponder and paste that "
+"email address into the Autoresponse Email field."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.generic.tooltips.php:12
+msgid ""
+"Create an Unsubscribe email list in the AutoResponder and paste that email "
+"address into the Autoresponse Email field."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.content.files.tooltips.php:12
+msgid ""
+"The desired File(s) can be selected by clicking the appropriate check box to "
+"the left of the file name(s)."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.content.files.tooltips.php:17
+msgid ""
+"If checked, the File will inherit the protection setting of the content it "
+"has been placed in."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.getresponseapi.tooltips.php:7
+msgid "Input GetResponse API Key"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.getresponseapi.tooltips.php:12
+msgid "Input Membership Level"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.getresponseapi.tooltips.php:17
+msgid "Input Tracking Code"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.infusionsoft.tooltips.php:7
+msgid "Your Infusionsoft Machine Name. Do not include .infusionsoft.com"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.infusionsoft.tooltips.php:12
+msgid "Your Infusionsoft Encrypted Key."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.infusionsoft.tooltips.php:17
+msgid ""
+"Your Infusionsoft Follow-Up Sequence Id. Leave it blank if you dont want "
+"them to be added on the Follow-Up Sequence."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.css.tooltips.php:7
+msgid ""
+"Check this box  and click the Save Settings button on the bottom of the page "
+"to reset to default."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.css.tooltips.php:12
+msgid "CSS can be edited for the Registration Form."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.sendstudio.tooltips.php:7
+msgid "Your SendStudio XML Path"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.sendstudio.tooltips.php:12
+msgid "Your SendStudio XML Username"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.sendstudio.tooltips.php:17
+msgid "Your SendStudio XML Token"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.sendstudio.tooltips.php:22
+msgid ""
+"<u><strong>Your SendStudio First Name Field Id.</strong></u><br />\n"
+"By default Email Marketer Installation has the value of <u><strong>2</"
+"strong></u>"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.sendstudio.tooltips.php:28
+msgid ""
+"<u><strong>Your SendStudio Last Name Field Id.</strong></u><br />\n"
+"By default Email Marketer Installation has the value of <u><strong>3</"
+"strong></u>"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.sendstudio.tooltips.php:34
+msgid "Your SendStudio List's Id"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.broadcast.tooltips.php:12
+msgid "A desired signature can be added that will appear in the emails sent."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.broadcast.tooltips.php:17
+msgid ""
+"The CAN SPAM fields need to be filled in with a physical address before "
+"emails can be sent."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.broadcast.tooltips.php:22
+msgid "Check the Membership Level(s) the email is to be sent to."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/members.broadcast.tooltips.php:27
+msgid ""
+"ending Members and Cancelled Membership Levels can be selected to receive "
+"the email if desired."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.1shoppingcart.tooltips.php:7
+msgid ""
+"Your Merchant ID can be found at the upper-right corner of your "
+"1ShoppingCart page."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.1shoppingcart.tooltips.php:12
+msgid ""
+"You can find your API Key by going to My Account -&gt; API Settings in "
+"1ShoppingCart."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.recaptcha.tooltips.php:3
+msgid ""
+"A random word can be displayed on the registration form that must be "
+"identified by the user and typed into a field to help reduce spam."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.registration.recaptcha.tooltips.php:8
+msgid "The Private Key provided by reCaptcha must be included here."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.icontact.tooltips.php:7
+msgid "Your IContact Username."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.icontact.tooltips.php:12
+msgid ""
+"This is the password you created from Step 1 not your IContact Password."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.aweber.tooltips.php:7
+msgid ""
+"Copy the aWeber list name from aWeber and paste it into the corresponding "
+"field with no extra spaces."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.aweber.tooltips.php:12
+msgid ""
+"Create unsubscribe email address and paste into AWeber.  Note that is can be "
+"any email address tied to your domain name."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.infusionsoft.tooltips.php:7
+msgid "Input Machine Name"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.infusionsoft.tooltips.php:12
+msgid "Input API Key"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.shoppingcart.infusionsoft.tooltips.php:27
+msgid "A Cron Job must be set up to allow for integration to be completed."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.movemembership.tooltips.php:5
+msgid "The desired membership level can be selected from the drop down. "
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:7
+msgid ""
+"The Registration URL can be edited by changing the end string of the URL."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:12
+msgid ""
+"Full Access to ALL Page, Posts, Categories and Comments can be set by "
+"checking the appropriate box."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:17
+msgid ""
+"The length a Member has access to the Membership Level can be set to No "
+"Expiration Date or a specified number of Days, Weeks, Months or Years."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:22
+msgid ""
+"An individual After Login Page can be set for EACH Membership Level.  This "
+"will overwrite anything set in the Settings section."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:27
+msgid ""
+"An individual After Registration Page can be set for EACH Membership Level.  "
+"This will overwrite anything set in the Settings section."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:32
+msgid ""
+"This link directs to the Membership Content area where more detailed "
+"Protection/Access settings can be adjusted."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:37
+msgid ""
+"These options can be set for any user registering for Membership Levels."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:42
+msgid ""
+"When checked, a random word will be displayed on the registration form that "
+"must be identified by the user and typed into a field to help reduce spam."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:47
+msgid ""
+"When checked, an email will be sent to the Member after registration "
+"requiring they confirm their registration BEFORE they are given access to "
+"the Membership Level."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:52
+msgid ""
+"When checked, an admin must confirm the Member registration BEFORE that "
+"Member is given access to the Membership Level."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:57
+msgid ""
+"If checked, Grant Continued Access allows a Member to retain access to "
+"content they have been given access to AFTER they cancel their membership."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:62
+msgid ""
+"If checked, the Disable Existing Users Link option removes the link for "
+"Existing Users to login when registering for a Membership Level."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:67
+msgid ""
+"The WordPress Role for all of the Members within a Membership Level can be "
+"set accordingly."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:72
+msgid ""
+"The higher the number set, the higher the Membership Level ranks.  This will "
+"affect which After Login/Registration page will appear to Members who are a "
+"part of multiple Membership Levels."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:77
+msgid ""
+"This option will automatically remove a member from a selected level. Ex. "
+"remove from a free level when upgrading to a paid level."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:82
+msgid ""
+"Resets the registration date for members who re-registers to an expired "
+"level."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:87
+msgid ""
+"<p>When this option is selected it will allow a user with a canceled status "
+"to register for the level again and remove their canceled status. Without "
+"this option selected the user will get a message that says they are already "
+"registered to this level.</p>\r\n"
+"\t\t<p>This only effects a standard registration form. If you are using an "
+"integration this setting will have no effect. The user will be un-canceled "
+"upon a successful payment.</p>"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/membershiplevels.default.tooltips.php:93
+msgid ""
+"<p>This membership level cannot be deleted because it has members in it.</p>"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/shoppingcart.tooltips.php:17
+msgid ""
+"The desired online payment option can be selected to display the "
+"corresponding unique integration steps."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:7
+msgid ""
+"Non-Members will automatically be directed to this set page after attempting "
+"to access protected content they do NOT have access to."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:12
+msgid ""
+"Members will automatically be directed to this set page after attempting to "
+"access content protected for a different Membership Level that they do NOT "
+"have access to."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:17
+msgid ""
+"This set page will be displayed to a Member when their Membership Level has "
+"been cancelled at the payment level by a FULLY integrated payment option."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:20
+msgid ""
+"Members will automatically be directed to this set page after attempting to "
+"access content for a Membership that has already expired."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:25
+msgid ""
+"This set page will be displayed to a Member when their Membership Level "
+"requires approval by the administrator."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:30
+msgid ""
+"This set page will be displayed to a Member when their Membership Level has "
+"not yet been confirmed."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:35
+msgid ""
+"This set page will be displayed to a person registering to your site when a "
+"duplicate POST is detected."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:40
+msgid ""
+"This set page is immediately displayed after successful registration.  NOTE "
+"that this page will appear ONE time only."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:45
+msgid ""
+"This set default page is immediately displayed after every successful "
+"Membership Level login."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:50
+msgid "This set default page is immediately displayed after successful logout."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:55
+msgid "This set page is immediately displayed after a Member Unsubscribes."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:60
+msgid ""
+"The Minimum number of characters for a password can be set for registering "
+"and imported Members. Default is set to 8."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:65
+msgid ""
+"This key will be used to generate the unique RSS Feed URL for each member. "
+"Do not share this key with anyone."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:70
+msgid "This key will be used to integrate with the WishList Member API."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:75
+msgid ""
+"Commonly referred to as the \"Hide/Show\" feature.  ALL Protected content "
+"will be completely hidden from Non-Members when set to YES."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:80
+msgid ""
+"Option to either totally hide all protected posts from your RSS feed or "
+"display just the excerpt."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:85
+msgid ""
+"Controls the site's interior search results in regards to if protected "
+"content appears after searches conducted on the site or not."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:90
+msgid ""
+"Protects all content BELOW a More Tag in a Post.  Users see the teaser "
+"content ABOVE the More Tag but if the Post title OR the More Tag is clicked "
+"on, they will be directed to the Non-Member page."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:95
+msgid ""
+"A More Tag can automatically be inserted into all Posts and the number of "
+"characters to display before the inserted More Tag can be set."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:100
+msgid ""
+"If this option is Yes, then each selected page as after login or after "
+"registration either in the Settings or the Membership Levels will be hidden."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:105
+msgid ""
+"The option to turn default protection On/Off for EVERY Post/Page.  All newly "
+"created Pages and Posts can be set to either PROTECTED or NOT PROTECTED by "
+"default."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:110
+msgid ""
+"The option to turn default Pay Per Post On/Off for EVERY Post/Page.  All "
+"newly created Pages and Posts can be set to have Pay Per Post enabled or "
+"disabled by default."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:115
+msgid ""
+"If YES is selected, any files uploaded to selected protected folders will be "
+"protected and cannot be viewed by non-members."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:120
+msgid ""
+"If YES is selected, any files uploaded to the site will be protected and "
+"cannot be viewed by non-members."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:125
+msgid "The text set will appear to Non-Members when viewing a Private Tag."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:130
+msgid ""
+"Controls the number of Users logging in with the same Username and Password "
+"by limiting the numbers of IPs that can be used in one day. To disable this "
+"feature, leave the field blank or enter the number 0 (zero)."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:135
+msgid ""
+"This message will appear when Members reach their set daily login limit."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:140
+msgid ""
+"This sets the length of time before the registration page session times out."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:145
+msgid ""
+"If YES is selected, an email will be sent to the admin when a Member exceeds "
+"their daily login limit."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:150
+msgid ""
+"If YES is selected, an email will be sent to the admin when a new Member "
+"registers."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:155
+msgid ""
+"If YES is selected, when a Member has registered before and then attempts to "
+"use the same info to register again (username, password, etc.) WishList "
+"Member will NOT create a new Membership, but will update the existing "
+"Membership."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:160
+msgid ""
+"If YES is selected, a Member can click the Membership Details option in the "
+"Login Widget and adjust their user info.  If NO is selected, the Members "
+"Details option is removed from the Login Widget."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:165
+msgid ""
+"If YES is selected, the Powered by WishList Member - Membership Site "
+"Software link will appear in the site footer."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:170
+msgid ""
+"An affiliate ID can be added to track sales that originate from the Powered "
+"by WishList Member - Membership Site Software link in the site footer."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:175
+msgid "-remove-"
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.default.tooltips.php:180
+msgid ""
+"If Yes is selected, user passwords are hidden from admin email notifications."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.getresponse.tooltips.php:7
+msgid ""
+"Create an auto responder email list in GetResponse and paste that email "
+"address into the Autoresponse Email field."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/integration.autoresponder.getresponse.tooltips.php:12
+msgid ""
+"Create an Unsubscribe email list in GetResponse and paste that email address "
+"into the Autoresponse Email field."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.advanced.tooltips.php:7
+msgid "CSS can be edited for the Login Widget."
+msgstr ""
+
+#: wishlist-member/admin/tooltips/settings.advanced.tooltips.php:17
+msgid ""
+"CSS can be edited for the Login Form that appears when the Login Merge code "
+"is inserted into a Page or Post."
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.php:1
+msgid "Step 1. Select Membership Level"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.php:16
+msgid "<p>Registration Form Customization Settings Saved.</p>"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.php:43
+msgid "Select Membership Level"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.php:49
+msgid "Step 2. Edit Code for Level's Registration Form"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.php:54
+msgid "HTML Code to insert BEFORE the Registration Form"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.php:59
+msgid "Choose Registration Form"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.php:63
+#: wishlist-member/admin/membershiplevels.default.php:283
+#: wishlist-member/admin/membershiplevels.default.php:292
+#: wishlist-member/admin/membershiplevels.default.php:453
+#: wishlist-member/admin/membershiplevels.default.php:459
+msgid "Default"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.php:76
+msgid "Click here to create a new registration form"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.php:81
+msgid "HTML Code to insert AFTER the Registration Form"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:4
+msgid "Notify Admin on Exceeded Logins:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:15
+msgid "Notify admin of new user registration:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:25
+msgid "Disable passwords in administrator emails:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:39
+msgid ""
+"understand that I am putting my members' passwords at risk by having them "
+"sent to me via email. I accept this risk and I assume all liability for any "
+"damages that may occur to my members as a result of exposing their passwords "
+"to this risk"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:40
+msgid ""
+"Are you REALLY sure you want send member passwords in your admin "
+"notification emails?"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:55
+msgid "Prevent duplicate shopping cart registrations:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:65
+msgid "Duplicate shopping cart registration Page:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:68
+#: wishlist-member/admin/settings.default.systempages.php:13
+#: wishlist-member/admin/settings.default.systempages.php:27
+#: wishlist-member/admin/settings.default.systempages.php:41
+#: wishlist-member/admin/settings.default.systempages.php:55
+#: wishlist-member/admin/settings.default.systempages.php:70
+#: wishlist-member/admin/settings.default.systempages.php:85
+#: wishlist-member/admin/settings.default.systempages.php:104
+#: wishlist-member/admin/settings.default.systempages.php:123
+#: wishlist-member/admin/settings.default.systempages.php:143
+#: wishlist-member/admin/settings.default.systempages.php:159
+#: wishlist-member/admin/post_page_options.php:287
+#: wishlist-member/admin/post_page_options.php:300
+#: wishlist-member/admin/post_page_options.php:313
+#: wishlist-member/admin/post_page_options.php:326
+#: wishlist-member/admin/post_page_options.php:340
+#: wishlist-member/admin/post_page_options.php:354
+msgid "Enter an external URL below"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:75
+msgid ""
+"This page will be displayed when a duplicate registration post is detected."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:79
+msgid "Members can update their info:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:89
+msgid "Show Affiliate Link in Footer:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:99
+msgid "Minimum Password Length:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:102
+msgid "Characters"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:103
+msgid ""
+"This sets the minimum password length when registering or importing users.  "
+"Default is 8."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:104
+msgid ""
+"Merge Code: You can insert [wlm_min_passlength] merge code in your post "
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:114
+msgid "Default Login Limit:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:118
+msgid "Login Limit Message:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:122
+msgid "Registration Session Timeout:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:123
+msgid "Seconds"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:131
+msgid "RSS Secret Key:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:134
+msgid ""
+"This key will be used to generate the unique RSS Feed URL for each member.  "
+"Do not give this key to anyone."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:138
+msgid "API Key:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:141
+msgid "This key will be used to integrate with the WishList Member API"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.other.php:151
+msgid "Affiliate ID:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:41
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:30
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:31
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:63
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:29
+#: wishlist-member/admin/integration.shoppingcart.generic.php:29
+msgid "<p><b>Error:</b> Post to URL ("
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:44
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:33
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:34
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:66
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:32
+#: wishlist-member/admin/integration.shoppingcart.generic.php:32
+msgid "<p>Post To URL Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:47
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:37
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:36
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:37
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:69
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:35
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:35
+#: wishlist-member/admin/integration.shoppingcart.generic.php:35
+msgid "<p><b>Error:</b> Post To URL may only contain letters and numbers.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:56
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:45
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:46
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:44
+#: wishlist-member/admin/integration.shoppingcart.generic.php:44
+msgid "<p>Secret Key Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:58
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:48
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:47
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:48
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:46
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:48
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:46
+#: wishlist-member/admin/integration.shoppingcart.generic.php:46
+msgid "<p><b>Error:</b> Secret key may only contain letters and numbers.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:65
+msgid "<p>API Key Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:71
+msgid "<p>Merchant ID Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:81
+msgid "Premium Web Cart 3rd Party System Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:86
+msgid ""
+"This is the Merchant ID that you find in your Premium Web Cart account under "
+"\"Account Settings\" => \"Current Status\"."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:90
+msgid ""
+"This is the API key that you find in your Premium Web Cart account under "
+"\"Cart Settings\" => \"Advanced Integration\" => \"API Integration\"."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:92
+msgid "Post/Callback URL"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:93
+msgid ""
+"The Post/Callback URL is used in the PremiumWebCart integraton and thank you "
+"pages."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:103
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:70
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:92
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:68
+#: wishlist-member/admin/integration.shoppingcart.generic.php:71
+msgid "Secret Word"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:104
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:71
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:93
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:69
+#: wishlist-member/admin/integration.shoppingcart.generic.php:72
+msgid "The Secret Word is used to generate a hash key for security purposes."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:110
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:77
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:107
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:75
+#: wishlist-member/admin/integration.shoppingcart.generic.php:78
+msgid "Membership Level SKUs"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.premiumwebcart.php:111
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:78
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:108
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:76
+#: wishlist-member/admin/integration.shoppingcart.generic.php:79
+msgid ""
+"The Membership Level SKUs specifies the membership level that should be tied "
+"to each transaction."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:5
+msgid "Only show content for each membership level:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:15
+msgid "Hide protected posts from public RSS:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:25
+msgid "Hide protected content from search results:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:35
+msgid "Protect all content after the \"more\" tags:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:45
+msgid ""
+"Do you want to automatically protect content by inserting the \"more\" tag "
+"if the \"more\" tag is not inserted into any post?"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:53
+msgid "Insert more tag after the first"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:55
+msgid "words"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:60
+msgid "Hide after login page and after registration page of each levels:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:70
+msgid "Default Content Protection"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:73
+#: wishlist-member/admin/settings.default.protectdefaults.php:83
+#: wishlist-member/admin/membershiplevels.payperpost.php:51
+#: wishlist-member/admin/members.default.php:401
+msgid "On"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:76
+#: wishlist-member/admin/settings.default.protectdefaults.php:86
+#: wishlist-member/admin/membershiplevels.payperpost.php:53
+#: wishlist-member/admin/members.default.php:401
+msgid "Off"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:80
+#: wishlist-member/admin/membershiplevels.payperpost.php:49
+msgid "Default Pay Per Post Setting"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:90
+msgid "Enable Folder Protection"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:100
+msgid "Enable File Protection"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:110
+msgid "File Protection Ignore List"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:113
+msgid ""
+"Add the filename extension of files that you do not want to protect.<br /"
+">Separate each filename extension with a comma. (i.e. txt, css)"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:117
+msgid "Text to display for content protected with private tags"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:120
+msgid ""
+"Merge code [level] will be automatically replaced with the level of "
+"membership."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:125
+msgid ""
+"If you would like to protect part of your posts you can use the \"private "
+"tags\".  Just place [private_level] before and [/private_level] after the "
+"text you wish to protect.  Please note that these tags will differ depending "
+"on your membership levels.  For example, if you have a membership level "
+"called \"silver\", the tags would be [private_silver] and [/"
+"private_silver].  Therefore only anyone in the silver would be able to view "
+"this content."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.protectdefaults.php:129
+msgid "Text to display when comments are closed"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:39
+msgid "Your XML Path"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:45
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:66
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:111
+msgid "Ex. "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:49
+msgid "Your XML Username"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:56
+msgid "Your XML Token "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:70
+msgid "First Name:"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:77
+msgid "Last Name:"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:92
+msgid "List's Id"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.sendstudio.php:114
+msgid "Update SendStudio Settings"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.getresponseapi.php:19
+msgid "GetResponse API Key"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.getresponseapi.php:32
+msgid "Campaign Name"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:31
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:29
+msgid "<p><b>Error:</b> Post To URL ("
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:34
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:32
+msgid ""
+"<p>Post To URL Changed.&nbsp; Make sure to update Cydec with the same Post "
+"To URL to make it work.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:46
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:44
+msgid ""
+"<p>Secret Key Changed.&nbsp; Make sure to update Cydec with the same Secret "
+"key to make it work.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:57
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:55
+msgid "Cydec Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:58
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:56
+msgid "Integrating WL Member to Cydec can be done in 2 steps"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:61
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:59
+msgid ""
+"Step 1. Set the \"Post To URL\" of your Cydec account<br />or the \"Post To "
+"URL\" of each product to the following URL:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.quickpaypro.php:70
+#: wishlist-member/admin/integration.shoppingcart.cydec.php:68
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:70
+msgid "Step 2. Specify a Secret Word."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:56
+msgid "RedOakCart Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:59
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:81
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:57
+#: wishlist-member/admin/integration.shoppingcart.generic.php:60
+msgid "Post URL"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.redoakcart.php:60
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:82
+#: wishlist-member/admin/integration.shoppingcart.ultracart.php:58
+#: wishlist-member/admin/integration.shoppingcart.generic.php:61
+msgid "The Post URL is where you send your information to."
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.payperpost.php:12
+#: wishlist-member/admin/membershiplevels.default.php:290
+#: wishlist-member/admin/membershiplevels.default.php:457
+msgid "After Registration"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.payperpost.php:15
+#: wishlist-member/admin/membershiplevels.payperpost.php:30
+msgid "Default Setting"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.payperpost.php:16
+msgid "Redirect to Post"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.payperpost.php:17
+#: wishlist-member/admin/membershiplevels.payperpost.php:31
+#: wishlist-member/admin/membershiplevels.default.php:284
+#: wishlist-member/admin/membershiplevels.default.php:293
+#: wishlist-member/admin/membershiplevels.default.php:454
+#: wishlist-member/admin/membershiplevels.default.php:460
+msgid "Home Page"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.payperpost.php:27
+#: wishlist-member/admin/membershiplevels.default.php:281
+#: wishlist-member/admin/membershiplevels.default.php:451
+msgid "After Login"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.payperpost.php:41
+#: wishlist-member/admin/membershiplevels.default.php:333
+#: wishlist-member/admin/membershiplevels.default.php:493
+msgid "Require Captcha Image on Registration Page"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:57
+msgid "<p>Vendor ID Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:59
+msgid "<p><b>Error:</b> Vendor ID may only contain letters and numbers.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:66
+msgid "<p>2CheckOut Demo Mode Updated.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:76
+msgid "2CheckOut System Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:77
+msgid ""
+"The 2CheckOut System Integration allows you to integrate 2CheckOut to your "
+"shopping cart with WishList Member."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:78
+msgid "Integration instructions can found downloaded here."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:100
+msgid "Vendor ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:101
+msgid "The Vendor ID is used to generate a hash key for security purposes."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:130
+msgid "2CheckOut Demo Mode"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:134
+msgid "Enable Demo Mode"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:139
+msgid "Disable Demo Mode"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.twoco.php:142
+msgid "Save Demo Mode Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:6
+msgid ""
+"Please specify the error pages that people will see when they try to access "
+"your membership site:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:10
+#: wishlist-member/admin/post_page_options.php:284
+msgid "Non-Members:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:20
+msgid ""
+"Non-members will see this error page when they try to access content in your "
+"members area."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:24
+#: wishlist-member/admin/post_page_options.php:297
+msgid "Wrong Membership Level:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:34
+msgid ""
+"If you have more than one level of membership, this is the error page "
+"someone will see if they try to access content that their membership level "
+"does not have permission to view."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:38
+#: wishlist-member/admin/post_page_options.php:310
+msgid "Membership Cancelled:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:48
+#: wishlist-member/admin/settings.default.systempages.php:62
+msgid ""
+"This page will be displayed when a user's membership has been cancelled by "
+"one of the supported shopping carts."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:52
+#: wishlist-member/admin/post_page_options.php:323
+msgid "Membership Expired:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:67
+#: wishlist-member/admin/post_page_options.php:337
+msgid "Membership For Approval:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:77
+msgid ""
+"This page will be displayed when a user's membership needs admin approval."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:82
+#: wishlist-member/admin/post_page_options.php:351
+msgid "Membership For Confirmation:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:92
+msgid ""
+"This page will be displayed when a user's membership needs e-mail "
+"confirmation."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:97
+msgid ""
+"Please specify the page to which a newly registered member will be "
+"redirected to:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:101
+msgid "After Registration Page:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:111
+msgid "Newly registered members will see this page after they register."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:116
+msgid ""
+"Please specify the the page to which a a member will be redirected to when "
+"he/she logs in:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:120
+msgid "After Login Page:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:130
+msgid "Members will see this page after they login."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:136
+msgid ""
+"Please specify the the page to which a a member will be redirected to when "
+"he/she logout:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:140
+msgid "After Logout Page:"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:150
+msgid "Members will see this page after they logout."
+msgstr ""
+
+#: wishlist-member/admin/settings.default.systempages.php:156
+msgid "Custom Unsubscribe Confirmation Page:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:79
+msgid "1. API Key"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:80
+msgid ""
+"Fill the texbox below with your recurly api key, hit save and proceed to "
+"step 2."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:81
+msgid "Recurly API Key"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:85
+msgid "2. Membership Levels and Recurly Plans"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:86
+msgid "Map the membership levels to your corresponding recurly plans"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:91
+msgid "Plan Code"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:114
+msgid "3. Push Notification URL"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.recurly.php:115
+msgid "Copy the link below and add it as your push notification URL."
+msgstr ""
+
+#: wishlist-member/admin/integration.webinar.php:9
+msgid "<p>Webinar Settings Updated</p>"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:14
+msgid "WishList Member Dashboard"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:20
+msgid "Your Membership Stats"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:24
+#: wishlist-member/admin/membershiplevels.movemembership.php:16
+#: wishlist-member/wpm.php:3677
+msgid "Members"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:47
+msgid "Total Members"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:53
+msgid "Total Unique Members"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:64
+msgid "Customer Support"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:67
+msgid "Video Tutorials"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:70
+msgid "Help Guide"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:73
+msgid "FAQ's"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:76
+msgid "API Documents"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:79
+msgid "Release Notes"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:88
+msgid "Adjust the main settings for your membership"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:92
+msgid "See and manage your members"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:96
+msgid "Control the content your members see"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:100
+msgid "Manage content for Membership Levels and User Posts"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:104
+msgid "Setup sequential upgrading of members"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:108
+msgid "Integrate with shopping carts and autoresponders"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:115
+msgid "Check for Updates"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:116
+#, php-format
+msgid "You have the latest version of WishList Member (v%1$s)"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:119
+#, php-format
+msgid "You are currently running on WishList Member v%1$s."
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:121
+#, php-format
+msgid "* The most current version is v%1$s."
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:123
+#, php-format
+msgid ""
+"<a href=\"%2$s\" class=\"button button-primary\">Upgrade</a> &nbsp;&nbsp; <a "
+"href=\"%1$s\" class=\"button\">Download</a>"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:134
+msgid ""
+"Are you sure that you want to deactivate the license of this plugin for this "
+"site?"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:135
+msgid ""
+"If you're migrating your site to a new server, or just need to cancel your "
+"license for this site, click the button below to deactivate the license of "
+"this plugin for this site."
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:154
+msgid "WishList Member News"
+msgstr ""
+
+#: wishlist-member/admin/dashboard.php:156
+msgid ""
+"<a href=\"http://wishlistproducts.com/?cat=23\" target=\"_blank\">Click "
+"Here</a> to see all the Member News."
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:48
+#: wishlist-member/admin/membershiplevels.content.php:137
+msgid "Content Protection"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:50
+msgid "Do you want to protect this content?"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:52
+msgid "No, do not protect this content (non-members can access it)"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:53
+msgid "Yes, protect this content (members only)"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:60
+#: wishlist-member/admin/membershiplevels.php:4
+#: wishlist-member/admin/settings.import.php:29 wishlist-member/wpm.php:3678
+msgid "Membership Levels"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:62
+msgid "Select the membership level that can access this content:"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:64
+#: wishlist-member/admin/members.sendbroadcast.php:331
+msgid "Select/Unselect All Levels"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:75
+msgid "Per User Access"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:77
+msgid "Do you want to enable Pay Per Post for this content?"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:79
+msgid "No, do not enable Pay Per Post for this content"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:80
+msgid "Yes, enable Pay Per Post for this content"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:85
+msgid "Shopping Cart Integration"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:87
+msgid "SKU:"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:90
+msgid "Click here for integration instructions"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:93
+msgid "Do you want to allow Free Registration for this content?"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:95
+msgid "No, do not allow free registration for this content"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:96
+msgid "Yes, enable free registration for this content"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:100
+msgid "Free Registration URL"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:136
+msgid "The following users have specific access to this post"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:140
+msgid "ID"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:141
+#: wishlist-member/admin/membershiplevels.content.cats.php:23
+#: wishlist-member/admin/membershiplevels.content.folders.php:217
+#: wishlist-member/admin/members.default.php:356
+msgid "Name"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:144
+msgid "Remove"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:160
+msgid "Add more users to this post using the search form below"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:163
+msgid "Click a user to grant access to this post"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:163
+msgid "Search"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:214
+msgid "NOTES"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:215
+msgid ""
+"Private Tags: You can hide parts of the post by adding [private_level] "
+"<code>your text goes here</code> [/private_level].  Remember to switch the "
+"word \"level\" with the membership level you would like to give access to."
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:217
+msgid ""
+"Use [nonmember] <code>your text goes here </code> [/nonmember] to display "
+"text for non-members only."
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:218
+msgid ""
+"Use [ismember] <code>your text goes here </code> [/ismember] to display text "
+"for members only."
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:220
+msgid ""
+"Registration Codes: You can insert a registration form for each level by "
+"adding [register_level] to your posts."
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:222
+msgid "Merge Codes: You can also insert the following merge codes in your post"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:229
+msgid "Login Form"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:230
+msgid "RSS Feed Link"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:237
+msgid "Custom Fields Merge Codes:"
+msgstr ""
+
+#: wishlist-member/admin/post_page_options.php:280
+msgid ""
+"Please specify the error pages that people will see when they try to access "
+"this post:"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:6
+msgid "Registration Blacklisting"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:7
+msgid ""
+"This page allows you to blacklist certain email and IP addresses from "
+"registering."
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:18
+msgid "Blacklists"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:21
+msgid "E-mail BlackList"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:21
+msgid ""
+"Enter e-mail addresses to blacklist.  One email per line.</p><p>Example:</"
+"p>user@domain.com<br />*@domain.com<br />*.com"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:27
+msgid "IP BlackList"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:27
+msgid ""
+"Enter IP addresses to blacklist.  One IP per line.</p><p>Example:</"
+"p>192.168.0.1<br />192.168.0.*<br />192.168.*"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:36
+msgid "Blacklist Messages"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:39
+msgid "Email Blacklist"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:43
+msgid "IP Blacklist"
+msgstr ""
+
+#: wishlist-member/admin/members.blacklist.php:47
+msgid "Email and IP Blacklist"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:30
+msgid "<p><b>Error:</b> Spreedly Thank You URL ("
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:33
+msgid ""
+"<p>Thank You URL Changed.&nbsp; Make sure to update Spreedly with the same "
+"Thank You URL to make it work.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:45
+msgid ""
+"<p>API Token Changed.&nbsp; Make sure that your API Token matches the one "
+"specified in your Spreedly site configuration.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:47
+msgid ""
+"<p><b>Error:</b> Spreedly API Token may only contain letters and numbers.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:54
+msgid "<p>Site Name Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:78
+msgid "<p>Invalid Spreedly API Credentials.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:86
+msgid "Spreedly Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:87
+msgid "Integrating WL Member to Spreedly can be done in 5 steps"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:89
+msgid "Step 1. Provide the API Credentials"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:111
+msgid "Update API Credentials"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:115
+msgid ""
+"Step 2.Set the \"Subscribers Changed Notification URL\" to the link below:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:119
+msgid ""
+"Step 3. Create a Plan for your Membership Level using the details below."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:126
+msgid "Feature Level"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:127
+msgid "URL a customer is returned to on sale"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:141
+msgid "Step 4. Copy and Paste the Subscription Link below."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:148
+msgid "Subscription Link"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.spreedly.php:192
+msgid "Refresh Subscription Link"
+msgstr ""
+
+#: wishlist-member/admin/integration.php:6
+#: wishlist-member/admin/integration.php:32
+msgid "Shopping Cart"
+msgstr ""
+
+#: wishlist-member/admin/integration.php:10
+#: wishlist-member/admin/integration.php:26
+msgid "AutoResponder"
+msgstr ""
+
+#: wishlist-member/admin/integration.php:14
+#: wishlist-member/admin/integration.php:29
+msgid "Webinar"
+msgstr ""
+
+#: wishlist-member/admin/integration.php:26
+#: wishlist-member/admin/integration.php:29
+#: wishlist-member/admin/integration.php:32 wishlist-member/wpm.php:3681
+msgid "Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.mailchimp.php:31
+msgid "MailChimp API Key"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.mailchimp.php:37
+msgid "Get your API Key from "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.mailchimp.php:45
+msgid "List's Unique Id"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.mailchimp.php:62
+msgid "Get your List's Unique Id by going to "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.mailchimp.php:66
+msgid "Update MailChimp Settings"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders1.php:58
+msgid "Root of folders:"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders1.php:67
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:96
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:97
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:161
+#: wishlist-member/admin/membershiplevels.default.php:405
+#: wishlist-member/admin/membershiplevels.content.folders.php:193
+msgid "Save"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders1.php:79
+#: wishlist-member/admin/membershiplevels.content.posts.php:77
+#: wishlist-member/admin/membershiplevels.content.cats.php:14
+#: wishlist-member/admin/membershiplevels.content.cats.php:50
+#: wishlist-member/admin/membershiplevels.content.folders.php:206
+#: wishlist-member/admin/membershiplevels.content.files.php:31
+#: wishlist-member/admin/membershiplevels.content.files.php:65
+msgid "Set Protection"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders1.php:79
+#: wishlist-member/admin/membershiplevels.content.posts.php:81
+#: wishlist-member/admin/membershiplevels.content.cats.php:14
+#: wishlist-member/admin/membershiplevels.content.cats.php:50
+#: wishlist-member/admin/membershiplevels.content.folders.php:206
+#: wishlist-member/admin/membershiplevels.content.files.php:31
+#: wishlist-member/admin/membershiplevels.content.files.php:65
+msgid "Grant Access"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders1.php:90
+#: wishlist-member/admin/membershiplevels.content.folders.php:218
+msgid "Folder"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders1.php:91
+msgid "Writable?"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders1.php:92
+#: wishlist-member/admin/membershiplevels.content.folders.php:220
+msgid "Path"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.php:18
+msgid "<p>Your autoresponder settings have been updated.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.php:22
+msgid "<p>Your autoresponder provider has been changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.php:25
+msgid "Autoresponder Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.php:26
+msgid "Automatically sign-up newly registered members to your auto-responder."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.php:30
+msgid "AR Provider"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.php:33
+#: wishlist-member/admin/shoppingcart.php:29
+msgid "None"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.php:54
+msgid "Set Autoresponder Provider"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.php:58
+#: wishlist-member/admin/shoppingcart.php:55
+#, php-format
+msgid "Learn more about %1$s"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.php:65
+#: wishlist-member/admin/integration.webinar.gotomeeting.php:1
+#: wishlist-member/admin/shoppingcart.php:63
+msgid "Watch Integration Video Tutorial"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:31
+msgid "<p><b>Error:</b> Clickbank Thank You URL ("
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:34
+msgid ""
+"<p>Thank You URL Changed.&nbsp; Make sure to update your ClickBank products "
+"with the same Thank You URL to make it work.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:46
+msgid ""
+"<p>Secret Key Changed.&nbsp; Make sure to update ClickBank with the same "
+"Secret key to make it work.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:57
+msgid "Clickbank Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:58
+msgid "Integrating WL Member to Clickbank can be done in 3 steps"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:61
+msgid ""
+"Step 1. Set the \"Thank You URL\" of your ClickBank products to the "
+"following:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:76
+msgid ""
+"Step 3. Create a product for each membership level you want to integrate and "
+"use the Payment Links specified for each product below.  Replace <font color="
+"\"red\">ITEM</font> with the item name assigned by Clickbank and <font color="
+"\"blue\">PUBLISHER</font> with your Clickbank Publisher ID."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:81
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:99
+msgid "Payment Link"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.clickbank.php:97
+msgid "Pay Per Post Links"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.generic.php:20
+msgid "Subscribe Email"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.customposttypes.php:5
+msgid "Let WishList Member manage protection for the select custom post types"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.customposttypes.php:14
+msgid "Custom Post Type"
+msgstr ""
+
+#: wishlist-member/admin/settings.default.customposttypes.php:36
+msgid "There are no custom post types found"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.aweberapi.php:62
+msgid ""
+"Click here to obtain an authorization key and copy it into the box below"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.aweberapi.php:63
+msgid ""
+"You'll be taken to a new page where you'll be prompted to enter your AWeber "
+"login information and click Allow Access."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.aweberapi.php:100
+msgid ""
+"It seems that you have not yet connected WishList Member to your aweber "
+"account."
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.posts.php:79
+msgid "Set Pay Per Post"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.posts.php:99
+msgid "Items per Page"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.posts.php:108
+msgid "Title"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.posts.php:109
+msgid "Author"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.posts.php:110
+#: wishlist-member/admin/membershiplevels.content.php:45
+msgid "Categories"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.posts.php:111
+#: wishlist-member/admin/members.broadcast.php:154
+#: wishlist-member/admin/members.default.php:364
+msgid "Status"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.posts.php:113
+msgid "Allow Free Registration"
+msgstr ""
+
+#: wishlist-member/admin/members.php:4
+#: wishlist-member/admin/members.default.php:235
+msgid "Manage Members"
+msgstr ""
+
+#: wishlist-member/admin/members.php:8
+msgid "Import"
+msgstr ""
+
+#: wishlist-member/admin/members.php:12
+msgid "Export"
+msgstr ""
+
+#: wishlist-member/admin/members.php:16
+msgid "Email Broadcast"
+msgstr ""
+
+#: wishlist-member/admin/members.php:20
+msgid "Blacklist"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.recaptcha.php:6
+#: wishlist-member/admin/settings.regpage.php:20
+msgid "reCaptcha Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.recaptcha.php:9
+msgid "Note: Leave the reCaptcha fields blank to disable it."
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.recaptcha.php:20
+msgid "No reCaptcha key?"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.recaptcha.php:20
+msgid "Click here to get one for free."
+msgstr ""
+
+#: wishlist-member/admin/members.export.php:6
+#: wishlist-member/admin/members.export.php:7
+#: wishlist-member/admin/members.export.php:34
+msgid "Export Members"
+msgstr ""
+
+#: wishlist-member/admin/members.export.php:8
+msgid ""
+"Please select a Membership Level and click \"Export Members\" to download a "
+"CSV file of all the Members for that Membership Level."
+msgstr ""
+
+#: wishlist-member/admin/members.export.php:23
+msgid "Additional Options"
+msgstr ""
+
+#: wishlist-member/admin/members.export.php:26
+msgid "Include column headers"
+msgstr ""
+
+#: wishlist-member/admin/members.export.php:27
+msgid "Export full data"
+msgstr ""
+
+#: wishlist-member/admin/members.export.php:28
+msgid "Include inactive members"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.php:8
+#: wishlist-member/admin/membershiplevels.php:42
+#: wishlist-member/admin/membershiplevels.content.php:138
+msgid "Pay Per Post"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.php:12
+#: wishlist-member/admin/membershiplevels.php:43
+msgid "Move Membership Levels"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.php:40
+msgid "Manage Membership Levels"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.php:41
+msgid "Manage Membership Content"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.php:44
+msgid "File Protection"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.cats.php:24
+msgid "Type"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.cats.php:25
+#: wishlist-member/admin/membershiplevels.content.php:24
+msgid "Posts"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.cats.php:26
+msgid "Description"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:71
+msgid "Customer ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:81
+msgid "Eway Username"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:90
+msgid "Eway Password"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:99
+msgid "Currency"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:109
+msgid "Eway Connector Location"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:118
+msgid "Enable Test Mode"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:138
+msgid "Company Name"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:142
+msgid "Page Title"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:146
+msgid "Page Description"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:150
+msgid "Company Logo"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:154
+msgid "Page Banner"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:158
+msgid "Page Footer"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:162
+msgid "Invoice Description"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:174
+msgid "Amount"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:175
+#: wishlist-member/admin/integration.shoppingcart.eway.php:213
+msgid "Payment URL"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:208
+msgid "Initial Amount"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:209
+msgid "Recurring Amount"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:210
+msgid "Interval"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:211
+msgid "Interval Type"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.eway.php:212
+msgid "Last Rebill Date"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:28
+msgid "Step 1. Machine Name and Encrypted Key"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:31
+msgid "Machine Name: "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:37
+msgid ""
+"Please note, do not include .infusionsoft.com in the Machine Name field "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:41
+msgid "Encrypted Key: "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:49
+msgid "Step 2. Follow-Up Sequence Id"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:50
+msgid ""
+"Provide the Follow-Up Sequence Id a user will be added to when he sign up on "
+"a membership level."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:55
+msgid "Follow-Up Sequence Id"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.infusionsoft.php:74
+msgid "Update Infusionsoft Settings"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:18
+msgid "<p>Authorize.Net API Login ID Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:24
+msgid "<p>Authorize.Net Transaction ID Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:30
+msgid "<p>Authorize.Net MD5 Hash Key Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:38
+msgid "Authorize.net is now in Live Mode"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:40
+msgid "Authorize.net is now in Test Mode"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:56
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:47
+msgid ""
+"<p>PayPal Thank You URL Changed.&nbsp; Make sure to update your PayPal "
+"products with the same Thank You URL to make it work.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:58
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:50
+msgid ""
+"<p><b>Error:</b>PayPal Thank You URL may only contain letters and numbers.</"
+"p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:67
+msgid "Authorize.net Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:68
+msgid "Integrating WL Member to Authorize.net can be done in 3 steps"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:70
+msgid "Step 1. Set your Authorize.net Configuration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:101
+msgid "Step 2. Set your Thank You URL"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:110
+msgid "Step 3. Paste your Item ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:111
+msgid "Add each Item ID to Simple Checkout Item"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.authorize.php:116
+msgid "Item ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart-payperpost-skus.php:10
+msgid "Pay Per Post SKUs"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart-payperpost-skus.php:16
+msgid ""
+"The Pay Per Post SKUs specifies the post that should be tied to each "
+"transaction."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart-payperpost-skus.php:22
+msgid "Post Title"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:19
+msgid "<p>PayPal PDT Identity Token Changed.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:31
+msgid "<p>PayPal Sandbox Enabled.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:33
+msgid "<p>PayPal Sandbox Disabled.</p>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:44
+msgid "<p><b>Error:</b> Paypal Thank You URL ("
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:59
+msgid "Paypal Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:60
+msgid "If you have a Paypal Personal Account, Click here"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:65
+msgid "Upgrade Instructions for Paypal Personal Account Users"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:66
+#, php-format
+msgid "1. Go to <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:67
+msgid "2. Click on the Upgrade your Account link"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:68
+msgid "3. Click on the Upgrade Now button"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:69
+msgid ""
+"4. If your account was a personal account, you will get a choice to upgrade "
+"to a Premier or Business account."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:70
+msgid "5. Choose the type of account to upgrade to and follow instructions."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:71
+msgid ""
+"6. If you were a Premier account holder, you will be sent to the Business "
+"account upgrade. Follow the instructions."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:73
+msgid "Integrating WL Member to PayPal can be done in 5 steps"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:75
+msgid "Step 1. Configure Paypal Settings."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:76
+msgid ""
+"Set the following configurations under \"My Account\" &raquo; \"Profile\" "
+"&raquo; \"Website Payment Preferences\" in your Paypal account:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:84
+msgid ""
+"Must not be blank.  You can use any link you want but cannot be blank.<br /"
+">We recommend using the homepage of your site."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:91
+msgid "Step 2. Paste your Paypal \"PDT Identity Token\" below."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:92
+msgid ""
+"You may retrieve your Paypal PDT Identity Token by going to \"My Account\" "
+"&raquo; \"Profile\" &raquo; \"Website Payment Preferences\" in your Paypal "
+"account."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:104
+msgid ""
+"Step 3. Create a \"Buy Now\" or \"Subscribe\" Button in Merchant Services "
+"Section of PayPal.<br />Create a button for each membership level using the "
+"Item/Subscription ID specified below."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:105
+msgid ""
+"If you are creating a subscribe button and are using a Trial offer, your "
+"trial offer must be at least $0.01.<br />&nbsp;&nbsp; Paypal will not send "
+"back the proper data if you make it a free trial."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:110
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:126
+msgid "Item/Subscription ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:130
+msgid "Step 4. Set the \"Thank You URL\" of each product to the following URL:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:135
+msgid "Step 5. Paste the code below in the \"Add advanced variables\" field:"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:137
+msgid ""
+"This is located in PayPal's step 3 of creating a \"Buy Now\" button. It will "
+"say \"Customize advanced features (optional)\"."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:139
+msgid "Step 6. Paste the button code"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:140
+msgid "Paste the button code generated by Paypal to your sales Page."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:141
+msgid "Step 7. Support for $0 Trial Subscriptions (Optional)"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:142
+msgid ""
+"Add the code below just before the &lt;/form&gt; tag of the Paypal button "
+"code to add support for $0 trial subscriptions."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:144
+msgid "Note: This also fixes the Paypal \"Guest Payment\" bug."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:146
+msgid "Sandbox Testing"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:147
+#, php-format
+msgid ""
+"You can choose to enable <a href=\"%1$s\" target=\"_blank\">Paypal Sandbox</"
+"a> to test your Paypal integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:153
+msgid "Enabled"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.paypal.php:157
+msgid "Disabled"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:118
+msgid "This membership level is not empty, it cannot be deleted"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:123
+msgid "Warning! Delete this membership level?"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:127
+msgid ""
+"Last Warning! Are you really sure?\\nDeleting this membership level cannot "
+"be undone!"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:181
+#: wishlist-member/admin/membershiplevels.default.php:257
+#: wishlist-member/admin/membershiplevels.default.php:425
+msgid "Registration URL"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:182
+msgid "Creation Date"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:234
+#: wishlist-member/admin/membershiplevels.default.php:274
+msgid "Copy URL"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:258
+#: wishlist-member/admin/membershiplevels.default.php:426
+msgid "Redirects"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:259
+#: wishlist-member/admin/membershiplevels.default.php:427
+msgid "Access to"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:260
+#: wishlist-member/admin/membershiplevels.default.php:428
+msgid "Length of Subscription"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:274
+msgid "Edit URL"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:302
+#: wishlist-member/admin/membershiplevels.default.php:466
+msgid "All Pages"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:304
+#: wishlist-member/admin/membershiplevels.default.php:468
+msgid "All Categories"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:306
+#: wishlist-member/admin/membershiplevels.default.php:470
+msgid "All Posts"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:308
+#: wishlist-member/admin/membershiplevels.default.php:472
+msgid "All Comments"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:313
+#: wishlist-member/admin/membershiplevels.default.php:477
+msgid "Weeks"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:314
+#: wishlist-member/admin/membershiplevels.default.php:478
+msgid "Months"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:315
+#: wishlist-member/admin/membershiplevels.default.php:479
+msgid "Years"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:319
+#: wishlist-member/admin/membershiplevels.default.php:483
+msgid "No Expiration Date"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:336
+#: wishlist-member/admin/membershiplevels.default.php:496
+msgid "Require Email Confirmation After Registration"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:339
+#: wishlist-member/admin/membershiplevels.default.php:499
+msgid "Require Admin Approval After Registration"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:344
+#: wishlist-member/admin/membershiplevels.default.php:505
+msgid "Grant Continued Access"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:347
+#: wishlist-member/admin/membershiplevels.default.php:508
+msgid "Disable Existing Users Link"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:350
+#: wishlist-member/admin/membershiplevels.default.php:511
+msgid "Registration Date Reset"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:353
+#: wishlist-member/admin/membershiplevels.default.php:514
+msgid "Un-cancel on Re-registration"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:360
+#: wishlist-member/admin/membershiplevels.default.php:521
+msgid "Role"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:370
+#: wishlist-member/admin/membershiplevels.default.php:531
+msgid "Level Order"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:404
+#: wishlist-member/admin/members.default.php:367
+msgid "Cancel"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:418
+msgid "Add a New Membership Level"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:434
+msgid "(Level Name)"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.default.php:441
+msgid "Copy an Existing Membership Level"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:112
+msgid "Advanced Mode"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:115
+msgid " Easy Folder Protection"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:127
+msgid "Run Easy Folder Protection"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:162
+msgid "Easy Mode"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:165
+msgid "<h3> Advanced Folder Protection</h3>"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:181
+msgid "Parent Folder:"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:219
+msgid "Htacess"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:222
+msgid "Force Download"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:230
+msgid "Please specify the Parent Folder."
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:256
+#: wishlist-member/admin/membershiplevels.content.folders.php:263
+msgid "Writable"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:256
+#: wishlist-member/admin/membershiplevels.content.folders.php:263
+msgid "<span style=\"color:red;\"> NOT Writable </span>"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:262
+msgid " "
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.folders.php:266
+msgid " - "
+msgstr ""
+
+#: wishlist-member/admin/settings.advanced.php:6
+#: wishlist-member/admin/settings.registration.redbox.php:2
+msgid "Merge Codes"
+msgstr ""
+
+#: wishlist-member/admin/settings.advanced.php:7
+#: wishlist-member/admin/settings.registration.redbox.php:3
+msgid "Registration Links"
+msgstr ""
+
+#: wishlist-member/admin/settings.advanced.php:8
+#: wishlist-member/admin/settings.registration.redbox.php:4
+msgid "New Member"
+msgstr ""
+
+#: wishlist-member/admin/settings.advanced.php:9
+#: wishlist-member/admin/settings.registration.redbox.php:5
+msgid "Existing Member"
+msgstr ""
+
+#: wishlist-member/admin/settings.advanced.php:20
+msgid "CSS Code"
+msgstr ""
+
+#: wishlist-member/admin/settings.advanced.php:21
+msgid "Sidebar Widget CSS"
+msgstr ""
+
+#: wishlist-member/admin/settings.advanced.php:24
+msgid "CSS for the Sidebar Widget"
+msgstr ""
+
+#: wishlist-member/admin/settings.advanced.php:32
+msgid "Login Form Merge Code CSS"
+msgstr ""
+
+#: wishlist-member/admin/settings.advanced.php:35
+msgid "CSS for the Login Form Merge Code"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:28
+msgid "Pages"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:41
+msgid "Comments"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:49
+msgid "Files"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:53
+msgid "Folders"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:61
+#: wishlist-member/wpm.php:3679
+msgid "Manage Content"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:133
+msgid ""
+"Please select a membership level to manage below or select \"Content "
+"Protection\" to simply manage content protection:"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:165
+#, php-format
+msgid "Select which %s to protect:"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:166
+#, php-format
+msgid "Select which %s to enable Pay Per Post on:"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:167
+#, php-format
+msgid "Select the %s that this user can specifically access:"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:168
+#, php-format
+msgid "Select the %s that members of this level can access:"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:196
+msgid "Please select the posts that members of this level can comment on:"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:202
+msgid "Select which files to protect:"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.php:202
+msgid "Please select the posts that members of this level can access:"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:12
+msgid "<p>No selection to be deleted.</p>"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:19
+msgid "<p>Email/s was deleted successfully.</p>"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:27
+msgid "<p>No selection to be paused.</p>"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:34
+msgid "<p>Selected Queue was paused.</p>"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:39
+msgid "<p>No selection to be queued.</p>"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:46
+msgid "<p>Selection was Queued.</p>"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:67
+msgid "&laquo;"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:68
+msgid "&raquo;"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:75
+msgid "<p>Broadcast Log is Disabled.</p>"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:78
+msgid "<p>Logs Cleared.</p>"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:88
+msgid ""
+"<p>Error Creating/Opening Log File. Please check folder permission or "
+"manually create the file "
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:92
+msgid "<p>Broadcast Log is Enabled.</p>"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:102
+msgid "E-mail Broadcast"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:106
+msgid "Send E-mail Broadcast"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:133
+#: wishlist-member/admin/members.broadcast.php:213
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:150
+msgid "Total Recipients"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:151
+msgid "Queued/Sent/Failed"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:153
+msgid "Sent As"
+msgstr ""
+
+#: wishlist-member/admin/members.broadcast.php:155
+msgid "Date Sent"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.redbox.php:25
+msgid "Registration Instructions"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.redbox.php:29
+#: wishlist-member/admin/settings.registration.redbox.php:48
+msgid "Full Instructions"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.redbox.php:37
+msgid "Instructions if \"Existing Users Link\" is Disabled"
+msgstr ""
+
+#: wishlist-member/admin/settings.registration.redbox.php:45
+msgid "Existing Member Registration"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.movemembership.php:11
+msgid ""
+"To move all users from one membership level to another, just select the "
+"level you want to move them to from the drop menu on the right."
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.movemembership.php:17
+msgid "Move/Add All Members To..."
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.movemembership.php:26
+#: wishlist-member/admin/members.default.php:252
+msgid "Non-Members"
+msgstr ""
+
+#: wishlist-member/admin/extensions.php:7 wishlist-member/wpm.php:3685
+msgid "Extensions"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.aweber.php:22
+msgid "Aweber List Name"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.aweber.php:22
+msgid "(ex: listname@aweber.com)"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.aweber.php:26
+msgid "Safe Unsubscribe Email"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.aweber.php:44
+msgid ""
+"You must also select the WishList Member Email parser within your AWeber "
+"account. It is located under the \"My Lists\" tab. Choose Email Parser, then "
+"scroll to the section for \"Membership Sites and Podcasting Tools\". Now "
+"check the box next to \"WishList Member\". This must be done for each list "
+"you have in your AWeber account that you are integrating."
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:236
+#: wishlist-member/admin/members.default.php:486
+msgid "Add New Member"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:238
+msgid "Search Users:"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:240
+#: wishlist-member/admin/members.default.php:594
+msgid "Search Users"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:253
+msgid "Incomplete Registrations"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:316
+msgid "Levels..."
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:359
+msgid "Subscribed"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:360
+msgid "Seq."
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:361
+msgid "User Posts"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:362
+msgid "Levels"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:368
+msgid "Expiration"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:369 wishlist-member/wpm.php:2650
+msgid "Registered"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:394
+msgid "Incomplete Registration"
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:394
+msgid "Click here to complete."
+msgstr ""
+
+#: wishlist-member/admin/members.default.php:542
+msgid "Add Member"
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:2
+msgid "Import/Export Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:3
+msgid "Specifically import/export your WLM settings from one site to another."
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:7
+msgid "Select the WLM Settings File you want to Import."
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:18
+msgid "Import Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:24
+msgid "Select the WLM Settings you want to Export."
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:26
+msgid "Configurations"
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:28
+msgid "Advance Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:30
+msgid "Include After/Before Registration Page"
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:34
+msgid "Export Settings"
+msgstr ""
+
+#: wishlist-member/admin/settings.import.php:35
+msgid "<i>(Settings File will be downloaded to you computer.)</i>"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:8
+msgid "WL Member &raquo; Sequential Upgrade"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:14
+msgid "Upgrade To"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:15
+msgid "Method"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:16
+msgid "After"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:25
+msgid "No auto-upgrade"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:33
+msgid "Move"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:34
+msgid "Add"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:39
+msgid "Day(s)"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:50
+msgid "Advanced Settings:"
+msgstr ""
+
+#: wishlist-member/admin/sequential.php:51
+msgid ""
+"Sequential Upgrades are automatically triggered when a member signs in to "
+"their account. If you would like to set your system to trigger upgrades "
+"without requiring a member to sign in, you must create a Cron job on your "
+"server."
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.files.php:43
+msgid "File"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.files.php:44
+msgid "Parent Post"
+msgstr ""
+
+#: wishlist-member/admin/membershiplevels.content.files.php:45
+msgid "Inherit Parent's Protection"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:86
+msgid ""
+"<p>Error Creating Log File. Please check folder permission or manually "
+"create the file "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:99
+msgid ""
+"<p>Error Clearing Log File. Please check folder permission or manually clear "
+"the file "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:101
+msgid "<p>Successfully cleared the file "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:108
+msgid "Step 1. Create IContact Integration Password"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:110
+msgid "1.Visit "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:111
+msgid "2. Enter your iContact username and password to log in to iContact."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:112
+msgid ""
+"3. Enter <strong>60ZU6Al45lBtMmpi1S8tJqsvXdrNK18H</strong> on the "
+"Application ID field."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:113
+msgid ""
+"4. Enter your desired APPLICATION PASSWORD (<span style=\"font-style:italic;"
+"\">This will be used on the next step</span>)."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:114
+msgid ""
+"<span style=\"font-style:italic;\">Note: For security reasons, we recommend "
+"that this password be different than your iContact password.</span>"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:115
+msgid "5. Click Save."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:117
+msgid "Step 2. Generate Account and Folder ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:120
+msgid "IContact Username: "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:127
+msgid "Application Password"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:134
+msgid "Account ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:140
+msgid "Folder ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:150
+msgid "Generate Folder and Account ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:155
+msgid "Step 3. Assign your Contact List ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:162
+msgid "Contact List ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:163
+msgid "Create a log file for Unsubscribe Members"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:189
+msgid ""
+"Get your Contact List ID opening your list found in \"My Contacts\" > \"My "
+"List\". Click the list name to open it."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:190
+msgid "In the address bar of your browser check the URL."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:191
+msgid "Sample URL:  "
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:192
+msgid "<b>35079</b> is your Contact List ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.icontact.php:196
+msgid "Update IContact Settings"
+msgstr ""
+
+#: wishlist-member/admin/integration.webinar.gotomeeting.php:2
+msgid "GoToWebinar<sup><small>&reg;</small></sup> Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.webinar.gotomeeting.php:3
+msgid "Learn more about GotoWebinar<sup>&reg;</sup>"
+msgstr ""
+
+#: wishlist-member/admin/integration.webinar.gotomeeting.php:4
+msgid ""
+"Note: Make sure to only have the First Name, Last Name and E-mail Address as "
+"required fields in your Webinar settings."
+msgstr ""
+
+#: wishlist-member/admin/integration.webinar.gotomeeting.php:10
+msgid "GoToWebinar<sup><small>&reg;</small></sup> Registration URL"
+msgstr ""
+
+#: wishlist-member/admin/integration.webinar.gotomeeting.php:23
+msgid "Update Webinar Settings"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:11
+msgid "View Broadcast Mails"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:12
+msgid "Send Broadcast"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:35
+#: wishlist-member/admin/members.sendbroadcast.php:390
+msgid "Preview Message"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:89
+msgid "Send As"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:100
+msgid "Message"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:207
+#: wishlist-member/admin/members.sendbroadcast.php:227
+msgid "WishList Member Merge Codes"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:217
+#: wishlist-member/admin/members.sendbroadcast.php:235
+msgid "Custom Registration Fields"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:247
+#: wishlist-member/admin/members.sendbroadcast.php:249
+msgid "(no message)"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:249
+msgid "<font color=\"red\">"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:256
+msgid "Signature"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:264
+msgid ""
+"We highly recommend that you include physical address on this email to "
+"prevent it from being marked as SPAM."
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:267
+msgid "Address 1"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:269
+msgid "Address 2"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:271
+#: wishlist-member/wpm.php:2657
+msgid "City"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:273
+#: wishlist-member/wpm.php:2658
+msgid "State"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:275
+msgid "ZIP"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:277
+#: wishlist-member/wpm.php:2660
+msgid "Country"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:312
+msgid "Send To"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:349
+msgid "<span style='color:red';>(no level selected)</span>"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:356
+msgid "Include"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:360
+#: wishlist-member/admin/members.sendbroadcast.php:367
+msgid "Pending Members"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:362
+#: wishlist-member/admin/members.sendbroadcast.php:370
+msgid "Cancelled Levels"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:373
+msgid "Send only to Active members"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:385
+msgid ""
+"<b>Note:</b> This may take several minutes to complete if you have many "
+"members."
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:386
+msgid "Send Message to Members"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:388
+msgid "Go Back and Edit"
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:396
+msgid ""
+"You need to specify a sender's name and sender's email address before you "
+"can use this feature."
+msgstr ""
+
+#: wishlist-member/admin/members.sendbroadcast.php:398
+#, php-format
+msgid ""
+"You can do this by going to the <a href=\"%1$s&mode=email\">WL Member "
+"Settings Page</a>."
+msgstr ""
+
+#: wishlist-member/admin/shoppingcart.php:26
+msgid "Select System"
+msgstr ""
+
+#: wishlist-member/admin/shoppingcart.php:51
+msgid "Select Shopping Cart"
+msgstr ""
+
+#: wishlist-member/admin/shoppingcart.php:74
+msgid ""
+"Please select a shopping cart to configure from the dropdown list above."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.generic.php:55
+msgid "Generic 3rd Party System Integration"
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.generic.php:56
+msgid ""
+"The Generic 3rd Party System Integration allows you to integrate your custom "
+"shopping cart with WishList Member."
+msgstr ""
+
+#: wishlist-member/admin/integration.shoppingcart.generic.php:57
+msgid "Integration instructions can be downloaded here."
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:7
+#: wishlist-member/admin/members.import.php:54
+msgid "Import Members"
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:12
+msgid "Select CSV File"
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:15
+msgid ""
+"Click the \"Browse...\" button to select a .csv file that contains the "
+"information of the members you would like to import."
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:16
+#, php-format
+msgid ""
+"<a href=\"?%1$s&wpm_download_sample_csv=1\">Click here to download a sample ."
+"csv file</a>. Your file should follow this format."
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:20
+msgid "Membership Level<br />to Import to"
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:30
+msgid "How to handle<br />Duplicates"
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:32
+msgid "Do not import duplicate usernames or emails"
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:33
+msgid "Import duplicate usernames or emails and change their membership level"
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:37
+msgid "Default Password<br />for New Users"
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:40
+msgid "Leave this field blank to generate random passwords for each member."
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:41
+msgid ""
+"Note: This field will be ignored if your CSV file contains passwords for "
+"each user."
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:45
+msgid "Notify New Users<br />via Email"
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:47
+msgid "Yes, send email notification to new users."
+msgstr ""
+
+#: wishlist-member/admin/members.import.php:48
+msgid ""
+"No. (Email notification will still be sent to new users with randomly "
+"generated passwords)"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.arp.php:21
+msgid "ARP Application URL"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.arp.php:27
+msgid "Example:"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.arp.php:35
+msgid "Autoresponder ID"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.arp.php:52
+msgid "To get the value for the Autoresponder ID field:"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.arp.php:54
+msgid "Go into your AutoResponse Plus system and view the autoresponder list"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.arp.php:55
+msgid ""
+"Move your mouse over any of the options in the 'actions' column and look at "
+"the URL in the status bar."
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.arp.php:56
+msgid "The ID number is shown as id= in the URL"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.arp.php:57
+msgid "The URL will look something like this:"
+msgstr ""
+
+#: wishlist-member/admin/integration.autoresponder.arp.php:66
+msgid ""
+"AutoResponse Plus requires PHP to have the CURL extension enabled.  Please "
+"contact your system administrator."
+msgstr ""
+
+#: wishlist-member/wpm.php:392
+msgid "You have been unsubscribed from our mailing list."
+msgstr ""
+
+#: wishlist-member/wpm.php:645
+#, php-format
+msgid ""
+"If you no longer wish to receive communication from us:\n"
+"%1$s=%2$s\n"
+"\n"
+"To update your contact information:\n"
+"%3$s"
+msgstr ""
+
+#: wishlist-member/wpm.php:799
+msgid "<b>New Member Added.</b>"
+msgstr ""
+
+#: wishlist-member/wpm.php:1024
+#, php-format
+msgid ""
+"<strong>WishList Member Notice:</strong> No Membership Levels added yet. <a "
+"href='admin.php%1$s'>Click here</a> to add a new membership level now."
+msgstr ""
+
+#: wishlist-member/wpm.php:1040
+#, php-format
+msgid ""
+"<strong>WishList Member Notice:</strong> No expiration specified for "
+"membership level%1$s%2$s. <a href='admin.php%3$s'>Click here</a> to correct "
+"this error.</strong>"
+msgstr ""
+
+#: wishlist-member/wpm.php:1051
+msgid "WishList Member"
+msgstr ""
+
+#: wishlist-member/wpm.php:1276
+msgid "<b>User DELETED.</b>"
+msgstr ""
+
+#: wishlist-member/wpm.php:1295
+msgid "Member Profile Updated."
+msgstr ""
+
+#: wishlist-member/wpm.php:1512
+#, php-format
+msgid ""
+"Powered by WishList Member - <a href=\"%1$s\" target=\"_blank\" title="
+"\"Membership Site Software\">Membership Site Software</a>"
+msgstr ""
+
+#: wishlist-member/wpm.php:1606
+#, php-format
+msgid "%1$s Pay Per Post Registration"
+msgstr ""
+
+#: wishlist-member/wpm.php:1608 wishlist-member/wpm.php:1613
+#, php-format
+msgid "%1$s Registration"
+msgstr ""
+
+#: wishlist-member/wpm.php:1610
+msgid "Enter Your E-mail to Continue"
+msgstr ""
+
+#: wishlist-member/wpm.php:2091
+#, php-format
+msgid "Welcome %1$s"
+msgstr ""
+
+#: wishlist-member/wpm.php:2125
+msgid "More levels"
+msgstr ""
+
+#: wishlist-member/wpm.php:2125
+msgid "Less levels"
+msgstr ""
+
+#: wishlist-member/wpm.php:2133
+msgid "Membership Details"
+msgstr ""
+
+#: wishlist-member/wpm.php:2136
+msgid "RSS Feed"
+msgstr ""
+
+#: wishlist-member/wpm.php:2143
+msgid "Logout"
+msgstr ""
+
+#: wishlist-member/wpm.php:2155
+msgid "You are not currently logged in."
+msgstr ""
+
+#: wishlist-member/wpm.php:2161
+msgid "Register"
+msgstr ""
+
+#: wishlist-member/wpm.php:2189
+msgid "Title when logged in"
+msgstr ""
+
+#: wishlist-member/wpm.php:2190
+msgid "Title when logged out"
+msgstr ""
+
+#: wishlist-member/wpm.php:2191
+msgid "Advanced Options"
+msgstr ""
+
+#: wishlist-member/wpm.php:2192
+msgid "Hide RSS Link"
+msgstr ""
+
+#: wishlist-member/wpm.php:2193
+msgid "Hide Register Link"
+msgstr ""
+
+#: wishlist-member/wpm.php:2194
+msgid "Only display if member is logged in"
+msgstr ""
+
+#: wishlist-member/wpm.php:2195
+msgid "Hide membership levels"
+msgstr ""
+
+#: wishlist-member/wpm.php:2196
+msgid "Width of Login Fields"
+msgstr ""
+
+#: wishlist-member/wpm.php:2200
+msgid "Membership Detail"
+msgstr ""
+
+#: wishlist-member/wpm.php:2203
+msgid "Login Status"
+msgstr ""
+
+#: wishlist-member/wpm.php:2454
+#, php-format
+msgid "Protect this %s?"
+msgstr ""
+
+#: wishlist-member/wpm.php:2522
+msgid "Terms of Service"
+msgstr ""
+
+#: wishlist-member/wpm.php:2531
+msgid "<h3>Additional Registration Information</h3>"
+msgstr ""
+
+#: wishlist-member/wpm.php:2548
+msgid "Mailing List Subscription"
+msgstr ""
+
+#: wishlist-member/wpm.php:2549
+msgid "Subscribe to Mailing List"
+msgstr ""
+
+#: wishlist-member/wpm.php:2571
+msgid "Level"
+msgstr ""
+
+#: wishlist-member/wpm.php:2571
+msgid "Transaction ID"
+msgstr ""
+
+#: wishlist-member/wpm.php:2571
+msgid "Date Added to Level"
+msgstr ""
+
+#: wishlist-member/wpm.php:2584
+msgid "Login Limit"
+msgstr ""
+
+#: wishlist-member/wpm.php:2585
+msgid "IPs Logged in Today"
+msgstr ""
+
+#: wishlist-member/wpm.php:2586
+msgid "Special Values:"
+msgstr ""
+
+#: wishlist-member/wpm.php:2587
+msgid "<b>0</b> or Blank: Use default settings"
+msgstr ""
+
+#: wishlist-member/wpm.php:2588
+msgid "<b>-1</b>: No limit for this user"
+msgstr ""
+
+#: wishlist-member/wpm.php:2608
+msgid "Reset Limit Counter"
+msgstr ""
+
+#: wishlist-member/wpm.php:2612
+msgid "This user has not yet logged in for the day"
+msgstr ""
+
+#: wishlist-member/wpm.php:2626
+msgid "Update Member Profile"
+msgstr ""
+
+#: wishlist-member/wpm.php:2627
+msgid "Delete This Member"
+msgstr ""
+
+#: wishlist-member/wpm.php:2628
+msgid "Warning!\\n\\nAre you sure you want to delete this user?"
+msgstr ""
+
+#: wishlist-member/wpm.php:2629
+msgid ""
+"Last Warning!\\n\\nAre you really sure that you want to delete this user?"
+"\\nNote that this action cannot be undone."
+msgstr ""
+
+#: wishlist-member/wpm.php:2652
+msgid "add to blacklist"
+msgstr ""
+
+#: wishlist-member/wpm.php:2654
+msgid "Last Login"
+msgstr ""
+
+#: wishlist-member/wpm.php:2655
+msgid "Address"
+msgstr ""
+
+#: wishlist-member/wpm.php:2656
+msgid "Company"
+msgstr ""
+
+#: wishlist-member/wpm.php:2659
+msgid "Zip"
+msgstr ""
+
+#: wishlist-member/wpm.php:3543
+#, php-format
+msgid "The most current version of WishList Member is v%s."
+msgstr ""
+
+#: wishlist-member/wpm.php:3546
+msgid "Please update now."
+msgstr ""
+
+#: wishlist-member/wpm.php:3676
+msgid "Settings"
+msgstr ""
+
+#: wishlist-member/wpm.php:3680
+msgid "Sequential Upgrade"
+msgstr ""

@@ -1,0 +1,11 @@
+<th>Theme</th>
+<td>
+	<select
+			name="recaptcha_keys[theme]"
+			type="text"
+			value="<?php echo $this->recaptcha_keys['private']?>" />
+		<?php foreach($this->data()->recaptcha_keys['themes'] as $theme):?>
+		<option <?php $this->selected($theme,$this->recaptcha_keys['theme']);?>><?php echo $theme;?></option>
+		<?php endforeach;?>
+	</select>
+</td>

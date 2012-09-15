@@ -1,0 +1,10 @@
+<label	for='<?php echo $this->field_id;?>'
+		class='concise_prompt inline'><?php echo $this->field_definition['question']?></label>
+<input	type="text"
+		class='number'
+		id="<?php echo $this->field_id?>" 
+		name="<?php echo $this->field_name?>[question]"
+		value='' />
+<input	type="hidden"
+		name="<?php echo $this->field_name?>[answer]"
+		value='<?php echo $this->field_definition['captcha']->answer?>' />

@@ -1,0 +1,18 @@
+<label	for='<?php echo $this->field_id;?>_url'
+		class='concise_prompt'><?php echo $this->field_definition['question'];?></label>
+<?php if(isset($this->field_definition['question_long']) && !empty($this->field_definition['question_long'])):?>
+<label	for='<?php echo $this->field_id;?>'
+		class='expanded_prompt'><?php echo $this->field_definition['question_long']?></label>
+<?php endif;?>
+<input	type="text"
+		id="<?php echo $this->field_id;?>_url" 
+		name="<?php echo $this->field_name;?>[url]"
+		value="<?php echo $this->field_definition['value']['url'];?>" />
+<label	for='<?php echo $this->field_id?>_url'
+		class='option'>URL</label>
+<input	type="text"
+		id="<?php echo $this->field_id?>_desc" 
+		name="<?php echo $this->field_name?>[desc]"
+		value="<?php echo $this->field_definition['value']['desc'];?>" />
+<label	for='<?php echo $this->field_id?>_desc'
+		class='option'>Caption</label>

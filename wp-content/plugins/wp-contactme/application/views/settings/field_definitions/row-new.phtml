@@ -1,0 +1,16 @@
+<th>
+	<label 	for="type_<?php echo $this->value['field'];?>"><span class = "v48fv_20x20_new" title='New'>Type</span></label>
+</th>
+<td>
+	<input 	name="field_definitions[<?php echo $this->value['field'];?>][field]"
+	type = "hidden"
+	value="99990">
+	<select id="type_<?php echo $this->value['field'];?>"
+		name="field_definitions[<?php echo $this->value['field'];?>][type]"
+		>
+			<option value="new">New Field</option>		
+			<?php foreach($this->types as $key=>$value):?>
+			<option value="<?php echo $key;?>"><?php echo $value['text'];?></option>
+		<?php endforeach;?>
+	</select>
+</td>

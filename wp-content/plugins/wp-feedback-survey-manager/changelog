@@ -1,0 +1,18 @@
+= Version 1.0.1 =
+* Generated the POT file for translation.
+* Fixed some typo in the readme file.
+* Added the WP support link to the admin section.
+* Added error message on [feedback_trend] for no enabled surveys
+* **Added**: /translations/fbsr-en_US.pot
+* **Added**: /changelog
+* **Updated**: /readme.txt
+* **Updated**: /feedback_survey.php
+* **Updated**: /classes/install-class.php
+* **Updated**: /classes/form-class.php
+
+Second Commit:
+    Updated: /translations/fbst-en_US.pot
+    Updated: /readme.txt
+
+= Version 1.0.0 =
+* Public Release

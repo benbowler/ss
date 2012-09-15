@@ -1,0 +1,24 @@
+<label	for='<?php echo $this->field_id;?>'
+		class='concise_prompt'><?php echo $this->field_definition['question']?></label>
+<?php if(isset($this->field_definition['question_long']) && !empty($this->field_definition['question_long'])):?>
+<label	for='<?php echo $this->field_id;?>'
+		class='expanded_prompt'><?php echo $this->field_definition['question_long']?></label>
+<ul class='options'>
+<?php 
+	endif;
+	$cnt=0; 
+	foreach($this->field_definition['options'] as $option):?>
+		<li>
+			<input	type="radio"
+				<?php echo $this->readonly; ?>
+				<?php checked($this->field_definition['value'],$option);?>
+				id="<?php echo "{$this->field_id}_{$cnt}";?>" 
+				name="<?php echo $this->field_name?>"
+				value='<?php echo $option;?>' />
+			<label	for='<?php echo "{$this->field_id}_{$cnt}";?>'
+					class='option'><?php echo $option;?></label>
+		</li>
+<?php 
+		$cnt++;
+	endforeach;?>
+</ul>

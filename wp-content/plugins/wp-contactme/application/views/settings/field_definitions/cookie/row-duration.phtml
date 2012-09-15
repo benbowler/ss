@@ -1,0 +1,9 @@
+<th>Duration</th>
+<td>
+	<input type="text" value="<?php echo $this->general['duration']?>" class='number' name="general[duration]"/>
+	<select name="general[scale]">
+		<?php foreach($this->general['options']['scale'] as $option):?>
+			<option  <?php echo $option['selected'];?> value="<?php echo $option['value'];?>"><?php echo $option['text'];?></option>
+		<?php endforeach;?>
+	</select>
+</td>

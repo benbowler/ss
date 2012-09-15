@@ -1,0 +1,284 @@
+#graphic-man {
+	display: block;
+	float: left;
+
+	margin: 20px;
+
+	height: 450px;
+	width: 370px;
+	ul {
+		clear: both;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+	}
+	ul#front {
+		height: 450px;
+		width: 178px;
+		margin-top: 2px;
+		overflow: hidden;
+		background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat;
+		li {
+			display: block;
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			z-index: 10;
+			a {
+				width: 100%;
+				height: 100%;
+				display: block;
+
+				line-height: 30px;
+				text-align: center;
+				font-size: 12px;
+
+				text-decoration: none;
+			}
+			a:hover {
+			}
+		}
+		li a span {
+			position: relative;
+			top: 20px;
+			display: none;
+		}
+		li.neck a span, li.knee a span, li.head a span {
+			position: relative;
+			top: 0;
+		}
+		li a:hover span {
+			display: block;
+		}
+		li.left a span {
+			width: 145px;
+			height: 20px;
+			position: relative;
+			right: 123px;
+			text-align: right;
+		}
+		li.right a span {
+			width: 145px;
+			height: 20px;
+			position: relative;
+			left: 22px;
+			text-align: left;
+		}
+
+		/* Area Positioning */
+		li.head { top: 1px; left: 66px; height: 58px; width: 47px; }
+		li.neck { top: 53px; left: 44px; height: 33px; width: 86px; }
+			li.pectoralis { z-index: 20; }
+		li.pectoralis.right { top: 77px; left: 50px; height: 54px; width: 38px; }
+		li.pectoralis.left { top: 77px; left: 89px; height: 54px; width: 38px; }
+		li.front-deltoid.right { top: 73px; left: 26px; height: 49px; width: 36px; }
+		li.front-deltoid.left { top: 73px; left: 115px; height: 49px; width: 36px; }
+		li.biceps.right { top: 103px; left: 25px; height: 71px; width: 26px; }
+		li.biceps.left { top: 103px; left: 125px; height: 71px; width: 26px; }
+		li.elbow.right { top: 158px; left: 1px; height: 97px; width: 39px; }
+		li.elbow.left { top: 159px; left: 136px; height: 97px; width: 41px; }
+		li.abdominal { top: 119px; left: 53px; height: 101px; width: 71px; }
+			li.adductors { z-index: 20; }
+		li.adductors.right { top: 201px; left: 59px; height: 63px; width: 30px; }
+		li.adductors.left { top: 201px; left: 90px; height: 63px; width: 30px; }
+		li.quadriceps.right { top: 201px; left: 45px; height: 114px; width: 42px; }
+		li.quadriceps.left { top: 201px; left: 89px; height: 114px; width: 42px; }
+			li.knee { z-index: 20; }
+		li.knee.right { top: 304px; left: 55px; height: 34px; width: 27px; }
+		li.knee.left { top: 304px; left: 94px; height: 34px; width: 27px; }
+		li.shin.right { top: 331px; left: 54px; height: 83px; width: 31px; }
+		li.shin.left { top: 331px; left: 91px; height: 83px; width: 31px; }
+		li.foot.right { top: 402px; left: 56px; height: 46px; width: 32px; }
+		li.foot.left { top: 402px; left: 88px; height: 46px; width: 32px; }
+
+	}
+	ul#front.red {
+		/* Sprite Positioning (Red) */
+		li.head > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -182px -1px; }
+		li.neck > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -225px -53px; }
+		li.pectoralis.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -380px -77px; }
+		li.pectoralis.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -424px -77px; }
+		li.front-deltoid.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -180px -73px; }
+		li.front-deltoid.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -468px -73px; }
+		li.biceps.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -248px -103px; }
+		li.biceps.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -507px -103px; }
+		li.elbow.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -180px -158px }
+		li.elbow.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat  -464px -159px; }
+		li.abdominal > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -305px -119px; }
+		li.adductors.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -268px -201px; }
+		li.adductors.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat  -384px -201px; }
+		li.quadriceps.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -224px -201px; }
+		li.quadriceps.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -420px -201px; }
+		li.knee.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -274px -304px; }
+		li.knee.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -305px -304px; }
+		li.shin.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -346px -331px; }
+		li.shin.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -385px -331px; }
+		li.foot.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -269px -402px; }
+		li.foot.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -308px -402px; }
+	}
+	ul#front.green {
+		/* Sprite Positioning (Green) */
+		li.head > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -540px -1px; }
+		li.neck > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -583px -53px; }
+		li.pectoralis.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -738px -77px; }
+		li.pectoralis.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -783px -77px; }
+		li.front-deltoid.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -539px -73px; }
+		li.front-deltoid.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -827px -73px; }
+		li.biceps.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -606px -103px; }
+		li.biceps.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -865px -103px; }
+		li.elbow.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -539px -158px }
+		li.elbow.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat  -823px -159px; }
+		li.abdominal > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -663px -119px; }
+		li.adductors.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -626px -201px; }
+		li.adductors.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat  -743px -201px; }
+		li.quadriceps.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -583px -201px; }
+		li.quadriceps.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -779px -201px; }
+		li.knee.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -633px -304px; }
+		li.knee.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -664px -304px; }
+		li.shin.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -705px -331px; }
+		li.shin.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -744px -331px; }
+		li.foot.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -628px -402px; }
+		li.foot.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-front.png") no-repeat -667px -402px; }
+	}
+	ul#back {
+		height: 450px;
+		width: 180px;
+		overflow: hidden;
+		background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat;
+
+		margin-left: 190px;
+
+		li {
+			display: block;
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			z-index: 10;
+			a {
+				width: 100%;
+				height: 100%;
+				display: block;
+
+				line-height: 30px;
+				text-align: center;
+				font-size: 12px;
+
+				text-decoration: none;
+			}
+		}
+		li a span {
+			position: relative;
+			top: 20px;
+			display: none;
+		}
+		li a:hover span {
+			display: block;
+		}
+		li.right a span {
+			width: 145px;
+			height: 20px;
+			position: relative;
+			right: 101px;
+			text-align: right;
+		}
+		li.left a span {
+			width: 145px;
+			height: 20px;
+			position: relative;
+			right: 2px;
+			text-align: left;
+		}
+		li.achilles a span {
+			position: relative;
+			right: 24px;
+			text-align: left;
+		}
+		li.head a span {
+			position: relative;
+			top: 0;
+		}
+
+		// Area Positioning 
+		li.head { top: 1px; left: 66px; height: 55px; width: 47px; }
+			li.head { z-index: 20; }
+		li.upper-back { top: 35px; left: 47px; height: 94px; width: 88px; }
+		li.posterior-deltoid.left { top: 72px; left: 27px; height: 50px; width: 38px; }
+		li.posterior-deltoid.right { top: 72px; left: 115px; height: 50px; width: 38px; }
+		li.triceps.left { top: 116px; left: 27px; height: 60px; width: 24px; }
+		li.triceps.right { top: 117px; left: 129px; height: 60px; width: 24px; }
+		li.teres.left { top: 92px; left: 36px; height: 31px; width: 48px; }
+		li.teres.right { top: 92px; left: 96px; height: 29px; width: 48px; }
+		li.elbow.left { top: 159px; left: 1px; height: 98px; width: 41px; }
+		li.elbow.right { top: 159px; left: 136px; height: 98px; width: 43px; }
+		li.back { top: 115px; left: 35px; height: 109px; width: 111px; }
+			li.back { z-index: 5; }
+		li.lower-back.left { top: 163px; left: 52px; height: 49px; width: 19px; }
+		li.lower-back.right { top: 163px; left: 109px; height: 49px; width: 19px; }
+		li.buttock.left { top: 197px; left: 45px; height: 76px; width: 44px; }
+		li.buttock.right { top: 197px; left: 90px; height: 76px; width: 44px; }
+		li.hamstring.left { top: 246px; left: 48px; height: 110px; width: 41px; }
+		li.hamstring.right { top: 246px; left: 90px; height: 110px; width: 42px; }
+		li.calf.left { top: 343px; left: 56px; height: 68px; width: 32px; }
+		li.calf.right { top: 344px; left: 92px; height: 68px; width: 32px; }
+		li.achilles.left { top: 398px; left: 57px; height: 51px; width: 31px; }
+		li.achilles.right { top: 398px; left: 91px; height: 51px; width: 31px; }
+	}
+	ul#back.red {
+		// Sprite Positioning (Red)
+		li.head > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -180px -1px; }
+		li.upper-back > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -227px -35px }
+		li.posterior-deltoid.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -179px -72px; }
+		li.posterior-deltoid.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -616px -72px; }
+		li.triceps.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -331px -116px; }
+		li.triceps.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -359px -117px; }
+		li.teres.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -507px -92px; }
+		li.teres.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -563px -92px; }
+		li.elbow.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -181px -159px; }
+		li.elbow.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat  -604px -159px; }
+		li.back > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -388px -115px; }
+		li.lower-back.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -522px -163px; }
+		li.lower-back.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -579px -163px; }
+		li.buttock.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -225px -197px; }
+		li.buttock.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -270px -197px; }
+		li.hamstring.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -326px -246px; }
+		li.hamstring.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -369px -246px; }
+		li.calf.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -236px -343px; }
+		li.calf.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -272px -344px; }
+		li.achilles.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -335px -398px; }
+		li.achilles.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -369px -398px; }
+	}
+	ul#back.green {
+		// Sprite Positioning (Green) 
+		li.head > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -655px -1px; }
+		li.upper-back > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -702px -35px }
+		li.posterior-deltoid.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -654px -72px; }
+		li.posterior-deltoid.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -1091px -72px; }
+		li.triceps.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -806px -116px; }
+		li.triceps.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -834px -117px; }
+		li.teres.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -982px -92px; }
+		li.teres.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -1038px -92px; }
+		li.elbow.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -656px -159px; }
+		li.elbow.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat  -1079px -159px; }
+		li.back > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -863px -115px; }
+		li.lower-back.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -997px -163px; }
+		li.lower-back.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -1054px -163px; }
+		li.buttock.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -700px -197px; }
+		li.buttock.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -745px -197px; }
+		li.hamstring.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -801px -246px; }
+		li.hamstring.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -843px -246px; }
+		li.calf.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -711px -343px; }
+		li.calf.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -747px -344px; }
+		li.achilles.left > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -810px -398px; }
+		li.achilles.right > a:hover { background: url("/wp-content/themes/the-bootstrap/graphicman/graphic-man-back.png") no-repeat -844px -398px; }
+	}
+}
+#question {
+	display: block;
+	width: 400px;
+	float: left;
+	p, select {
+		padding: 20p 0;
+	}
+}

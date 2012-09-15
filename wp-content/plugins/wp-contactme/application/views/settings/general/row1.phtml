@@ -1,0 +1,8 @@
+<th>Configurability</th>
+<td>
+	<select name="general[config]">
+		<?php foreach($this->general['options']['config'] as $option):?>
+			<option  <?php echo $option['selected'];?> value="<?php echo $option['value'];?>"><?php echo $option["text"];?></option>
+		<?php endforeach;?>
+	</select>
+</td>

@@ -1,0 +1,172 @@
+{
+	"general":
+	{
+		"config":"debug",
+		"duration":1,
+		"scale":1
+	},
+	"data_collection":
+	{
+		"email":
+		{
+			"do":"checked",
+			"address":"v48fv_testing@dcoda.co.uk"
+		},
+		"post":
+		{
+			"do":"checked",
+			"name":"v48fv_testing"
+		},
+		"results":
+		{
+			"do":"checked"
+		},
+		"table":
+		{
+			"do":"checked"
+		},
+		"disabled":
+		{
+			"email":0,
+			"post":0,
+			"table":0,
+			"results":0
+		}
+	},
+	"field_definitions":
+	[
+		{
+			"type":"wpuser",
+			"email":{"include":"checked"},
+			"post":{"include":"checked"},
+			"results":{"include":"checked"}
+		},
+		{
+			"type":"quiz_header",
+			"email":{"include":"checked"},
+			"post":{"include":"checked"}
+		},
+		{
+			"type":"textstring",
+			"pending":{"include":"checked"},
+			"closed":{"include":"checked"},
+			"rss":{"include":"checked"},
+			"email":{"include":"checked"},
+			"post":{"include":"checked"},
+			"results":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"private":{"include":"checked"},
+			"question_long":"Just some text."
+		},
+		{
+			"type":"cc",
+			"email":{"include":"checked"},
+			"post":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"results":{"include":"checked"},
+			"table":{"include":"checked"}
+		},
+		{
+			"type":"checkbox",
+			"question":"Checkbox question1.",
+			"results":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"question_long":"Checkbox with no options."		
+		},
+		{
+			"type":"checkbox",
+			"question":"Checkbox question2.",
+			"results":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"question_long":"Checkbox with some options.",
+			"options":"Option A\nOption B"		
+		},
+		{
+			"type":"radio",
+			"question":"Radio question1.",
+			"results":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"question_long":"Radio with no options."		
+		},
+		{
+			"type":"radio",
+			"question":"Radio question2.",
+			"results":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"question_long":"Ratio with some options.",
+			"options":"Option A\nOption B"		
+		},
+		{
+			"type":"text",
+			"question":"Textbox question1.",
+			"results":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"question_long":"Textbox with no options."		
+		},
+		{
+			"type":"text",
+			"question":"Textbox question2.",
+			"results":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"question_long":"Textbox with some options.",
+			"options":"Option A\nOption B"		
+		},
+		{
+			"type":"textarea",
+			"question":"Text Area question.",
+			"results":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"question_long":"Just A text area."		
+		},
+		{
+			"type":"name",
+			"email":{"include":"checked"},
+			"post":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"results":{"include":"checked"}		
+		},
+		{
+			"type":"link",
+			"question":"Link question.",
+			"email":{"include":"checked"},
+			"post":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"results":{"include":"checked"},
+			"question_long":"Just A link question."
+		},
+		{
+			"type":"quiz_question",
+			"question":"Quiz question.",
+			"question_long":"Just A Quiz question.",
+			"options":"Option A\nOption B",
+			"cookie":{"include":"checked"},
+			"answer":"Option A"		
+		},
+		{
+			"type":"poll_question",
+			"question":"Poll question.",
+			"question_long":"Just A Poll question.",
+			"options":"Option A\nOption B"
+		},
+		{
+			"type":"email",
+			"email":{"include":"checked"},
+			"post":{"include":"checked"},
+			"cookie":{"include":"checked"},
+			"results":{"include":"checked"}
+		},
+		{
+			"type":"formsent",
+			"email":{"include":"checked"},
+			"post":{"include":"checked"},
+			"results":{"include":"checked"}
+		},
+		{
+			"type":"submit",
+			"email":{"include":"checked"},
+			"post":{"include":"checked"},
+			"results":{"include":"checked"}
+		}
+		
+	]
+}

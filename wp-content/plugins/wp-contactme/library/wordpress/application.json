@@ -1,0 +1,38 @@
+{
+	"classes" :
+	{
+		"application":"wv48fv_application",
+		"table":"wv48fv_data_table",
+		"data":"wv48fv_data_settings",
+		"legacy":"wv48fv_data_legacy",
+		"_load":
+		[
+			"wv48fv_data_table",
+			"wv48fv_view",
+			"wv48fv_action",
+			"wv48fv_widget",
+			"wv48fv_data_settings",
+			"bv48fv_http",
+			"wv48fv_mu",
+			"wv48fv_posts",
+			"wv48fv_blogs",
+			"wv48fv_data_legacy",
+			"wv48fv_comments",
+			"wv48fv_user"
+		]
+	},
+	"write_only":null,
+	"force_to_db":false,
+	"folders" : {"w":"library/wordpress"},
+	"new_settings":false,
+	"wordpress" : 
+	{
+		"author" : "",
+		"stable_tag": "",
+		"author_uri" : "",
+		"uri" : "http:\/\/dcoda.co.uk\/wordpress\/",
+		"at_least" : "3.0.0",
+		"up_to" : "3.3.1"
+	},
+	"priority": 40
+}

@@ -1,0 +1,64 @@
+{
+	"field_definitions":
+	[
+		{
+			"type":"email"
+		},
+		{
+			"type":"poll_question",
+			"question":"Poll Question",
+			"options":"Option A\nOption B\nOption C"
+		}
+	],
+	"general":
+	{
+		"duration":1,
+		"scale":31536000
+	},
+	"data_collection":
+	{
+		"results":{
+			"do":"checked"
+		},
+		"table":{
+			"do":"checked"
+		},
+		"disabled":
+		{
+			"email":1,
+			"table":1,
+			"results":1,
+			"post":1
+		}
+	},
+	"views":
+	{
+		"responses":
+		{
+			"thank_you":
+			{
+				"phtml":""
+			},
+			"closed":
+			{
+				"phtml":"<p>\n\tThe poll is now closed.\n</p>"
+			},
+			"pending":
+			{
+				"phtml":"<p>\n\tThe poll is now closed.\n</p>"
+			},
+			"rsserror":
+			{
+				"phtml":"<p>\n\tTo take this poll visit <a href='<?php echo get_permalink();?>'><?php echo get_permalink();?></a>.\n</p>"
+			},
+			"private":
+			{
+				"phtml":"<small>\n\tYou must be logged in to 'vote'<br/>\n\t<ul>\n\t\t<li>\n\t\t\t<?php wp_loginout(get_permalink())?>\n\t\t</li>\n\t\t<?php wp_register();?>\n\t<ul>\t\n</small>"
+			},
+			"already_submitted":
+			{
+				"phtml":"<p>\n\tYou have already taken this poll.\n</p>"
+			}
+		}
+	}
+}

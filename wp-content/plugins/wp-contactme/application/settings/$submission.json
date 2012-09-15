@@ -1,0 +1,64 @@
+{
+	"field_definitions":
+	[
+		{
+			"type":"name"
+		},
+		{
+			"type":"email"
+		},
+		{
+			"type":"link",
+			"question":"Link",
+			"mandatory":"checked"
+		},
+		{
+			"type":"textarea",
+			"question":"Description",
+			"mandatory":"checked"
+		}
+	],
+	"general":
+	{
+		"duration":1,
+		"scale":31536000
+	},
+	"data_collection":
+	{
+		"post":
+		{
+			"do":"checked"
+		},
+		"disabled":
+		{
+			"post":""
+		}
+	},
+	"views":
+	{
+		"responses":
+		{
+			"thank_you":
+			{
+				"phtml":"<p>\n\tThank you</p>\n<p>\n\tYour submission has been added\n</p>"
+			},
+			"closed":
+			{
+				"phtml":"<p>\n\tSubmissions are now closed.\n</p>\n<p>\n\tYou can see the submissions <a href='<?php echo $this->permalink?>'>here</a>.\n</p>"
+			},
+			"pending":
+			{
+				"phtml":"<p>\n\tSubmissions are now closed.</p>\n<p>\n\tThe submissions are being collated, please call back later\n</p>"
+			},
+			"rsserror":
+			{
+				"phtml":"<p>\n\t\tTo make your submission visit <a href='<?php echo get_permalink();?>'><?php echo get_permalink();?></a></p>"
+			},
+			"already_submitted":
+			{
+				"phtml":"<p>\n\tYou have already made your submission.\n</p>"
+			}
+
+		}
+	}
+}

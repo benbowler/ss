@@ -1,0 +1,797 @@
+/** style.css
+ * 
+ * Theme Name:	The Bootstrap
+ * Theme URI:	http://en.wp.obenland.it/the-bootstrap/
+ * Description:	A WordPress Theme based on Bootstrap, from Twitter. It features a 100% responsive layout, a superb gallery and image handling with a custom image meta widget and carousel for gallery post-formats, the Glyphicon Icon set, a clean and simple design and a lot more! The Bootstrap runs on HTML5 and CSS3, a 12-column grid and comes with custom jQuery plugins. See the Bootstrap documentation on GitHub for reference.
+ * Author:		Konstantin Obenland
+ * Author URI:	http://en.wp.obenland.it/
+ * Version:		1.8.2
+ * Tags:		black, blue, white, light, custom-background, custom-header, custom-menu, featured-images, flexible-width, full-width-template, left-sidebar, microformats, post-formats, right-sidebar, sticky-post, theme-options, threaded-comments, translation-ready, two-columns
+ * Text Domain:	the-bootstrap
+ * Domain Path:	/lang
+ *
+ * License:		GNU General Public License v3.0
+ * License URI:	http://www.gnu.org/licenses/gpl-3.0.html
+ *
+ *
+ *	Copyright (C) 2012 Konstantin Obenland <konstantin@obenland.it>
+ *
+ *	This program is free software: you can redistribute it and/or modify
+ *	it under the terms of the GNU General Public License as published by
+ *	the Free Software Foundation, either version 3 of the License, or
+ *	(at your option) any later version.
+ *
+ *	This program is distributed in the hope that it will be useful,
+ *	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *	GNU General Public License for more details.
+ *
+ *	You should have received a copy of the GNU General Public License
+ *	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+
+/* =Elements
+-------------------------------------------------------------- */
+
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+
+blockquote cite {
+    color: #999999;
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+figure {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .clear {
+	clear: both;
+}
+
+
+/* =Classes
+-------------------------------------------------------------- */
+
+.assistive-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+
+body > .container {
+	margin: 18px auto;
+}
+
+/* Right Content */
+.sidebar-content #primary,
+.sidebar-content #attachment-comment {
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+.navbar-fixed-top {
+	position: fixed;
+}
+
+
+/* =Page
+-------------------------------------------------------------- */
+
+#page {
+	background-color: #FFFFFF;
+	margin-right: -20px;
+	padding: 14px 0 0;
+}
+
+.page-header {
+	margin: 0 0 18px;
+}
+
+#header-image {
+	display: block;
+}
+
+#menu-alert {
+	margin: 4px 0 0;
+	padding: 6px 35px 6px 14px;
+	position: absolute;
+}
+
+#branding hgroup,
+#header-image,
+.entry-content {
+	margin-bottom: 18px;
+}
+
+.entry-attachment {
+	margin-bottom: 36px;
+}
+
+.single #author-info,
+.author #author-info,
+.single article.post,
+.single article.page {
+	margin-bottom: 54px;
+}
+
+#author-info,
+article.post,
+article.page {
+	margin-bottom: 72px;
+}
+
+.page-header,
+.entry-content {
+	word-wrap: break-word;
+}
+
+.post-password-form legend {
+	font-size: inherit;
+}
+
+.entry-attachment figure {
+	display: table;
+	margin: 0 auto;
+}
+
+
+/* =Comments
+-------------------------------------------------------------- */
+
+#comments-title {
+	border-bottom: 1px solid #EEEEEE;
+	font-size: 19.5px;
+    margin: 0 0 27px;
+}
+
+#comment,
+.entry-content iframe,
+.entry-content embed {
+	max-width: 100%;
+}
+
+.commentlist > li {
+	margin-bottom: 36px;
+}
+
+.commentlist ul.children {
+	margin: 10px 0 18px;
+	list-style: none;
+}
+
+#reply-title {
+	position: relative;
+}
+
+#reply-title small {
+	position: absolute;
+	right: 0;
+	top: 7px;
+}
+
+
+/* =Sidebar
+-------------------------------------------------------------- */
+
+.form-search {
+	margin: 0;
+}
+
+.widget {
+	word-wrap: break-word;
+}
+
+.widget img {
+	height: auto;
+}
+
+.widget .wp-caption {
+	display: inline-block;
+}
+
+
+/* =Images
+-------------------------------------------------------------- */
+
+.entry-content .post-thumbnail {
+	margin: 0 20px 20px 0;
+}
+
+.thumbnail > img {
+	width: 100%;
+	width: auto\9; /* Cure IE8 max-width bug */
+}
+
+header img,
+.entry-content img,
+.comment-content img,
+.widget img {
+	max-width: 100%; /* Fluid images for posts, comments, and widgets */
+}
+
+header img,
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"],
+img[class*="avatar"] {
+	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+
+img.wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+
+/* =Footer
+-------------------------------------------------------------- */
+
+#colophon .credits {
+	margin: 0;
+}
+
+#site-generator {
+	float: right;
+	font-family: Georgia, "Bitstream Charter", serif;
+	font-style: italic;
+}
+
+#site-generator a {
+	background: url("images/wordpress.png") no-repeat scroll left center transparent;
+	color: #787878;
+	display: inline-block;
+	line-height: 16px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+#site-generator.footer-nav-menu a {
+	margin-top: 10px;
+}
+
+table .label {
+	background-color: transparent;
+	border-radius: none;
+	color: inherit;
+	font-size: inherit;
+	text-transform: inherit;
+}
+
+
+/* =Jetpack Support
+-------------------------------------------------------------- */
+
+.comment-subscription-form > input[type=checkbox] {
+	position: absolute;
+}
+
+.comment-subscription-form > label {
+	min-height: 18px;
+    padding-left: 18px;
+}
+
+
+/* =Bootstrap Adjustments
+-------------------------------------------------------------- */
+
+#comment,
+.thumbnail {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.label .post-edit-link,
+.label .comment-edit-link {
+	color: #FFFFFF;
+}
+
+.navbar .btn, .navbar .btn-group {
+    margin: 5px;
+}
+
+.navbar-search {
+	height: 34px;
+}
+
+.pagination span {
+	background-color: #f5f5f5;
+	border: 1px solid #ddd;
+	border-left-width: 0;
+	color: #999999;
+	cursor: default;
+	float: left;
+	line-height: 34px;
+	padding: 0 14px;
+}
+.pagination span.dots,
+.pagination a {
+	background-color: #FFFFFF;
+}
+
+.pagination li:first-child span {
+  border-left-width: 1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+    display:block;
+    margin: 0 auto 20px;
+}
+
+.alignright {
+    float:right;
+    margin: 0 0 20px 20px;
+}
+
+.alignleft {
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+a img.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption,
+.entry-caption {
+	padding: 0 9px 9px;
+	text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+	padding-top: 9px;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption.aligncenter {
+    text-align: center;
+}
+
+.sticky {}
+.bypostauthor {}
+
+
+/* =Responsiveness
+-------------------------------------------------------------- */
+
+@media (max-width: 767px) {
+	body {
+		padding:0;
+	}
+	.container {
+		width: auto;
+		padding: 0 10px;
+	}
+	#page {
+		margin: 0;
+		padding: 10px 10px 10px -20px;
+	}
+	.thumbnail[class*="span"],
+	.gallery [class*="span"] .thumbnail {
+		display: table;
+		float: left;
+	}
+	.carousel .item > img {
+		width: 100%;
+	}
+	.thumbnails > li:nth-child(4n+1) {
+		margin-left:0;
+	}
+	.thumbnails [class*="span"] {
+		width: 21%;
+	}
+	.thumbnail > img {
+		width: auto;
+	}
+	.sidebar-content #primary,
+	.sidebar-content #attachment-comment {
+		float: none;
+		margin: inherit;
+	}
+	#s {
+		display: inline-block;
+	}
+	#site-generator,
+	#site-generator.footer-nav-menu a {
+		float: none;
+		margin-top: 5px;
+	}
+	textarea[class*="span"] {
+		height: auto;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom {
+		margin: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 778px) {
+	#page {
+		margin-right: -15px;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.dl-horizontal dt {
+		width: 85px;
+	}
+	.dl-horizontal dd {
+		margin-left: 95px;
+	}
+}
+@media (min-width: 1200px) {
+	#page {
+		margin-right: -30px;
+		padding: 24px 0 10px;
+		position: relative;
+		right: 30px;
+	}
+	.sidebar-content #primary,
+	.sidebar-content #attachment-comment {
+		margin-right: 30px;
+	}
+	.wp-caption {
+		display: table;
+	}
+}
+
+/* Theme modifications */
+/* Iconic 
+@font-face { 
+  font-family: 'IconicStroke'; 
+  font-weight: normal; 
+  font-style: normal; 
+  src: url('font/iconic_stroke.eot?') format('embedded-opentype'); 
+} 
+@font-face { 
+  font-family:'IconicStroke'; 
+  font-weight: normal; 
+  font-style: normal; 
+  src: url('font/iconic_stroke.ttf') format('truetype'); 
+} 
+.iconic { 
+  display:inline-block; 
+  font-family:'IconicStroke'; 
+}
+.search-query:before {
+	display:inline-block; 
+	font-family:'IconicStroke'; 
+	content:'\e074';
+	font-size:32px; 
+	vertical-align:.15em; 
+	margin-right:.25em; 
+	color:#ffffff; 
+	opacity:.8;
+	text-shadow:0px 1px 1px rgba(0,0,0,.3); 
+}
+*/
+/* Colors */
+h1, h2, h3, h4, h5, h6, a, a:hover, a:link, a:visited {
+	color: rgb(253,150,2);
+}
+/* Homepage */
+.home-page {
+	background-color: rgb(0,0,0);
+	header {
+		hgroup {
+			width: 60%;
+			float: left;
+		}
+		nav.subnav {
+			width: 30%;
+			float: right;
+		}
+		nav#access {
+			width: 100%;
+			clear: both;
+		}
+	}
+}
+/* Header */
+.navbar-inner {
+	background: #4c4c4c; /* Old browsers */
+	background: -moz-linear-gradient(top, #4c4c4c 0%, #2c2c2c 0%, #474747 50%, #000000 51%, #2b2b2b 51%, #1c1c1c 91%, #131313 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(0%,#2c2c2c), color-stop(50%,#474747), color-stop(51%,#000000), color-stop(51%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4c4c4c 0%,#2c2c2c 0%,#474747 50%,#000000 51%,#2b2b2b 51%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4c4c4c 0%,#2c2c2c 0%,#474747 50%,#000000 51%,#2b2b2b 51%,#1c1c1c 91%,#131313 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4c4c4c 0%,#2c2c2c 0%,#474747 50%,#000000 51%,#2b2b2b 51%,#1c1c1c 91%,#131313 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #4c4c4c 0%,#2c2c2c 0%,#474747 50%,#000000 51%,#2b2b2b 51%,#1c1c1c 91%,#131313 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+.navbar .divider-vertical {
+	margin: 0;
+}
+.navbar .nav .menu-item > a {
+	padding:  10px 24px;
+	text-shadow: none;
+	filter: none;
+}
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+	text-shadow: 0px 0px 4px #ffffff;
+	filter: dropshadow(color=#ffffff, offx=0, offy=0);
+}
+.navbar .brand {
+	text-indent: -1000em; /* Hide text. */
+	padding: 10px 30px;
+	width: 50px;
+	background: url("images/logo.png") no-repeat center center;
+}
+.navbar .brand .divider-vertical {
+	 float: right;
+}
+
+/* Footer */
+#page-footer {
+	padding: 20px 0 40px;
+	background: url("images/badge-black.png") no-repeat 98% 71%;
+	-webkit-box-shadow:  1px 2px 4px 1px rgba(0, 0, 0, 0.5);
+    box-shadow:  1px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+#page-footer .span3 {
+	padding: 0 20px;
+	border-left: 1px solid black;
+	min-height: 200px;
+}
+#page-footer .span3 h2 {
+	display: block;
+	margin-bottom: 10px;
+}
+#page-footer .span3 ul {
+	margin-left: 0;
+}
+#page-footer .span3 li {
+	list-style: none;
+	margin-left: 0;
+}
+#page-footer .span3:first-child {
+	border-left: none;
+}
+#copyright {
+	float: right;
+	position: relative;
+	bottom: 30px;
+	right: 20px;
+}
+#site-generator {
+	padding-top: 5px;
+	float: left;
+}
+#site-generator a {
+	color: white;
+}
+
+/* Registration */
+div.wlm_registration {
+	width: 500px;
+	margin: 0 auto;
+	.wlmreginstructions {
+		display: none;
+	}
+}
+
+/* Profile */
+div#item-header {
+	div#item-header-avatar, div#item-header-content, div#item-header-week {
+		margin-left: 0;
+		display: block;
+		float: left;
+	}
+	div#item-header-week {
+		text-align: right;
+	}
+}
+div.item-list-tabs, div.item-list-tabs#subnav {
+	margin: 20px 0;
+}
+.field-visibility-settings, .field-visibility-settings-toggle, .field-visibility-settings-notoggle, .editfield p.description, #activity-filter-select {
+	display: none;
+}
+
+/* Surveys */
+.wpst_question{
+	padding: 20px 0;
+	width: 100%;
+	clear: both;
+}
+.wpst_question .wpsqt_likert_answer {
+	width: 45px;
+	display: block;
+	float: left;
+}
+ul.wpsqt_multiple_question {
+	margin: 0;
+}
+ul.wpsqt_multiple_question li {
+	list-style: none;
+	display: block;
+	clear: both;
+	height: 20px;
+}
+ul.wpsqt_multiple_question li > input {
+	float: left;
+	margin-right: 10px;
+}
+.quiz {
+	.wpst_question {
+		clear: both;
+		p.wpst_question_text {
+			padding: 10px;
+			display: inline;
+		}
+		.wpsqt_likert_answer {
+			input {
+			}
+			label {
+				width: 20px;
+				height: 20px;
+				padding: 10px;
+				margin: 10px 20px 0 0;
+				text-align: center;
+				background-color: rgba(246, 159, 56, 1);
+
+				cursor: pointer;
+			}
+		}
+		.wpst_question label.selected {
+			background-color: rgba(192, 105, 0, 1);
+		}
+	}	
+}
+.quiz_1 {
+	.wpst_question_5 {
+		p.wpst_question_text { background-color: rgba(246, 159, 56, 1); }
+		.wpsqt_likert_answer_1 label { background-color: rgba(246, 159, 56, 0.5); }
+		.wpsqt_likert_answer_2 label { background-color: rgba(246, 159, 56, 0.55); }
+		.wpsqt_likert_answer_3 label { background-color: rgba(246, 159, 56, 0.6); }
+		.wpsqt_likert_answer_4 label { background-color: rgba(246, 159, 56, 0.65); }
+		.wpsqt_likert_answer_5 label { background-color: rgba(246, 159, 56, 0.7); }
+		.wpsqt_likert_answer_6 label { background-color: rgba(246, 159, 56, 0.75); }
+		.wpsqt_likert_answer_7 label { background-color: rgba(246, 159, 56, 0.8); }
+		.wpsqt_likert_answer_8 label { background-color: rgba(246, 159, 56, 0.85); }
+		.wpsqt_likert_answer_9 label { background-color: rgba(246, 159, 56, 0.9); }
+		.wpsqt_likert_answer_10 label { background-color: rgba(246, 159, 56, 1); }
+		label.selected { background-color: rgba(192, 105, 0, 1); }
+	}
+	.wpst_question_6 {
+		p.wpst_question_text { background-color: rgba(0, 192, 255, 1); }
+		.wpsqt_likert_answer_1 label { background-color: rgba(0, 192, 255, 0.5); }
+		.wpsqt_likert_answer_2 label { background-color: rgba(0, 192, 255, 0.55); }
+		.wpsqt_likert_answer_3 label { background-color: rgba(0, 192, 255, 0.6); }
+		.wpsqt_likert_answer_4 label { background-color: rgba(0, 192, 255, 0.65); }
+		.wpsqt_likert_answer_5 label { background-color: rgba(0, 192, 255, 0.7); }
+		.wpsqt_likert_answer_6 label { background-color: rgba(0, 192, 255, 0.75); }
+		.wpsqt_likert_answer_7 label { background-color: rgba(0, 192, 255, 0.8); }
+		.wpsqt_likert_answer_8 label { background-color: rgba(0, 192, 255, 0.85); }
+		.wpsqt_likert_answer_9 label { background-color: rgba(0, 192, 255, 0.9); }
+		.wpsqt_likert_answer_10 label { background-color: rgba(0, 192, 255, 1); }
+		label.selected { background-color: rgba(0, 152, 202, 1); }
+	}
+	.wpst_question_7 {
+		p.wpst_question_text { background-color: rgba(255, 117, 238, 1); }
+		.wpsqt_likert_answer_1 label { background-color: rgba(255, 117, 238, 0.5); }
+		.wpsqt_likert_answer_2 label { background-color: rgba(255, 117, 238, 0.55); }
+		.wpsqt_likert_answer_3 label { background-color: rgba(255, 117, 238, 0.6); }
+		.wpsqt_likert_answer_4 label { background-color: rgba(255, 117, 238, 0.65); }
+		.wpsqt_likert_answer_5 label { background-color: rgba(255, 117, 238, 0.7); }
+		.wpsqt_likert_answer_6 label { background-color: rgba(255, 117, 238, 0.75); }
+		.wpsqt_likert_answer_7 label { background-color: rgba(255, 117, 238, 0.8); }
+		.wpsqt_likert_answer_8 label { background-color: rgba(255, 117, 238, 0.85); }
+		.wpsqt_likert_answer_9 label { background-color: rgba(255, 117, 238, 0.9); }
+		.wpsqt_likert_answer_10 label { background-color: rgba(255, 117, 238, 1); }
+		label.selected { background-color: rgba(250, 70, 221, 1); }
+	}
+	.wpst_question_8 {
+		p.wpst_question_text { background-color: rgba(255, 222, 0, 1); }
+		.wpsqt_likert_answer_1 label { background-color: rgba(255, 222, 0, 0.5); }
+		.wpsqt_likert_answer_2 label { background-color: rgba(255, 222, 0, 0.55); }
+		.wpsqt_likert_answer_3 label { background-color: rgba(255, 222, 0, 0.6); }
+		.wpsqt_likert_answer_4 label { background-color: rgba(255, 222, 0, 0.65); }
+		.wpsqt_likert_answer_5 label { background-color: rgba(255, 222, 0, 0.7); }
+		.wpsqt_likert_answer_6 label { background-color: rgba(255, 222, 0, 0.75); }
+		.wpsqt_likert_answer_7 label { background-color: rgba(255, 222, 0, 0.8); }
+		.wpsqt_likert_answer_8 label { background-color: rgba(255, 222, 0, 0.85); }
+		.wpsqt_likert_answer_9 label { background-color: rgba(255, 222, 0, 0.9); }
+		.wpsqt_likert_answer_10 label { background-color: rgba(255, 222, 0, 1); }
+		label.selected { background-color: rgba(223, 194, 0, 1); }
+	}
+}
+.quiz_4 {
+	.wpst_question {
+		p.wpst_question_text { background-color: rgba(255, 240, 0, 1); }
+		.wpsqt_likert_answer_1 label { background-color: rgba(232, 0, 0, 1); }
+		.wpsqt_likert_answer_2 label { background-color: rgba(255, 154, 37, 1); }
+		.wpsqt_likert_answer_3 label { background-color: rgba(255, 240, 0, 1); }
+		.wpsqt_likert_answer_4 label { background-color: rgba(228, 230, 1, 1); }
+		.wpsqt_likert_answer_5 label { background-color: rgba(147, 230, 1, 1); }
+		.wpsqt_likert_answer_1 label.selected { background-color: rgba(232, 0, 0, 0.3); }
+		.wpsqt_likert_answer_2 label.selected { background-color: rgba(255, 154, 37, 0.3); }
+		.wpsqt_likert_answer_3 label.selected { background-color: rgba(255, 240, 0, 0.3); }
+		.wpsqt_likert_answer_4 label.selected { background-color: rgba(228, 230, 1, 0.3); }
+		.wpsqt_likert_answer_5 label.selected { background-color: rgba(147, 230, 1, 0.3); }
+	}
+}
+.quiz_4.section_1 {
+	.wpst_question {
+		p.wpst_question_text { background-color: rgba(0, 192, 255, 1); }
+	}
+	.wpsqt_multiple_question {
+		display: block;
+		width: 90%;
+		padding: 12px 5%;
+		background-color: grey;
+		height: 20px;
+		margin-top: 20px;
+		li {
+			display: block;
+			width: 30%;
+			float: left;
+			clear: none;
+		}
+	}
+}
+.quiz_4.section_2, .quiz_4.section_3 {
+	p {
+		margin-right: 300px;
+	}
+	.wpst_question {
+		display: block;
+		clear: none;
+		float: left;
+		width: 448px;
+	}
+}
+.wpst_question_37 {
+	display: none; // Hide question before loaded in by main.js
+}
+
+@import "graphicman/graphicman.less";
+
+/* Remove WP logos */
+#wp-admin-bar-wp-logo { display: none; }
+#site-generator a { background: none; }
+
+/* Bootstrap tweaks */
+.row { margin-left: 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: 300; }
+
+/* End of file style.css */
+/* Location: ./wp-content/themes/the-bootstrap/style.css */

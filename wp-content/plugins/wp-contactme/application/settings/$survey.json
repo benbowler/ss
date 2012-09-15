@@ -1,0 +1,56 @@
+{
+	"field_definitions":
+	[
+		{
+			"type":"name"
+		},
+		{
+			"type":"email"
+		},
+		{
+			"type":"submit"
+		}
+	],
+	"general":
+	{
+		"duration":1,
+		"scale":31536000
+	},
+	"data_collection":
+	{
+		"table":
+		{
+			"do":"checked"
+		}
+	},
+	"views":
+	{
+		"responses":
+		{
+			"thank_you":
+			{
+				"phtml":"<p>\n\tThank you.\n</p>\n<p>\n\tYour answers have been recorded.\n</p>"
+			},
+			"closed":
+			{
+				"phtml":"<p>\n\tThe survey has ended.\n</p>"
+			},
+			"pending":
+			{
+				"phtml":"<p>\n\tThe survey has ended.\n</p>"
+			},
+			"rsserror":
+			{
+				"phtml":"<p>\n\tTo take this survey visit <a href='<?php echo get_permalink();?>'><?php echo get_permalink();?></a>.\n</p>"
+			},
+			"private":
+			{
+				"phtml":"<small>\n\tYou must be logged in to take this survey<br/>\n\t<ul>\n\t\t<li>\n\t\t\t<?php wp_loginout(get_permalink())?>\n\t\t</li>\n\t\t<?php wp_register();?>\n\t<ul>\n</small>"
+			},
+			"already_submitted":
+			{
+				"phtml":"<p>\n\tYou have already taken this survey.\n</p>"
+			}
+		}
+	}
+}

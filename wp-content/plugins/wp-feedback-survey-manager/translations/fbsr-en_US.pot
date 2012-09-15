@@ -1,0 +1,1097 @@
+# Copyright (C) 2012
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-feedback-survey-manager\n"
+"POT-Creation-Date: 2012-08-11 07:28:25+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/admin-class.php:26
+msgid "WP Feedback & Survey Manager Settings"
+msgstr ""
+
+#: classes/admin-class.php:26
+msgid "Settings"
+msgstr ""
+
+#: classes/admin-class.php:30
+msgid "WP FeedBack & Survey Manager &raquo; General Settings"
+msgstr ""
+
+#: classes/admin-class.php:48
+msgid "FeedBack Manager &raquo; Global Options"
+msgstr ""
+
+#: classes/admin-class.php:49
+msgid "FeedBack Manager &raquo; Survey Options"
+msgstr ""
+
+#: classes/admin-class.php:50
+msgid "FeedBack Manager &raquo; Feedback Options"
+msgstr ""
+
+#: classes/admin-class.php:54 classes/admin-class.php:501
+#: classes/admin-class.php:594 classes/admin-class.php:861
+#: classes/admin-class.php:953
+msgid "Overview"
+msgstr ""
+
+#: classes/admin-class.php:56
+msgid ""
+"This page provides an easy way to customize all aspects of the Feedback/"
+"Survey Form. But we first you need to understand the three main aspects of "
+"the form."
+msgstr ""
+
+#: classes/admin-class.php:58
+msgid ""
+"<strong>Survey Questions:</strong> This, if enabled, shows the multiple "
+"choice type (with only one or more than one answers) questions on the first "
+"tab. All of them are made mandatory to the surveyee."
+msgstr ""
+
+#: classes/admin-class.php:59
+msgid ""
+"<strong>Feedback Topics:</strong> This if enabled, will show feedback topic "
+"and a textarea to leave feedback on that particular topic. None of these are "
+"mandatory for the surveyee."
+msgstr ""
+
+#: classes/admin-class.php:60
+msgid ""
+"<strong>Personal Information:</strong> This, if enabled, will show the "
+"surveyee to enter his/her first name, last name, email and phone number. All "
+"of these are made mandatory except the opinion which you can choose to turn "
+"off."
+msgstr ""
+
+#: classes/admin-class.php:62
+msgid ""
+"You can get more help by clicking the [?] icon beside every options. Or you "
+"can check the corresponding tabs inside this help screen..."
+msgstr ""
+
+#: classes/admin-class.php:63
+msgid ""
+"Please note that attempting to save this page will clear any transient cache "
+"(The Trends Transient Cache)"
+msgstr ""
+
+#: classes/admin-class.php:68
+msgid "Global Options"
+msgstr ""
+
+#: classes/admin-class.php:70
+msgid ""
+"Change the overall behavious of the Feedback Form. Here are some of the most "
+"important facts."
+msgstr ""
+
+#: classes/admin-class.php:72
+msgid ""
+"<strong>Enabling a Tab:</strong> There are 3 main tabs of the form. "
+"<em>Survey, Feedback & Personal Information</em>. You can choose to enable/"
+"disable each of them individually."
+msgstr ""
+
+#: classes/admin-class.php:73
+msgid ""
+"<strong>Title & Subtitle:</strong> The name of each of the tabs can be "
+"customized using these options. For say, if you wish to make a quiz on your "
+"WordPress site, then you would probably name the Survey Tab as <em>"
+"\"Questions\", Answer all what you can</em> or something similar."
+msgstr ""
+
+#: classes/admin-class.php:74
+msgid ""
+"<strong>Terms Page:</strong> You should provide a Terms & Conditions page. "
+"This will impose a Checkbox under the Personal Information Tab and will make "
+"it mandatory for the surveyee to tick it. Also a link to the page will be "
+"put beside it."
+msgstr ""
+
+#: classes/admin-class.php:75
+msgid ""
+"<strong>Notification:</strong> Enter an email address if you like to get "
+"notified whenever someone submits your form. Please add wordpress@yourdomain."
+"tld to the anti-spam filter else it might go into spam."
+msgstr ""
+
+#: classes/admin-class.php:77 classes/admin-class.php:91
+#: classes/admin-class.php:104
+msgid "You can get more help by clicking the [?] icon beside every options."
+msgstr ""
+
+#: classes/admin-class.php:82
+msgid "Survey Options"
+msgstr ""
+
+#: classes/admin-class.php:84
+msgid ""
+"Create upto 10 Survey Questions from this options screen. In order to show "
+"it, you need to have the \"Enable Survey\" ticked on the global options. "
+"Here are some of the most important facts."
+msgstr ""
+
+#: classes/admin-class.php:86
+msgid ""
+"<strong>Enabled:</strong> This has to be ticked if you want the particular "
+"survey to show up."
+msgstr ""
+
+#: classes/admin-class.php:87
+msgid "<strong>Question:</strong> Put the Survey Question here."
+msgstr ""
+
+#: classes/admin-class.php:88
+msgid ""
+"<strong>Answer Options:</strong> These are the answer options that will show "
+"up below the question. You can have any number of options. Just put new "
+"options in a new line."
+msgstr ""
+
+#: classes/admin-class.php:89
+msgid ""
+"<strong>Question Type:</strong> If single, then the surveyee will be able to "
+"select only one from the available options (using radio box), otherwise he/"
+"she will be able to select multiple options (using checkbox)."
+msgstr ""
+
+#: classes/admin-class.php:96
+msgid "Feedback Options"
+msgstr ""
+
+#: classes/admin-class.php:98
+msgid ""
+"Create upto 10 Feedback Topic from this options screen. In order to show it, "
+"you need to have the \"Enable Feedback\" ticked on the global options. Here "
+"are some of the most important facts."
+msgstr ""
+
+#: classes/admin-class.php:100
+msgid ""
+"<strong>Enabled:</strong> This has to be ticked if you want the particular "
+"feedback to show up."
+msgstr ""
+
+#: classes/admin-class.php:101
+msgid ""
+"<strong>Topic:</strong> This is the heading of the feedback which is put "
+"beside the checkbox. If user clicks on the checkbox then corresponding "
+"<strong>Description</strong> and a textbox are shown."
+msgstr ""
+
+#: classes/admin-class.php:102
+msgid ""
+"<strong>Feedback Email:</strong> This is the most useful thing. If you want "
+"a particulat feedback to go into a particular email, then you can enter it "
+"here. Even you can have multiple email addresses seperated by comma(,)."
+msgstr ""
+
+#: classes/admin-class.php:108 classes/admin-class.php:506
+#: classes/admin-class.php:599 classes/admin-class.php:893
+#: classes/admin-class.php:996
+msgid "For more information:"
+msgstr ""
+
+#: classes/admin-class.php:109 classes/admin-class.php:507
+#: classes/admin-class.php:600 classes/admin-class.php:894
+#: classes/admin-class.php:997
+msgid "<a href=\"%s\" target=\"_blank\">Documentation</a>"
+msgstr ""
+
+#: classes/admin-class.php:110 classes/admin-class.php:508
+#: classes/admin-class.php:601 classes/admin-class.php:895
+#: classes/admin-class.php:998
+msgid "<a href=\"%s\" target=\"_blank\">Support Forums</a>"
+msgstr ""
+
+#: classes/admin-class.php:199
+msgid "Enable Survey"
+msgstr ""
+
+#: classes/admin-class.php:203 classes/admin-class.php:217
+#: classes/admin-class.php:231 classes/admin-class.php:245
+#: classes/admin-class.php:342 classes/admin-class.php:415
+msgid "Enabled?"
+msgstr ""
+
+#: classes/admin-class.php:207
+msgid "Check this if you want to show the survey form."
+msgstr ""
+
+#: classes/admin-class.php:213
+msgid "Enable Feedback"
+msgstr ""
+
+#: classes/admin-class.php:221
+msgid "Check this if you want to show the feedback form."
+msgstr ""
+
+#: classes/admin-class.php:227
+msgid "Enable Personal Information"
+msgstr ""
+
+#: classes/admin-class.php:235
+msgid "Check this if you want to log the personal information."
+msgstr ""
+
+#: classes/admin-class.php:241
+msgid "Enable Opinion"
+msgstr ""
+
+#: classes/admin-class.php:249
+msgid ""
+"Check this if you want to show the Opinion text box. This does not have any "
+"effect if the Personal Information is unchecked."
+msgstr ""
+
+#: classes/admin-class.php:253 classes/admin-class.php:333
+msgid "Survey"
+msgstr ""
+
+#: classes/admin-class.php:253 classes/admin-class.php:406
+#: classes/admin-class.php:920 classes/admin-class.php:1897
+msgid "Feedback"
+msgstr ""
+
+#: classes/admin-class.php:253
+msgid "Personal Info"
+msgstr ""
+
+#: classes/admin-class.php:257
+msgid "Title"
+msgstr ""
+
+#: classes/admin-class.php:264
+msgid "This will be shown as the title of the corresponding form tab."
+msgstr ""
+
+#: classes/admin-class.php:270
+msgid "Sub Title"
+msgstr ""
+
+#: classes/admin-class.php:277
+msgid "This will be shown as the sub title of the corresponding form tab."
+msgstr ""
+
+#: classes/admin-class.php:285
+msgid "Success Message"
+msgstr ""
+
+#: classes/admin-class.php:292
+msgid "This message will be shown to the users when they submit the form."
+msgstr ""
+
+#: classes/admin-class.php:299
+msgid "Terms Page"
+msgstr ""
+
+#: classes/admin-class.php:306
+msgid ""
+"If any page ID is given here, then user will be presented with a checkbox "
+"which he/she has to check before submitting. This will lead to the specified "
+"page on click."
+msgstr ""
+
+#: classes/admin-class.php:312
+msgid "Notification Email"
+msgstr ""
+
+#: classes/admin-class.php:319
+msgid ""
+"Enter the address where the notification email will be sent. Make sure you "
+"have set anti-spam filter for wordpress@yourdomain.tld otherwise automated "
+"emails might go into spam folder."
+msgstr ""
+
+#: classes/admin-class.php:349
+msgid "Tick this to show this on survey form."
+msgstr ""
+
+#: classes/admin-class.php:355
+msgid "Survey Question"
+msgstr ""
+
+#: classes/admin-class.php:362
+msgid "Enter the question of this survey."
+msgstr ""
+
+#: classes/admin-class.php:368
+msgid "Answer Options"
+msgstr ""
+
+#: classes/admin-class.php:375
+msgid "Enter the answers of the questions. One answer at a line."
+msgstr ""
+
+#: classes/admin-class.php:381
+msgid "Question Type"
+msgstr ""
+
+#: classes/admin-class.php:390
+msgid ""
+"Single type options will be shown using selectbox dropdowns. Multiple will "
+"be shown using checkboxes"
+msgstr ""
+
+#: classes/admin-class.php:422
+msgid "Tick this to show this on feedback form."
+msgstr ""
+
+#: classes/admin-class.php:428
+msgid "Feedback Topic"
+msgstr ""
+
+#: classes/admin-class.php:435
+msgid "Enter the topic name for this feedback."
+msgstr ""
+
+#: classes/admin-class.php:441
+msgid "Feedback Description"
+msgstr ""
+
+#: classes/admin-class.php:448
+msgid "Enter the description which will be shown to the surveyer."
+msgstr ""
+
+#: classes/admin-class.php:454
+msgid "Feedback Email"
+msgstr ""
+
+#: classes/admin-class.php:461
+msgid ""
+"If you wish to mail yourself or your team member this particular feedback, "
+"then you can have email address here. Please note that you should add anti-"
+"spam filter, else auto generated emails might go into spam."
+msgstr ""
+
+#: classes/admin-class.php:484
+msgid "View a Feedback"
+msgstr ""
+
+#: classes/admin-class.php:488
+msgid "WP Feedback & Survey Manager &raquo; View a Feedback"
+msgstr ""
+
+#: classes/admin-class.php:503
+msgid ""
+"Using this page, you can view a particular feedback either by it's ID (which "
+"is mailed to the notification email when a feedback is being submitted) Or "
+"select one from the latest 100."
+msgstr ""
+
+#: classes/admin-class.php:516
+msgid "Go Back!"
+msgstr ""
+
+#: classes/admin-class.php:524
+msgid "There are no feedback in the database. Please be patient!"
+msgstr ""
+
+#: classes/admin-class.php:531
+msgid "Select a Feedback"
+msgstr ""
+
+#: classes/admin-class.php:532
+msgid "Please either enter an ID or select one from the latest 100"
+msgstr ""
+
+#: classes/admin-class.php:541
+msgid "Enter the ID"
+msgstr ""
+
+#: classes/admin-class.php:549
+msgid "Or Select One"
+msgstr ""
+
+#: classes/admin-class.php:560 classes/form-class.php:334
+msgid "Submit"
+msgstr ""
+
+#: classes/admin-class.php:581
+msgid "Generate Report for Surveys"
+msgstr ""
+
+#: classes/admin-class.php:581
+msgid "Survey Report"
+msgstr ""
+
+#: classes/admin-class.php:585
+msgid "Survey Report Generator"
+msgstr ""
+
+#: classes/admin-class.php:596
+msgid ""
+"This page provides a nice way to view all the survey reports from beginning "
+"to end. As this can be a bit database expensive, so reports are pulled 5 at "
+"a time. You will need JavaScript to view this page."
+msgstr ""
+
+#: classes/admin-class.php:618
+msgid "Sorry but no survey report yet!"
+msgstr ""
+
+#: classes/admin-class.php:625 classes/form-class.php:493
+msgid "You need to enabled JavaScript to view this page"
+msgstr ""
+
+#: classes/admin-class.php:697
+msgid "Option"
+msgstr ""
+
+#: classes/admin-class.php:697 classes/form-class.php:522
+msgid "Count"
+msgstr ""
+
+#: classes/admin-class.php:708 classes/form-class.php:530
+msgid "Answers"
+msgstr ""
+
+#: classes/admin-class.php:773
+msgid "Successfully deleted the feedbacks"
+msgstr ""
+
+#: classes/admin-class.php:777
+msgid "Please select an action"
+msgstr ""
+
+#: classes/admin-class.php:781
+msgid "Successfully deleted the feedback"
+msgstr ""
+
+#: classes/admin-class.php:786
+msgid "View all Feedbacks"
+msgstr ""
+
+#: classes/admin-class.php:792
+msgid "WP Feedback & Survey Manager &raquo; View All"
+msgstr ""
+
+#: classes/admin-class.php:799
+msgid "Search Feedbacks"
+msgstr ""
+
+#: classes/admin-class.php:813 classes/admin-class.php:844
+#: classes/admin-class.php:1304 classes/admin-class.php:1308
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: classes/admin-class.php:851
+msgid "Feedback Rows"
+msgstr ""
+
+#: classes/admin-class.php:863
+msgid ""
+"This screen provides access to all of your feedbacks & surveys. You can "
+"customize the display of this screen to suit your workflow."
+msgstr ""
+
+#: classes/admin-class.php:867
+msgid "Screen Content"
+msgstr ""
+
+#: classes/admin-class.php:869
+msgid ""
+"You can customize the display of this screen&#8217;s contents in a number of "
+"ways:"
+msgstr ""
+
+#: classes/admin-class.php:871
+msgid ""
+"You can hide/display columns based on your needs and decide how many "
+"feedbacks to list per screen using the Screen Options tab."
+msgstr ""
+
+#: classes/admin-class.php:872
+msgid ""
+"You can search a particular feedback by using the Search Form. You can type "
+"in just the first name or the last name or the email or the ID or even the "
+"IP Address."
+msgstr ""
+
+#: classes/admin-class.php:877
+msgid "Available Actions"
+msgstr ""
+
+#: classes/admin-class.php:879
+msgid ""
+"Hovering over a row in the posts list will display action links that allow "
+"you to manage your feedbacks. You can perform the following actions:"
+msgstr ""
+
+#: classes/admin-class.php:881
+msgid ""
+"<strong>Preview</strong> pops up a modal window with the detailed preview of "
+"the particular feedback."
+msgstr ""
+
+#: classes/admin-class.php:882
+msgid ""
+"<strong>Delete</strong> removes your feedback from this list as well as from "
+"the database. You can restore it back, so make sure you want to delete it "
+"before you do."
+msgstr ""
+
+#: classes/admin-class.php:887
+msgid "Bulk Actions"
+msgstr ""
+
+#: classes/admin-class.php:889
+msgid ""
+"The only bulk action available right now is <strong>Delete</strong>. This "
+"will permanently delete the ticked feedbacks from the database."
+msgstr ""
+
+#: classes/admin-class.php:920 classes/admin-class.php:921
+msgid "WP Feedback & Survey Manager"
+msgstr ""
+
+#: classes/admin-class.php:921
+msgid "Dashboard"
+msgstr ""
+
+#: classes/admin-class.php:925
+msgid "WP Feedback & Survey Manager &raquo; Dashboard"
+msgstr ""
+
+#: classes/admin-class.php:946
+msgid "Thank You!"
+msgstr ""
+
+#: classes/admin-class.php:947
+msgid "Support & Social"
+msgstr ""
+
+#: classes/admin-class.php:949
+msgid "Latest 100 Survey Reports"
+msgstr ""
+
+#: classes/admin-class.php:955
+msgid ""
+"Thank you for choosing WP Feedback & Survey Manager Plugin. This screen "
+"provides some basic information of the plugin and Latest 100 Survey Reports. "
+"The design is integrated from WordPress' own framework. So you should feel "
+"like home!"
+msgstr ""
+
+#: classes/admin-class.php:956
+msgid "The concept and working of the Plugin is very simple."
+msgstr ""
+
+#: classes/admin-class.php:958
+msgid ""
+"You setup the form from the <a href=\"admin.php?page=wp_feedback_settings"
+"\">Settings Page</a>."
+msgstr ""
+
+#: classes/admin-class.php:959
+msgid ""
+"You use the Shortcodes (check the Shortcodes tab on this help screen) for "
+"displaying on your Site/Blog."
+msgstr ""
+
+#: classes/admin-class.php:960
+msgid ""
+"Finally use the <a href=\"admin.php?page=wp_feedback_report_survey\">Survey "
+"Reports</a> Or <a href=\"admin.php?page=wp_feedback_view_all\">View all "
+"Feedbacks</a> pages to analyze the submissions."
+msgstr ""
+
+#: classes/admin-class.php:962
+msgid ""
+"Sounds easy enough? Then get started by going to the <a href=\"admin.php?"
+"page=wp_feedback_settings\">Settings Page</a> now. You can always click on "
+"the <strong>HELP</strong> button above the screen to know more."
+msgstr ""
+
+#: classes/admin-class.php:963
+msgid ""
+"If you have any suggestions or have encountered any bug, please feel free to "
+"use the WordPress support forum"
+msgstr ""
+
+#: classes/admin-class.php:968
+msgid "Shortcodes"
+msgstr ""
+
+#: classes/admin-class.php:970
+msgid ""
+"This plugin comes with two shortcodes. One for displaying the FORM and other "
+"for displaying the Trends (The same Latest 100 Survey Reports you see on "
+"this screen)"
+msgstr ""
+
+#: classes/admin-class.php:972
+msgid ""
+"<code>[feedback]</code> : Just use this inside a Post/Page and the form will "
+"start appearing."
+msgstr ""
+
+#: classes/admin-class.php:973
+msgid ""
+"<code>[feedback_trend]</code> : Use this to show the Trends based on latest "
+"100 Survey Reports for all available questions. Just like the dashboard "
+"widget on this screen."
+msgstr ""
+
+#: classes/admin-class.php:975
+msgid ""
+"If the output of the shortcodes look weird, then probably you have copied "
+"them from the list above with the <code>&lt;code&gt;</code> HTML markup. "
+"Please delete them and manually write the shortcode."
+msgstr ""
+
+#: classes/admin-class.php:980
+msgid "Credits"
+msgstr ""
+
+#: classes/admin-class.php:982
+msgid ""
+"The very basic & simplest form of the idea of this plugin came from my "
+"friend <strong>Arnab Saha</strong> during our Annual College Fest. As the "
+"development began, we pondered upon more ideas and finally we released it "
+"publicly."
+msgstr ""
+
+#: classes/admin-class.php:983
+msgid "The plugin uses a few free and/or open source products, which are:"
+msgstr ""
+
+#: classes/admin-class.php:985
+msgid ""
+"<strong><a href=\"http://www.google.com/webfonts/\">Google WebFont</a></"
+"strong> : To make the form look better."
+msgstr ""
+
+#: classes/admin-class.php:986
+msgid ""
+"<strong><a href=\"http://jqueryui.com/\">jQuery UI</a></strong> : Renders "
+"the basic \"Tab Like\" appearance of the form."
+msgstr ""
+
+#: classes/admin-class.php:987
+msgid ""
+"<strong><a href=\"https://developers.google.com/chart/\">Google Charts Tool</"
+"a></strong> : Renders the report charts on both backend as well as frontend."
+msgstr ""
+
+#: classes/admin-class.php:988
+msgid ""
+"<strong><a href=\"https://github.com/posabsolute/jQuery-Validation-Engine"
+"\">jQuery Validation Engine</a></strong> : Wonderful form validation plugin "
+"from Position-absolute. Please note that we are using version 2.2 of this "
+"plugin which works while trying to validate a particular div and all form "
+"elements inside it."
+msgstr ""
+
+#: classes/admin-class.php:989
+msgid ""
+"<strong>Icons</strong> : <a href=\"http://www.oxygen-icons.org/\" target="
+"\"_blank\">Oxygen Icons</a> and <a href=\"http://www.woothemes.com/2009/09/"
+"woofunction-178-amazing-web-design-icons/\" target=\"_blank\">WooFunctions "
+"Icon</a>"
+msgstr ""
+
+#: classes/admin-class.php:991
+msgid ""
+"Also special thanks to <em>Prateek Sarkar</em> & <em>Sayantan Mukherjee</em> "
+"for helping me with the beta testing of this plugin."
+msgstr ""
+
+#: classes/admin-class.php:992
+msgid ""
+"Once again thanks for using this plugin. If you have any suggestions, we "
+"would like to hear. If you can, then please support the future development "
+"of this plugin by donating."
+msgstr ""
+
+#: classes/admin-class.php:1007
+msgid ""
+"Thank you for using WP Feedback and Survey Manager Plugin. I've made this "
+"plugin keeping the priority of our college fest in mind. But I would like to "
+"listen to your suggestions to improve it."
+msgstr ""
+
+#: classes/admin-class.php:1010
+msgid ""
+"<strong>Plugin Author</strong>: <a href=\"http://www.intechgrity.com"
+"\">Swashata</a>"
+msgstr ""
+
+#: classes/admin-class.php:1011
+msgid ""
+"<strong>Documentation</strong>: <a href=\"http://www.intechgrity.com/wp-"
+"plugins/wp-feedback-survey-manager/\">Click Here</a>"
+msgstr ""
+
+#: classes/admin-class.php:1012
+msgid ""
+"<strong>Hire Us</strong>: <a href=\"mailto:swashata@intechgrity.com\">Get in "
+"Touch</a>"
+msgstr ""
+
+#: classes/admin-class.php:1015
+msgid "<strong>Plugin Version:</strong> <em>%s</em>"
+msgstr ""
+
+#: classes/admin-class.php:1019
+msgid ""
+"If you find it useful, then please support us by liking our facebook fan "
+"page, Rating this plugin 5/5 on WordPress repository or donating. Countless "
+"hours have been invested to make this plugin one of the finest :-) Any form "
+"of support is highly appreciated."
+msgstr ""
+
+#: classes/admin-class.php:1044
+msgid "Icons Used from: "
+msgstr ""
+
+#: classes/admin-class.php:1052
+msgid ""
+"To display similar report on your blog, use the shortcode <code>"
+"[feedback_trend]</code>. Just put it in a post or preferably a full-width "
+"page."
+msgstr ""
+
+#: classes/admin-class.php:1177
+msgid "Successfully saved the options"
+msgstr ""
+
+#: classes/admin-class.php:1181
+msgid ""
+"Either you have not changed anything or some error has occured. Please "
+"contact the developer"
+msgstr ""
+
+#: classes/admin-class.php:1185
+msgid "The Master Reset was successful"
+msgstr ""
+
+#: classes/admin-class.php:1266
+msgid "Reset"
+msgstr ""
+
+#: classes/admin-class.php:1641
+msgid "Upload"
+msgstr ""
+
+#: classes/admin-class.php:1668
+msgid "Name"
+msgstr ""
+
+#: classes/admin-class.php:1669
+msgid "Email"
+msgstr ""
+
+#: classes/admin-class.php:1670
+msgid "Phone"
+msgstr ""
+
+#: classes/admin-class.php:1671
+msgid "Date"
+msgstr ""
+
+#: classes/admin-class.php:1672 classes/admin-class.php:1850
+msgid "IP Address"
+msgstr ""
+
+#: classes/admin-class.php:1673
+msgid "Feedbacks"
+msgstr ""
+
+#: classes/admin-class.php:1674 classes/admin-class.php:1903
+msgid "Opinion"
+msgstr ""
+
+#: classes/admin-class.php:1694
+msgid "View"
+msgstr ""
+
+#: classes/admin-class.php:1695 classes/admin-class.php:1735
+msgid "Delete"
+msgstr ""
+
+#: classes/admin-class.php:1711
+msgid "Total: %d"
+msgstr ""
+
+#: classes/admin-class.php:1793
+msgid "No Feedback yet! Please be patient."
+msgstr ""
+
+#: classes/admin-class.php:1822
+msgid "Sorry, the entry does not exist anymore"
+msgstr ""
+
+#: classes/admin-class.php:1825
+msgid "Personal Information"
+msgstr ""
+
+#: classes/admin-class.php:1829
+msgid "Feedback on %s"
+msgstr ""
+
+#: classes/admin-class.php:1834
+msgid "First Name"
+msgstr ""
+
+#: classes/admin-class.php:1838
+msgid "Last Name"
+msgstr ""
+
+#: classes/admin-class.php:1842
+msgid "Eamil"
+msgstr ""
+
+#: classes/admin-class.php:1846
+msgid "Phone Number"
+msgstr ""
+
+#: classes/admin-class.php:1856
+msgid "Survey Data"
+msgstr ""
+
+#: classes/admin-class.php:1860
+msgid "Questions"
+msgstr ""
+
+#: classes/admin-class.php:1861
+msgid "Answer(s)"
+msgstr ""
+
+#: classes/admin-class.php:1862
+msgid "Option(s)"
+msgstr ""
+
+#: classes/admin-class.php:1892
+msgid "Feedback Data"
+msgstr ""
+
+#: classes/admin-class.php:1896
+msgid "Topic"
+msgstr ""
+
+#: classes/form-class.php:42
+msgid "First name is empty"
+msgstr ""
+
+#: classes/form-class.php:44
+msgid "Last name is empty"
+msgstr ""
+
+#: classes/form-class.php:46
+msgid "Email is empty"
+msgstr ""
+
+#: classes/form-class.php:48
+msgid "Invalid email address"
+msgstr ""
+
+#: classes/form-class.php:50
+msgid "Phone number is empty"
+msgstr ""
+
+#: classes/form-class.php:52
+msgid "Please correctly answer the security questions"
+msgstr ""
+
+#: classes/form-class.php:62
+msgid "Please answer all the surveys"
+msgstr ""
+
+#: classes/form-class.php:125 classes/form-class.php:344
+msgid "Your feedback was successfully submitted"
+msgstr ""
+
+#: classes/form-class.php:128
+msgid "Could not save to the database"
+msgstr ""
+
+#: classes/form-class.php:128
+msgid "Something terrible has occured. Please contact the administrator."
+msgstr ""
+
+#: classes/form-class.php:133
+msgid "Form Validation Error"
+msgstr ""
+
+#: classes/form-class.php:133
+msgid ""
+"Following errors has occured. Please correct them and resubmit the form."
+msgstr ""
+
+#: classes/form-class.php:147
+msgid ""
+"\r\n"
+"<html><body>\r\n"
+"<p>A new feedback has been submitted. You can visit it at</p>\r\n"
+"<p><strong>%sadmin.php?page=wp_feedback_view&id=%s</strong>\r\n"
+"\r\n"
+"<h4>User Details</h4>\r\n"
+"<ul>\r\n"
+"<li><strong>First Name</strong>: %s</li>\r\n"
+"<li><strong>Last Name</strong>: %s</li>\r\n"
+"<li><strong>Email</strong>: %s</li>\r\n"
+"<li><strong>Phone</strong>: %s</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><em>\r\n"
+"This is an autogenerated email. Please do not respond to this.<br />\r\n"
+"You are receiving this notification because you are one of the email "
+"subscribers for the mentioned Feedback.<br />\r\n"
+"If you wish to stop receiving emails, then please go to %1$sadmin.php?"
+"page=wp_feedback_settings and remove your email from there.<br />\r\n"
+"If you can not access the link, then please contact your administrator.\r\n"
+"</em></p>\r\n"
+"\r\n"
+"<p>WP Feedback and Survey Manger Plugin <br />\r\n"
+"- By Swashata<br />\r\n"
+"http://www.intechgrity.com/</p>\r\n"
+"</body></html>\r\n"
+msgstr ""
+
+#: classes/form-class.php:172
+msgid "[%s]New Feedback Notification"
+msgstr ""
+
+#: classes/form-class.php:180
+msgid "[%s] New feedback on the topic: %s"
+msgstr ""
+
+#: classes/form-class.php:182
+msgid ""
+"\r\n"
+"<html><body>\r\n"
+"\r\n"
+"<h2>User Details</h2>\r\n"
+"<ul>\r\n"
+"<li><strong>First Name</strong>: %s</li>\r\n"
+"<li><strong>Last Name</strong>: %s</li>\r\n"
+"<li><strong>Email</strong>: %s</li>\r\n"
+"<li><strong>Phone</strong>: %s</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<h2>Feedback Details</h2>\r\n"
+"<p><strong>Feedback Topic:</strong> %s</p>\r\n"
+"------------------------------------------------------------------------------"
+"\r\n"
+"%s\r\n"
+"------------------------------------------------------------------------------"
+"\r\n"
+"<p><strong>General Opinion:</strong></p>\r\n"
+"------------------------------------------------------------------------------"
+"\r\n"
+"%s\r\n"
+"------------------------------------------------------------------------------"
+"\r\n"
+"\r\n"
+"<br /><br />\r\n"
+"\r\n"
+"------------------------------------------------------------------------------"
+"\r\n"
+"<p><em>\r\n"
+"This is an autogenerated email. Please do not respond to this.<br />\r\n"
+"You are receiving this notification because you are one of the email "
+"subscribers for the mentioned Feedback.<br />\r\n"
+"If you wish to stop receiving emails, then please go to %sadmin.php?"
+"page=wp_feedback_settings and remove your email from there.<br />\r\n"
+"If you can not access the link, then please contact your administrator.\r\n"
+"</em></p>\r\n"
+"\r\n"
+"<p>WP Feedback and Survey Manger Plugin <br />\r\n"
+"- By Swashata<br />\r\n"
+"http://www.intechgrity.com/</p>\r\n"
+"</body></html>\r\n"
+msgstr ""
+
+#: classes/form-class.php:286
+msgid "First Name:"
+msgstr ""
+
+#: classes/form-class.php:290
+msgid "Last Name:"
+msgstr ""
+
+#: classes/form-class.php:295
+msgid "Email:"
+msgstr ""
+
+#: classes/form-class.php:299
+msgid "Phone:"
+msgstr ""
+
+#: classes/form-class.php:305
+msgid "Other Opinions:"
+msgstr ""
+
+#: classes/form-class.php:310
+msgid "Security Question: "
+msgstr ""
+
+#: classes/form-class.php:315
+msgid "Submission Date:"
+msgstr ""
+
+#: classes/form-class.php:323
+msgid ""
+"By submitting this form, you hereby accept our <a href=\"%s\" target=\"_blank"
+"\">Terms & Conditions</a>. Your IP address <strong>%s</strong> will be "
+"stored in our database."
+msgstr ""
+
+#: classes/form-class.php:333
+msgid "&laquo; Previous"
+msgstr ""
+
+#: classes/form-class.php:335
+msgid "Next &raquo;"
+msgstr ""
+
+#: classes/form-class.php:339
+msgid "Please wait while we are submitting your form"
+msgstr ""
+
+#: classes/form-class.php:340
+msgid "Submitting"
+msgstr ""
+
+#: classes/form-class.php:348
+msgid "Some error has occured"
+msgstr ""
+
+#: classes/form-class.php:349
+msgid "Please correct the data and submit again"
+msgstr ""
+
+#: classes/form-class.php:356
+msgid "* The answer is incorrect. It should be "
+msgstr ""
+
+#: classes/form-class.php:506
+msgid ""
+"No survey has been activated yet! Please go to the <strong>Settings</strong> "
+"page and enable and setup some survey question to see data here."
+msgstr ""
+
+#: classes/form-class.php:522
+msgid "Options"
+msgstr ""
+
+#: classes/form-class.php:537
+msgid "Powered by: %s"
+msgstr ""
+
+#: classes/install-class.php:80
+msgid "The plugin requires PHP version greater than or equal to 5.x.x"
+msgstr ""
+
+#: classes/install-class.php:86
+msgid "The plugin requires WordPress version greater than or equal to 3.1.x"
+msgstr ""

@@ -1,0 +1,8 @@
+<th>Type</th>
+<td>
+	<select name="graphics[type]">
+		<?php foreach($this->graphics['types'] as $key=>$value):?>
+			<option  <?php $this->selected($this->graphics['type'], $key);?> value="<?php echo $key?>"><?php echo $value;?></option>
+		<?php endforeach;?>
+	</select>
+</td>

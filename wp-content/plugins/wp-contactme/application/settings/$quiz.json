@@ -1,0 +1,113 @@
+{
+	"field_definitions":
+	[
+		{
+			"type":"quiz_question",
+			"question":"Question 1",
+			"options":[
+			           "Option A",
+			           "Option B",
+			           "Option C",
+			           "Option D",
+			           "Option E"
+			],
+			"mandatory":1,
+			"answer":"Option A"
+		},
+		{
+			"type":"quiz_question",
+			"question":"Question 2",
+			"options":[
+			           "Option A",
+			           "Option B",
+			           "Option C",
+			           "Option D",
+			           "Option E"
+			],
+			"mandatory":1,
+			"answer":"Option B"
+		},
+		{
+			"type":"quiz_question",
+			"question":"Question 3",
+			"options":[
+			           "Option A",
+			           "Option B",
+			           "Option C",
+			           "Option D",
+			           "Option E"
+			],
+			"mandatory":1,
+			"answer":"Option C"
+		},
+		{
+			"type":"quiz_question",
+			"question":"Question 4",
+			"options":[
+			           "Option A",
+			           "Option B",
+			           "Option C",
+			           "Option D",
+			           "Option E"
+			],
+			"mandatory":1,
+			"answer":"Option D"
+		},
+		{
+			"type":"quiz_question",
+			"question":"Question 5",
+			"options":[
+			           "Option A",
+			           "Option B",
+			           "Option C",
+			           "Option D",
+			           "Option E"
+			],
+			"mandatory":1,
+			"answer":"Option E"
+		}
+	],
+	"data_collection":
+	{
+		"results":{
+			"do":"checked"
+		},
+		"disabled":
+		{
+			"email":0,
+			"table":0,
+			"results":1,
+			"post":1
+		}
+	},
+	"views":
+	{
+		"responses":
+		{
+			"thank_you":
+			{
+				"phtml":""
+			},
+			"closed":
+			{
+				"phtml":"<p>\n\tThe quiz has ended.\n</p>"
+			},
+			"pending":
+			{
+				"phtml":"<p>\n\tThe quiz has ended.\n</p>"
+			},
+			"rsserror":
+			{
+				"phtml":"<p>\n\tTo fill in this quiz visit <a href='<?php echo get_permalink();?>'><?php echo get_permalink();?></a>.\n</p>"
+			},
+			"private":
+			{
+				"phtml":"<small>\n\tYou must be logged in to answer<br/>\n\t<ul>\n\t\t<li>\n\t\t\t<?php wp_loginout(get_permalink())?>\n\t\t</li>\n\t\t<?php wp_register();?>\n\t<ul>\t\n</small>"
+			},
+			"already_submitted":
+			{
+				"phtml":"<p>\n\tYou have already answered this quiz.\n</p>"
+			}
+		}
+	}
+}

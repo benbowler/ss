@@ -1,0 +1,17 @@
+<th>
+	<label for="results">Show Results</label>
+</th>
+<td>
+	<input
+		type = 'hidden'
+		name="data_collection[results][do]"
+		value=''
+		/>		
+	<input
+		type = "checkbox"
+		id="results"
+		name="data_collection[results][do]"
+		value="checked"
+		<?php echo $this->data_collection['results']['do'];?>
+		/>		
+</td>

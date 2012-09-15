@@ -1,0 +1,54 @@
+<td>
+	<input 	type='radio'
+			<?php $this->checked('default',$this->form['name']);?>
+			name='source_setting'
+			value='<?php echo $this->form['name'];?>' />
+</td>
+<td>
+	<?php if($this->form['name']!=''): ?>
+	<input	type='checkbox'
+			name='delete_setting[]'
+			value='<?php echo $this->form['name'];?>' />
+	<?php endif;?>
+</td>
+<td>
+	<?php if($this->form['name']!=''): ?>
+		<span class='v48fv_show_hide'>
+			<div><a
+					class='v48fv_10x10_edit'
+					href='<?php echo $this->edit;?>'><?php echo $this->form['name'];?></a><div>
+			<ul class='subsubsub'>
+				<li><a href='<?php echo $this->edit;?>'>Edit</a></li>
+			</ul>
+		</span>
+	<?php endif;?>
+</td>
+<td>
+	<?php if($this->form['count']>0): ?>
+		<input 	type='checkbox'
+				name='delete_table[]'
+				value='<?php echo $this->form['table'];?>' />
+	<?php endif; ?>
+</td>
+<td>
+	<?php if($this->form['count']>0): ?>
+		<a	
+			class="v48fv_16x16_download"
+			href='<?php echo $this->control_url ( $this->application ()->slug . "/{$this->form['name']}/all.csv" )?>'
+			title='Click to download table as CSV file'
+			><?php echo $this->form['table'];?> (<?php echo $this->form['count'];?>)</a>
+	<?php endif; ?>
+</td>
+<td>
+	<?php
+	if (! empty ( $this->form ['name'] )) {
+		echo '<input class="shortcode" readonly value="[' . $this->application ()->slug;
+		if ($this->form ['name'] != 'default') {
+			echo " " . $this->form ['name'];
+		}
+		echo ']"/>';
+	} ?>
+</td>
+<td>
+	<?php echo $this->used_in;?>
+</td>

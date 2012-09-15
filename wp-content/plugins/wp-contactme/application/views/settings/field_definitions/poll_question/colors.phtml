@@ -1,0 +1,13 @@
+<th>Colors</th>
+<td>
+	<textarea
+		class='color_number expand'
+		title="hexadecimal values, 1 per Line, colors will repeat if there are more questions that colors"
+		name="graphics[colors]"><?php echo $this->graphics['colors'];?></textarea>
+		<span class="vis_info" title="click Apply to update with changes">
+		<?php 
+			foreach(explode("\n",$this->graphics['colors']) as $color):?>
+				<label style="padding:10px;margin:0;background-color:<?php echo '#'.$color;?>"></label>
+			<?php endforeach;
+	?></span>
+</td>

@@ -1,0 +1,22 @@
+<th>
+	<label for="post">Make Post</label>
+</th>
+<td>
+	<input
+			type = 'hidden' 
+			name="data_collection[post][do]" 
+			value="" 
+			/>		
+	<input
+			type = 'checkbox' 
+			id='post'
+			name="data_collection[post][do]" 
+			value="checked" 
+			<?php echo $this->data_collection['post']['do'];?>
+			/>		
+	<input
+			type = "text"
+			name="data_collection[post][name]"
+			value="<?php echo $this->data_collection['post']['name'];?>"
+			/>
+</td>

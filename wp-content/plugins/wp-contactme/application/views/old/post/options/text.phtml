@@ -1,0 +1,12 @@
+<label	for='<?php echo $this->field_id;?>'
+		class='concise_prompt'><?php echo $this->field_definition['question']?></label>
+<?php if(isset($this->field_definition['question_long']) && !empty($this->field_definition['question_long'])):?>
+<label	for='<?php echo $this->field_id;?>'
+		class='expanded_prompt'><?php echo $this->field_definition['question_long']?></label>
+<?php endif;?>
+<select	id="<?php echo $this->field_id?>" 
+		name="<?php echo $this->field_name;?>" />
+<?php foreach($this->field_definition['options'] as $option):?>
+	<option <?php selected($this->field_definition['value'],$option);?>><?php echo $option?></option>
+<?php endforeach;?>
+</select>

@@ -1,0 +1,261 @@
+/*     info window   */
+
+.infoBox {
+	background: white !important;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 15px;
+	width: 230px !important;
+	height: 125px !important;
+	padding: 5px;
+	border: 1px solid #bbb;
+	}
+	
+.bp-map-infobox-title {
+	color: white;
+	text-transform: capitalize;
+	float:left;
+	width: 205px;
+	background: #457085;
+	padding: 1px 3px;
+	font-size: 12px;
+	font-family: arial,sans-serif;
+	}
+	
+.bp-map-infobox-image {
+	margin-left: -1px;
+	margin-top:3px;
+	}
+	
+.bp-map-infobox-image img {
+	width: 100px !important;
+	height: 100px !important;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	}
+	
+.bp-map-infobox-info {	
+	float:left;
+	width:125px;
+	margin-left: 3px;
+	font-size: 11px;
+	line-height: 13px;
+	margin-top: 3px;
+	}
+
+.bp-map-infobox-info span {
+	color:#333;
+	font-weight:bold;
+	}	
+	
+/* //// map  /////// */
+	
+div#wppl-output-wrapper {
+	float:left;
+	width:100%;
+	}
+	
+#wppl-output-wrapper #show-hide-btn-wrapper {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	}
+	
+#wppl-output-wrapper #show-hide-btn-wrapper a:hover {
+	opacity:0.8;
+	}
+	
+#wppl-output-wrapper .map-show-hide-btn img {
+	border: 1px solid #CCC;
+	-moz-box-shadow: 0px 0px 4px #DDD;
+	-webkit-box-shadow: 0px 0px 4px #DDD;
+	box-shadow: 0px 0px 4px #DDD;
+	height: 25px;
+	}
+	
+#wppl-hide-map {
+	float: left;
+	}
+	
+.wppl-map-wrapper {	
+	border: 1px solid #999;
+	padding: 5px;
+	background: #EEE;
+	float: left;
+	border-bottom: 1px solid #BBB;
+	border-right: 1px solid #BBB;
+	border-left: 1px solid #DDD;
+	border-top: 1px solid #EEE;
+	margin-bottom: 10px;
+	}
+	
+	
+/*  results    */
+
+/*     4.1 - Pagination     */
+div.pagination {
+	background: #f4f4f4;
+	border: none;
+	color: #888;
+	font-size: 11px;
+	height: 19px;
+	margin: -20px -19px 0px -19px;
+	padding: 8px 20px;
+	position: relative;
+}
+div.pagination .pag-count {
+	float: left;
+}
+div.pagination .pagination-links {
+	float: right;
+}
+div.pagination .pagination-links span,
+div.pagination .pagination-links a {
+	font-size: 12px;
+	padding: 0 5px;
+}
+div.pagination .pagination-links a:hover {
+	font-weight: bold;
+}
+noscript div.pagination {
+	margin-bottom: 15px;
+}
+div#pag-bottom {
+	margin-top: -1px;
+}
+#nav-above {
+	display: none;
+}
+.paged #nav-above {
+	display: block;
+}
+
+.padder div#pag-top {
+	margin: 0px !important;
+	margin-bottom: 5px !important;
+} 
+
+div.pagination .pag-count {
+	float: left;
+}
+
+div.pagination .pagination-links {
+	float: right;
+}
+
+
+
+div.pagination .pagination-links span, div.pagination .pagination-links a {
+	font-size: 12px;
+	padding: 0 5px;
+}
+
+/* ///////////////////// */
+
+#wppl-members-list ul {
+	margin: 0px !important;
+	width:100%;
+	list-style:none !important;
+}
+
+ul.wppl-item-list li {
+	border-bottom: 1px solid #eaeaea;
+	padding: 15px 0;
+	position: relative;
+	list-style:none;
+}
+
+
+ul.wppl-item-list li .wppl-item-avatar img {
+	float: left;
+	margin: 0 10px 0 0;
+	width: 80px;
+	height: 80px;
+}
+
+#wppl-members-list li .wppl-item {
+	float:left;
+	width:150px;
+	}
+	
+#wppl-members-list li .wppl-item .wppl-item-title {
+	float:left;
+	width:100px;
+	}
+	
+ul.wppl-item-list li div.wppl-item-title {
+	font-weight: normal;
+	font-size: 14px;
+	margin: 0;
+	width: 75%;
+}
+
+#wppl-members-list li .wppl-action {
+	float:right;
+	}
+	
+.bp-radius-wrapper {	
+	float: right;
+	padding: 1px 4px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	font-size: 11px;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	text-transform: lowercase;
+	}
+	
+.wppl-profile-fields-wrapper {
+	float:left;
+	margin-left:10px;
+	border-left:1px solid #eee;
+	padding-left:10px;
+	width:300px;
+	}
+	
+.wppl-profile-fields-wrapper span {
+	font-weight:bold;
+	}
+	
+	
+.wppl-bp-address {
+	float:left;
+	margin-left:10px;
+	}
+	
+.wppl-bp-address span {
+	font-weight:bold;
+	}
+	
+.bp-get-directions {
+	float: right;
+	margin-right: 15px;
+	}
+	
+.bp-distance-wrapper {
+	float: left;
+	width: 100%;
+	padding: 2px 0px;
+	background: #f9f9f9;
+	border: 1px solid #e7e7e7;
+	margin-top: 5px;
+	font-size: 11px;
+	font-family: arial,sans-serif;
+}
+
+.bp-get-directions a:link, .bp-get-directions a:visited {	
+	font-size:12px !important;
+	text-decoration:underline;
+	
+	}
+	
+.bp-get-directions a:hover, .bp-get-directions a:active  {	
+	color:#666;
+	text-decoration:none;
+	
+	}
+	
+.bp-driving-distance {
+	float: right;
+	margin-right: 10px;
+	}

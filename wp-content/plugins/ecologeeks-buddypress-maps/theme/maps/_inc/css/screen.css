@@ -1,0 +1,110 @@
+.bp_maps_geocoder_field:focus{
+	background-color:#FFA200!important;
+}
+
+/*MAP*/
+.bp_maps_map {
+	padding:10px;
+}
+.bp_maps_map_img,.bp_maps_marker span.bp_maps_group_icon{
+	cursor:pointer;
+}
+.bp_maps_map_container{
+	background:transparent url(../images/ajax-loader.gif) no-repeat center center;
+	border:1px solid #EAEAEA;
+}
+
+/*MARKERS LIST*/
+#markers-list {
+	height:500px;
+	overflow-y:auto;
+}
+.bp_maps_map_add_marker{
+	padding-left:20px;
+}
+.bp_maps_map_add_marker.strike a{
+	text-decoration: line-through;
+}
+.markers_block .message{
+	padding-left:20px;
+}
+ul.bp_maps_map_markers {
+	overflow-y:auto;
+	padding-right:15px;
+	
+}
+
+/*ADDRESS*/
+
+.bp_maps_map_markers .bp_maps_marker.edit div.address{
+	display:inherit;
+}
+.bp_maps_map_markers .bp_maps_marker.edit div.address input{
+	display:inline;
+}
+.bp_maps_map_markers .bp_maps_marker.edit div.address a{
+	float:right;
+}
+/*PRIVACY*/
+.bp_maps_map_markers .bp_maps_marker div.privacy{
+	display:none;
+}
+	.bp_maps_map_markers .bp_maps_marker.edit div.privacy{
+		display:inherit;
+	}
+.bp_maps_map_markers .bp_maps_marker div.privacy small{
+	font-size:0.8em;
+	display:block;
+	line-height:1em;
+	text-align:justify;
+	padding:5px;
+}
+
+.bp_maps_marker input,.bp_maps_marker.item a,.bp_maps_marker.item label{
+	display:none;
+}
+	.bp_maps_marker.item.edit input,.bp_maps_marker.item.edit a,.bp_maps_marker.edit.item label{
+		display:inherit;
+	}
+	
+.bp_maps_marker .item-meta span a{
+	display:inherit;
+}
+	
+.bp_maps_marker.item a.save,.bp_maps_marker.item a.delete,.bp_maps_marker.item .info{
+	display:none;
+}
+	
+	.bp_maps_marker.item.edit a.save,.bp_maps_marker.item.edit a.delete,.bp_maps_marker.item.edit .info{
+		display:inline;
+	}
+	
+.bp_maps_marker.item a.edit{
+	display:inherit;
+}
+	.bp_maps_marker.item.edit a.edit{
+	display:none;
+}
+.bp_maps_marker.item.edit span{
+	display:none;
+}
+
+.bp_maps_marker{
+	padding:15px;
+}
+.bp_maps_marker.hover,.bp_maps_marker.edit{
+	background-color:#EAEAEA;
+}
+
+.bp_maps_marker .title span{
+	font-weight:bold;
+}
+
+.bp_maps_marker .address span{
+	font-style: italic;
+}
+
+/*sitewide members map*/
+.smmap ul#members-list{
+	display:none;
+}

@@ -1,0 +1,553 @@
+/* WP PLACES LOCATOR BLUE STYLESHEET */
+
+/* ////// LOCATE MESSAGE ////// */
+
+#wppl-justwait {
+z-index: 9999999999;
+position: fixed;
+width: 300px;
+height: 130px;
+text-align: center;
+top: 50%;
+left: 50%;
+border: 1px solid #6D97AB;
+padding: 1px;
+background: #C95D5D;
+-moz-border-radius: 7px !important;
+margin: -140px 0 0 -165px;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+#wppl-wait-within {
+height: 128px;
+border: 1px solid #888;
+padding: 0px;
+background: #EFEFEF;
+width: 298px;
+}
+
+#wppl-wait-close {
+text-align: right;
+padding-right: 7px;
+padding-top: 7px;
+}
+
+#wppl-wait-message {
+z-index: 999999999999;
+color: #333;
+font-size: 14px;
+font-family: arial, sans-serif;
+}
+
+#wppl-wait-message p#wppl-found-you, #wppl-wait-message p {
+font-size: 14px;
+font-family: arial, sans-serif;
+color: #333;
+margin: 13px 20px 15px 20px;
+text-shadow: 1px 1px 1px white;
+}
+
+
+.wppl-your-location-wrapper {
+	float:left;
+	width:260px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	}
+	
+.wppl-your-location-wrapper span {
+	float:left;
+	margin:0px 2px;
+	line-height:25px;
+	}
+	
+/*     map's info window   */
+
+.infoBox {
+	background: white !important;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	width: 250px !important;
+	height: 150px !important;
+	padding: 3px;
+	border: 1px solid #bbb;
+	//top:30px !important;
+	//left:355px !important;
+	}
+	
+.map-infobox-title {
+	color: white;
+	text-transform: capitalize;
+	float:left;
+	width: 205px;
+	background: #457085;
+	padding: 3px 3px;
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	margin: 3px;
+	}
+	
+.map-infobox-image {
+	margin-left: -1px;
+	margin-top:3px;
+	}
+	
+.map-infobox-image img {
+	width: 100px !important;
+	height: 100px !important;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	}
+	
+.map-infobox-info {	
+	float:left;
+	//width:125px;
+	margin-left: 3px;
+	font-size: 12px;
+	line-height: 15px;
+	//margin-top: 3px;
+	}
+	
+.map-infobox-info span {
+	color:#333;
+	font-weight:bold;
+	}	
+	
+/********* NEAR BY WIDGET STYLING *********/
+
+.wppl_near_members_widget, wppl_near_location _widget {
+	float:left;
+	width:100%;
+	}
+	
+.wppl_near_members_widget h3, wppl_near_location _widget h3 {
+	margin:0px;
+	}
+	
+.near-single-location, .near-single-member {
+	float: left;
+	//width: 240px;
+	clear: both;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 5px;
+	}
+
+.near-image-holder {
+	float:left;
+}
+
+.near-image-holder img {
+	width: 50px;
+	height: 50px;
+	padding: 2px;
+	background: #DDD;
+	border: 1px solid #CCC;
+	margin-right: 5px;
+}
+
+.near-single-member .near-image-holder img {
+	width:40px;
+	height:40px;
+	}
+	
+.near-title-holder {
+	float: left;
+	font-size: 12px;
+	font-family: arial,sans-serif;
+	width: 175px;
+	}
+	
+.near-single-member .near-title-holder {
+	width:130px;
+	}
+	
+.near-title-holder a:link, .near-title-holder a:visited {
+	margin-right:5px;
+	font: 10px Tahoma, Geneva, Kalimati, sans-serif;
+	float: left;
+	font-weight: bold;
+	//color: #AE0D18;
+	text-transform: uppercase;
+	}
+	
+.near-title-holder span {
+	font: 10px Tahoma, Geneva, Kalimati, sans-serif;
+	float: right;
+	color: #666;
+	}
+	
+.near-address-holder {
+	float: left;
+	width: 169px;
+	font-family: arial, sans-serif;
+	line-height: 16px;
+	font-size: 11px;
+	color: #555;
+	}
+	
+.near-single-member .near-address-holder {
+	width:130px;
+	}
+	
+/* ///// YOUR LOCATION WIDGET //////// */
+
+#wppl-show-location-form {
+	float:left;
+	}
+	
+#wppl-show-location-form form div {
+	float:left;
+	position:relative;
+	width:185px;
+	}
+	
+#wppl-show-location-form form div .wppl-locate-me-btn {
+	margin-top:5px;
+	margin-right:10px;
+	}
+	
+.wppl-locate-me-btn:hover, .wppl-locate-me-btn:active, .wppl-locate-me-btn:focus {
+	border: none;
+	outline:none;
+	padding: 0px;
+	opacity: 0.9;
+}
+	
+.wppl-your-location-wrapper {
+	float:left;
+	width:100%;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	}
+	
+.wppl-your-location-wrapper input[type="text"]{
+	border: 1px solid #D1D1D1;
+font: normal 12px Arial,Helvetica,Sans-serif !important;
+color: #;
+width: 150px;
+padding: 5px 10px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+-webkit-transition: all 0.7s ease 0s;
+-moz-transition: all 0.7s ease 0s;
+-o-transition: all 0.7s ease 0s;
+transition: all 0.7s ease 0s;
+float: left;
+margin-right: 10px;
+color: #777 !important;
+padding-right:20px;
+	}
+	
+.wppl-your-location-wrapper span {
+	float:left;
+	margin:0px 2px;
+	line-height:25px;
+	}
+	
+/* ///////  SINGLE LOCATION MAP  /////////// */
+
+.wppl-single-map-wrapper {
+	position:relative;
+	float:left;	
+	}
+	
+.wppl-single-wrapper .wppl-additional-info {
+	margin-top: 5px;
+	float: left;
+	}
+	
+.wppl-single-direction-wrapper {
+	width: 97%;
+	bottom: 0;
+	position: absolute;
+	background: #555;
+	font-size: 12px;
+	opacity: 0.9;
+	border-top: 1px solid #BBB;
+	text-transform: uppercase;
+	padding-left: 10px;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+}
+
+.wppl-single-direction-wrapper a:link , .wppl-single-direction-wrapper a:visited {
+	color:white;
+	}
+	
+.wppl-single-direction-wrapper a:hover , .wppl-single-direction-wrapper a:active {
+	color:#aaa;
+	}
+	
+.wppl-single-wrapper {
+	font-family: arial, sans-serif;
+	font-size:12px;
+	float:left;
+	}
+	
+.wppl-single-wrapper div span {
+	font-weight:bold;
+	}
+	
+/* ///////  FORM STYLING  /////////// */
+
+.wppl-form-wrapper {
+	float:left;
+	width:100%;
+	}
+	
+.wppl-form div {
+	//margin-bottom: 5px;
+	}
+
+.wppl-distance-units-wrapper {
+	float:left;
+	margin-bottom:5px;
+	}
+	
+.wppl-distance-units-wrapper div {
+	float:left;
+	margin-right:5px;
+	}
+
+.wppl-form div label {	
+	font-size: 13px;
+	color: #666;
+	margin-right: 5px;
+	float: left;
+	font-family: arial,sans-serif;
+	font-weight:bold;
+	text-transform: capitalize;
+	}
+
+.wppl-form select {
+	border: 1px solid #AAA;
+	color: #555;
+	background: #F2F1EE;
+	font-family: arial,sans-serif;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px white;
+	}
+	
+.wppl-form div input, .wppl-form div select  {	
+	margin:0px;
+	}
+	
+.wppl-form .date input[type="text"] {
+	padding:3px;
+	}
+	
+.wppl-category-wrapper div {
+	margin-top:5px;
+	width:100%;
+	float:left;
+	}
+	
+.wppl-single-result .wppl-taxes-wrapper {
+	float:left;
+	}
+	
+.wppl-single-result .wppl-taxes-wrapper .wppl-taxes {
+	color: #444;
+	font-size: 12px;
+	font-family: arial,sans-serif;
+	text-shadow: 1px 1px 1px white;
+	}
+
+.wppl-category-wrapper div.wppl-single-checkbox {
+	float:left;
+	width:initial;
+}
+
+.wppl-category-wrapper div.wppl-checkboxes-wrapper {
+	margin:0px;
+	}
+
+.wppl-category-checkbox {
+	float:left;
+	width:100%;
+	margin-bottom:5px;
+}
+
+.wppl-single-checkbox {
+	float:left;
+	margin-right:5px;
+}
+
+.wppl-form .wppl-address-field-wrapper {
+	float:left;
+	width:230px;
+	position:relative;
+}
+
+.wppl-address-wrapper input[type="text"] {
+    border: 1px solid #D1D1D1;
+	font: normal 12px Arial,Helvetica,Sans-serif !important;
+	color: #;
+	width: 200px;
+	padding: 5px 10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+	-webkit-transition: all 0.7s ease 0s;
+	-moz-transition: all 0.7s ease 0s;
+	-o-transition: all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+	float:left;
+	margin-right: 10px;
+	color: #777 !important;
+	padding-right:20px;
+    }
+ 	
+.wppl-locate-me-btn {
+	border-radius: 6px;
+	float: left;
+	background: none;
+	cursor: pointer;
+	border: 0px;
+	padding: 0px;
+	position: absolute;
+	right: 0;
+	margin-top: 3px;
+	margin-right: 5px;
+	}
+	
+.wppl-locate-me-btn img {
+	height: 20px;
+	width: 20px;
+}
+
+.wppl-address-wrapper, .wppl-category-wrapper {
+	margin-bottom: 5px;
+	float: left;
+	width: 100%;
+	}
+	
+.wppl-category-checkbox input {
+	margin-right: 2px !important;
+	}
+
+.wppl-category-checkbox span {	
+	font-family: arial,sans-serif;
+	color: #444;
+	}
+	
+.wppl-submit {
+	float: left;
+	width: 80px;
+	margin-left: 10px;
+	}
+
+.wppl-submit input[type="submit"] {
+	height: 20px;
+	width: 70px;
+	padding: 0;
+	line-height: 19px !important;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: -moz-linear-gradient(top, #F2F1EE 0%, ##F2F1EE 50%, #418F93 51%, #2F777C 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F2F1EE), color-stop(50%,#E8E6DF), color-stop(64%,#FAF9F7), color-stop(100%,#F2F1EE));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=’#A2DBDC’, endColorstr=’#2F777C’,GradientType=0 );
+	border: 1px solid #AAA;
+	cursor: pointer;
+	color: #555 !important;
+	font-size: 12px !important;
+	letter-spacing: 0px;
+	text-shadow: 1px 1px 1px white;
+	-moz-text-shadow: #CDF2F7 0px 1px 0, #256569 0 -1px 0;
+	-webkit-text-shadow: #CDF2F7 0px 1px 0, #256569 0 -1px 0;
+	font-family: arial,sans-serif;
+	font-weight: normal;
+}
+
+.wppl-form div input , .wppl-form div select {	
+	//margin:0px !important;
+	}
+		
+/* ///////  WIDGET FORM STYLING  /////////// */
+	
+.wppl-widget-form-wrapper {
+	width:100%;
+	float: left;
+	margin: 10px 0px;
+	}
+	
+.wppl-widget-form div p {
+	margin:0px !important;
+	}
+	
+.wppl-widget-form div input , .wppl-widget-form div select {	
+	margin:0px !important;
+	}
+	
+.wppl-widget-form .wppl-address-wrapper, .wppl-widget-form .wppl-category-wrapper, .wppl-widget-form .wppl-distance-units-wrapper, .wppl-widget-form .wppl-submit {
+	margin-top:5px;
+	width: 100%;
+	float: left;
+	}
+	
+.wppl-widget-form .wppl-address-wrapper input[type="text"] {
+	width:95%;
+	padding-right:20px;
+	font-family: arial, sens-sarif;
+	padding:5px;
+	font-size: 12px !important;
+	line-height: 15px !important;
+	}
+	
+.wppl-widget-form div label {	
+	font-size: 13px;
+	color: #555;
+	margin-right: 5px;
+	float: left;
+	font-family: arial,sans-serif;
+	font-weight:bold;
+	text-transform: capitalize;
+	}
+
+.wppl-widget-form .date input[type="text"] {
+	padding:3px;
+	}
+	
+.wppl-widget-form select {
+	border: 1px solid #AAA;
+	color: #555;
+	background: #F2F1EE;
+	font-family: arial,sans-serif;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px white;
+	}
+	
+.wppl-widget-form .wppl-submit {
+	margin-left:0px;
+	}
+	
+.wppl-widget-form div label {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	color: #555;
+	font-family: arial,serif;
+	}
+	
+.wppl-widget-form .wppl-widget-distance-wrapper,  .wppl-widget-form .wppl-widget-units-wrapper {
+	float:left;
+	margin-right: 5px;
+	}
+	
+.wppl-widget-form .wppl-address-field-wrapper {
+	width:190px;
+	float:left;
+	position:relative;
+	}
+

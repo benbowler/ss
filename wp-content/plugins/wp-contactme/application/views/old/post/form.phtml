@@ -1,0 +1,5 @@
+<form class="v48fv v48fv_survey_front survey_front" name="<?php echo $this->form_name;?>" error="<?php echo $this->form_error;?>" method="POST" action="<?php echo $this->form_action;?>">	
+	<input type='hidden' name='__SURVEY_TYPE__' value='<?php echo $this->application()->slug;?>'/>
+	<input type='hidden' name='__SURVEY_FORM__' value='<?php echo $this->form_name;?>'/>
+	<?php echo $this->form_fields;?>
+</form>

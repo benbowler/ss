@@ -1,0 +1,45 @@
+{
+	"author" : "dcoda",
+	"author_url" : "http:\/\/dcoda.co.uk",
+	"license" : "GPL3",
+	"library":"v48fv",
+    "version":"",
+    "multisite":false,
+	"css_class":"",
+	"include" : [],
+	"classes" :
+	{
+		"application":"bv48fv_application",
+		"table":"bv48fv_data_table",
+		"data":"bv48fv_data_settings",
+		"form":null,
+		"_load":
+		[
+			"bv48fv_action",
+			"bv48fv_fs",
+			"bv48fv_view",
+			"bv48fv_http",
+			"bv48fv_tag",
+			"bv48fv_data_xml",
+			"bv48fv_data_csv",
+			"bv48fv_data_table",
+			"bv48fv_data_htmltable",
+			"bv48fv_request",
+			"bv48fv_data_sqlite",
+			"bv48fv_data_help"
+		]
+	},
+	"help_meta":{
+		"_empty":{
+					"title":"Click for help",
+					"url":"#",
+					"text":"",
+					"css":"v48fv_16x16_info",
+					"meta":{}
+		}
+	},
+	"probono" : true,
+	"folders" :{"b" : "library/base"},
+	"priority" : 20,
+	"alternate" : {}
+}

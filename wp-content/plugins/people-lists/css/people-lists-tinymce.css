@@ -1,0 +1,74 @@
+
+#add-people-list-button{ display: none;}
+
+#description_ifr{
+	border:1px solid #DFDFDF;
+	margin: 0 -1px;
+}
+#media-buttons a {
+    cursor: pointer;
+    padding: 0 0 5px 10px;
+}
+/* CSS for TinyMCE in Your Profile */
+#profile-page #your-profile .form-table .visual,
+#profile-page #your-profile .form-table .plain {
+	float: right;
+	margin-top: -25px;
+	border:1px solid #DFDFDF;
+	border-bottom-color: #E9E9E9;
+	text-decoration: none;
+	padding: 1px 20px 4px;
+	-moz-border-radius: 3px 3px 0px 0px	; /* FF1+ */
+  	-webkit-border-radius: 3px; /* Saf3+, Chrome */
+    border-radius: 3px; /* Opera 10.5, IE 9 */
+    background: #F1F1F1;
+	color:#999;
+}
+#profile-page #your-profile .form-table .visual {
+	margin-right: 2px;
+}
+#profile-page #your-profile .form-table .plain{
+	margin-right:0px;
+}
+
+/* SETTINGS FOR A LARGER TINYMCE AREA - Recommended & Defaulted */ 
+/*----------------------------------------------------- */
+#profile-page .form-table #description {
+	width: 100%;
+	height: 325px;
+	margin-top: -2px;
+	border: 1px solid #DFDFDF;
+	
+	
+	
+}
+#profile-page #your-profile .form-table a.active{
+	background: #E9E9E9;
+	border-color: #DFDFDF;
+	color:#333;
+	border-bottom-color: #E9E9E9;
+}
+/*----------------------------------------------------- */
+/* SETTINGS FOR A SMALLER TINYMCE AREA */
+/*-----------------------------------------------------
+
+.wp_themeSkin tr.mceFirst td.mceToolbar  {
+	float:none;
+}
+.wp_themeSkin .mceStatusbar {
+	float:none;
+}
+#profile-page .form-table textarea#description {
+	height:280px;
+}
+.wp_themeSkin .mceIframeContainer {
+	width:500px;
+}
+
+.form-table td {
+	float:left;
+	width: 68%;
+}
+-----------------------------------------------------*/
+
+/* --- End of File --- */

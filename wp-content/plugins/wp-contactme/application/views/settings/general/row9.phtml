@@ -1,0 +1,22 @@
+<th>
+	<label for="email">Send Email</label>
+</th>
+<td>
+	<input
+			type = "hidden"
+			name="data_collection[email][do]" 
+			value="" 
+			/>		
+	<input
+			type = "checkbox"
+			id="email" 
+			name="data_collection[email][do]" 
+			value="checked" 
+			<?php echo $this->data_collection['email']['do'];?> 
+			/>		
+	<input	
+			type = "text"
+			name="data_collection[email][address]"
+			value="<?php echo $this->data_collection['email']['address']?>"
+			/>
+</td>
