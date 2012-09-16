@@ -1,30 +1,15 @@
 <?php
 /*
 Plugin Name: Coaches Map
-Plugin URI: http://www.reallyeffective.co.uk/knowledge-base
-Description: DEMO List Posts
+Plugin URI: http://benbowler.com
+Description: Geocode and display coaches locations in map.
 Version: 0.1 BETA
-Author: Paul McKnight
-Author URI: http://www.reallyeffective.co.uk
+Author: Ben Bowler
+Author URI: http://benbowler.com
 */
 
 /*
 Coaches Map (Wordpress Plugin)
-Copyright (C) 2009 Paul McKnight
-Contact me at http://www.reallyeffective.co.uk
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
 //tell wordpress to register the demolistposts shortcode
@@ -38,38 +23,74 @@ function coaches_map_handler() {
 }
 
 function coaches_map_function() {
-  coaches_map_generate_coords();
+  //coaches_map_generate_coords();
   return require_once("map.php");
 }
 
-// Cron
-//wp_get_schedule(, '');
+/*
+ *  Shedule to geocode users locations
+ *
+ */
+add_action('generate_coords', 'coaches_map_generate_coords');
 
+function my_activation() {
+  if ( !wp_next_scheduled( 'generate_coords' ) ) {
+    wp_schedule_event( current_time( 'timestamp' ), 'hourly', 'generate_coords');
+  }
+}
+add_action('wp', 'my_activation');
+
+/*
+ * Function to geocode users locations
+ *
+ */
 function coaches_map_generate_coords() {
   global $wpdb;
 
-  $users = get_users(array(
-  'role' => 'administrator'
-  ));
+
+  $users = get_users();
+  $return = '';
 
   foreach ($users as &$user) {
+
+    // print_r($user->display_name);
     $user->data = get_userdata($user->ID);
 
-    //$user->location = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "'");
     $city = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 5");
     $country = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 2");
-    //$lat = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 9");
-    //$long = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 10");
-
-    // $user->coords = $coords;
 
     $user->city = $city[0]->value;
     $user->country = $country[0]->value;
 
     if($user->city) {
-      $location = "{$user->city}, {$user->country}";
-      echo file_get_contents('http://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($location) . '&sensor=true');
 
+      $location = "{$user->city}, {$user->country}";
+      $url = 'http://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($location) . '&sensor=true';
+
+      /* curl */
+      $ch = curl_init();
+      curl_setopt($ch, CURLOPT_URL, $url);
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+      $response = curl_exec($ch);
+      curl_close($ch);
+      $geocode = json_decode($response);
+
+      $lat = $geocode->results[0]->geometry->location->lat;
+      $long = $geocode->results[0]->geometry->location->lng;
+
+      // Delete
+      $delete = $wpdb->query("DELETE FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND (field_id = 9 OR field_id = 10)");
+      // Update lat lon in db
+      $insert_lat = $wpdb->query("INSERT INTO wp_bp_xprofile_data (user_id,field_id,value) VALUES ('" . $user->ID . "',9,'" . $lat . "')");
+      $insert_long = $wpdb->query("INSERT INTO wp_bp_xprofile_data (user_id,field_id,value) VALUES ('" . $user->ID . "',10,'" . $long . "')");
+
+      $return .= "{$user->display_name} : FAIL $lat $long \n ";
     }
   }
+
+  wp_mail('cron@benbowler.com', 'YSS User location generated', $return);
 }
+
+
+

@@ -20,12 +20,10 @@
 		<title><?php bloginfo('name'); ?> - <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
 		
 		<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.ico" />
+		<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.min.js" type="text/javascript"></script>
 
 		<?php tha_head_bottom(); ?>
 		<?php wp_head(); ?>
-		
-		<link rel="stylesheet/less" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/style.min.less">
-		<script src="<?php bloginfo('stylesheet_directory'); ?>/js/less.min.js" type="text/javascript"></script>
 	</head>
 	
 	<body <?php body_class(); ?>>
