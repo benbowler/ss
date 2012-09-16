@@ -2,7 +2,7 @@
 
 global $wpdb;
 
-$users = get_users(array( 'role' => 'gold', 'number' => 2 ));
+$users = get_users(); //array( 'role' => 'gold', 'number' => 2 )
 
 $googleMap = '';
 
@@ -19,10 +19,10 @@ foreach ($users as &$user) {
 
       if($user->lat && ($user->role == 'gold' || $user->role == 'silver' || $user->role == 'ysc_trainee')) {
 
-        $user->avatar = get_avatar( $user->ID, 32 );
-        $avatar = addslashes($user->avatar);
+        $user->avatar = get_avatar( $user->ID, 64 );
+        //$avatar = addslashes($user->avatar);
 
-        $popup = "<img src=\"{$user->avatar}\" /> {$user->display_name} <a href=\"<?php echo get_bloginfo('siteurl'); ?>/members/{$user->user_login}\">";
+        $popup = " {$user->avatar}<p style=\"display:block;float:left;height:100px;\"><strong>{$user->display_name}</strong> <br /><a href=\"" . get_bloginfo('siteurl') . "/members/{$user->user_login}\">Contact Coach.</a><p>";
 
         $googleMap .= "['$popup', {$user->lat}, {$user->long}, {$user->ID}, '{$user->role}'],";
       }
