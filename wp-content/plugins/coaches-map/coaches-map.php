@@ -23,7 +23,6 @@ function coaches_map_handler() {
 }
 
 function coaches_map_function() {
-  //coaches_map_generate_coords();
   return require_once("map.php");
 }
 
@@ -47,9 +46,12 @@ add_action('wp', 'my_activation');
 function coaches_map_generate_coords() {
   global $wpdb;
 
-
   $users = get_users();
-  $return = '';
+
+  // Change the line below to your timezone!
+  //date_default_timezone_set('Australia/Melbourne');
+  $date = date('m/d/Y h:i:s a', time());
+  $return = "Geocoding: " . $date . " \n";
 
   foreach ($users as &$user) {
 
@@ -85,7 +87,7 @@ function coaches_map_generate_coords() {
       $insert_lat = $wpdb->query("INSERT INTO wp_bp_xprofile_data (user_id,field_id,value) VALUES ('" . $user->ID . "',9,'" . $lat . "')");
       $insert_long = $wpdb->query("INSERT INTO wp_bp_xprofile_data (user_id,field_id,value) VALUES ('" . $user->ID . "',10,'" . $long . "')");
 
-      $return .= "{$user->display_name} : FAIL $lat $long \n ";
+      $return .= "{$user->display_name} : $lat $long \n ";
     }
   }
 
