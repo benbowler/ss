@@ -17,7 +17,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
-		<title><?php bloginfo('name'); ?> - <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
+		<title>Hello??</title>
 		
 		<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.ico" />
 		<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.min.js" type="text/javascript"></script>
