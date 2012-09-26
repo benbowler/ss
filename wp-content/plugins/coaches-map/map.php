@@ -9,6 +9,11 @@ $googleMap = '';
 foreach ($users as &$user) {
       $user->data = get_userdata($user->ID);
 
+      print_r(var_dump($user->data));
+
+      $city = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 5");
+      $user->city = $city[0]->value;
+
       $lat = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 9");
       $long = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 10");
 
@@ -22,7 +27,7 @@ foreach ($users as &$user) {
         $user->avatar = get_avatar( $user->ID, 64 );
         //$avatar = addslashes($user->avatar);
 
-        $popup = " {$user->avatar}<p style=\"display:block;float:left;height:100px;\"><strong>{$user->display_name}</strong> <br /><a href=\"" . get_bloginfo('siteurl') . "/members/{$user->user_login}\">Contact Coach.</a><p>";
+        $popup = " {$user->avatar}<p style=\"display:block;float:right;height:80px;width:140px;\"><strong>{$user->display_name}</strong><br />{$user->city}<br /><a href=\"" . get_bloginfo('siteurl') . "/members/{$user->user_login}\">Contact Coach.</a><p>";
 
         $googleMap .= "['$popup', {$user->lat}, {$user->long}, {$user->ID}, '{$user->role}'],";
       }

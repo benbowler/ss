@@ -324,61 +324,61 @@ a img.alignleft {
 }
 /* =Responsiveness
 -------------------------------------------------------------- */
+/*
 @media (max-width: 767px) {
-  body {
-    padding: 0;
-  }
-  .container {
-    width: auto;
-    padding: 0 10px;
-  }
-  #page {
-    margin: 0;
-    padding: 10px 10px 10px -20px;
-  }
-  .thumbnail[class*="span"],
-  .gallery [class*="span"] .thumbnail {
-    display: table;
-    float: left;
-  }
-  .carousel .item > img {
-    width: 100%;
-  }
-  .thumbnails > li:nth-child(4n+1) {
-    margin-left: 0;
-  }
-  .thumbnails [class*="span"] {
-    width: 21%;
-  }
-  .thumbnail > img {
-    width: auto;
-  }
-  .sidebar-content #primary,
-  .sidebar-content #attachment-comment {
-    float: none;
-    margin: inherit;
-  }
-  #s {
-    display: inline-block;
-  }
-  #site-generator,
-  #site-generator.footer-nav-menu a {
-    float: none;
-    margin-top: 5px;
-  }
-  textarea[class*="span"] {
-    height: auto;
-  }
-  .navbar-fixed-top,
-  .navbar-fixed-bottom {
-    margin: 0;
-  }
+	body {
+		padding:0;
+	}
+	.container {
+		width: auto;
+		padding: 0 10px;
+	}
+	#page {
+		margin: 0;
+		padding: 10px 10px 10px -20px;
+	}
+	.thumbnail[class*="span"],
+	.gallery [class*="span"] .thumbnail {
+		display: table;
+		float: left;
+	}
+	.carousel .item > img {
+		width: 100%;
+	}
+	.thumbnails > li:nth-child(4n+1) {
+		margin-left:0;
+	}
+	.thumbnails [class*="span"] {
+		width: 21%;
+	}
+	.thumbnail > img {
+		width: auto;
+	}
+	.sidebar-content #primary,
+	.sidebar-content #attachment-comment {
+		float: none;
+		margin: inherit;
+	}
+	#s {
+		display: inline-block;
+	}
+	#site-generator,
+	#site-generator.footer-nav-menu a {
+		float: none;
+		margin-top: 5px;
+	}
+	textarea[class*="span"] {
+		height: auto;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom {
+		margin: 0;
+	}
 }
 @media (min-width: 768px) and (max-width: 778px) {
-  #page {
-    margin-right: -15px;
-  }
-}
+	#page {
+		margin-right: -15px;
+	}
+}*/
 @media (min-width: 768px) and (max-width: 979px) {
   .dl-horizontal dt {
     width: 85px;
@@ -490,6 +490,97 @@ a:visited {
 .home-page #page header nav#access {
   width: 100%;
   clear: both;
+}
+.home-page #page #primary {
+  color: white;
+  margin-top: 30px;
+}
+.home-page #page #primary #recent-posts-3 {
+  width: 13%;
+  height: 400px;
+}
+.home-page #page #primary #black-studio-tinymce-7 {
+  width: 62%;
+  background-color: #4c4c4c;
+}
+.home-page #page #primary #black-studio-tinymce-7 h3 {
+  display: none;
+}
+.home-page #page #primary #black-studio-tinymce-7 div.textwidget {
+  width: 650px;
+  margin: 20px auto 100px;
+}
+.home-page #page #primary #black-studio-tinymce-8 {
+  width: 13%;
+  height: 400px;
+}
+.home-page #page #primary #black-studio-tinymce-5,
+.home-page #page #primary #black-studio-tinymce-4,
+.home-page #page #primary #black-studio-tinymce-3 {
+  width: 232px;
+  position: relative;
+  left: 199px;
+  bottom: 91px;
+  text-align: center;
+  margin-left: 15px;
+}
+.home-page #page #primary #black-studio-tinymce-5 .widget-title,
+.home-page #page #primary #black-studio-tinymce-4 .widget-title,
+.home-page #page #primary #black-studio-tinymce-3 .widget-title {
+  display: none;
+}
+.home-page #page #primary #black-studio-tinymce-5 img,
+.home-page #page #primary #black-studio-tinymce-4 img,
+.home-page #page #primary #black-studio-tinymce-3 img {
+  margin-bottom: 0;
+  display: block;
+  margin: 0 auto;
+}
+.home-page #page #primary #black-studio-tinymce-5 a:first-child,
+.home-page #page #primary #black-studio-tinymce-4 a:first-child,
+.home-page #page #primary #black-studio-tinymce-3 a:first-child {
+  text-transform: uppercase;
+  color: #00f6ff;
+  font-size: 20px;
+}
+.home-page #page #primary #black-studio-tinymce-5 h4,
+.home-page #page #primary #black-studio-tinymce-4 h4,
+.home-page #page #primary #black-studio-tinymce-3 h4 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.home-page #page #primary #black-studio-tinymce-5 strong:first-child,
+.home-page #page #primary #black-studio-tinymce-4 strong:first-child,
+.home-page #page #primary #black-studio-tinymce-3 strong:first-child {
+  display: block;
+  font-weight: 200;
+  padding: 10px;
+}
+.home-page #page #primary #black-studio-tinymce-5 strong:first-child em,
+.home-page #page #primary #black-studio-tinymce-4 strong:first-child em,
+.home-page #page #primary #black-studio-tinymce-3 strong:first-child em {
+  display: block;
+  font-style: none;
+}
+.home-page #page #primary #black-studio-tinymce-5 ul,
+.home-page #page #primary #black-studio-tinymce-4 ul,
+.home-page #page #primary #black-studio-tinymce-3 ul {
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+}
+.home-page #page #primary #black-studio-tinymce-5 {
+  clear: left;
+}
+.home-page #page #primary #black-studio-tinymce-5 strong:first-child {
+  background-color: #9d5c23;
+}
+.home-page #page #primary #black-studio-tinymce-4 strong:first-child {
+  background-color: #838383;
+}
+.home-page #page #primary #black-studio-tinymce-3 strong:first-child {
+  background-color: #efb427;
 }
 .home-page #page footer {
   background-color: #4c4c4c;
