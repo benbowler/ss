@@ -9,7 +9,7 @@ $googleMap = '';
 foreach ($users as &$user) {
       $user->data = get_userdata($user->ID);
 
-      print_r(var_dump($user->data));
+      //print_r(var_dump($user->data));
 
       $city = $wpdb->get_results("SELECT * FROM wp_bp_xprofile_data WHERE user_id = '" . $user->ID . "' AND field_id = 5");
       $user->city = $city[0]->value;

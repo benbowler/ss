@@ -12,10 +12,11 @@
 					<?php tha_footer_top(); ?>
 					<div id="page-footer" class="row-fluid clearfix">
 						<?php dynamic_sidebar( 'Footer Widgets' ); ?>
+						
+						<div id="copyright" >
+							&copy; Yoga Sport Science <?php echo date('Y'); ?>. All Rights Reserved.
+						</div>
 					</div><!-- #page-footer .row .clearfix -->
-					<div id="copyright" >
-						&copy; Yoga Sport Science <?php echo date('Y'); ?>. All Rights Reserved.
-					</div>
 
 					<?php tha_footer_bottom(); ?>
 				</footer><!-- #colophon -->
