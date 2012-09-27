@@ -1,0 +1,14 @@
+#lnw-dashboard input[type=submit] {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#21759B url(../images/button-grad.png) repeat-x scroll left top;
+	border-color:#298CBA;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin-top:7px;
+	margin-top:3px;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+#lnw-dashboard ul { margin-left:8px; }
+#lnw-dashboard label { font-weight:bold; padding-right:6px; }

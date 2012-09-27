@@ -1,0 +1,106 @@
+#latest-news-widget-admin {
+	vertical-align:top;
+	margin:1em 0 30px 25px;
+	overflow:visible;
+	min-width:1020px;
+}
+
+#latest-news-widget-admin h2 {
+	clear:none;
+	margin-left:46px;
+	display:block; padding:0;
+}
+
+#latest-news-widget-admin input[type=submit], #latest-news-widget-admin input[type=submit] {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#21759B url(../images/button-grad.png) repeat-x scroll left top;
+	border-color:#298CBA;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+#latest-news-widget-admin #general-settings {
+	clear:both;
+	width:936px;
+	margin:20px 1em 1em 5px;
+}
+
+#latest-news-widget-admin .action-complete {
+	background-color:#2bd604;
+	width:920px;
+	border:1px solid #333;
+	padding:7px 7px 1px 7px;
+	display:block;
+	height:30px;
+	clear:both;
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+	margin:.5em 0 .8em 5px;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+}
+
+#latest-news-widget-admin label { font-weight:bold; }
+
+#latest-news-widget-admin input, textarea, select {
+	font-size:1em;
+}
+
+#latest-news-widget-admin .inside {
+	padding:5px 10px 10px 10px;
+}
+
+#latest-news-widget-admin h3 {
+	margin:0 0 7px 0;
+	height:25px;
+	padding: 7px 0 0 9px;
+}
+
+#latest-news-widget-admin .rate-me a { font-weight:bold; width:auto; margin-left:20px; display:block; float:left; text-decoration:none; margin:6px 0 10px 0; }
+
+#latest-news-widget-admin .rate-me input[type=image] { float:right; }
+
+#latest-news-widget-admin  .genesis {
+	text-align:center;
+	background-color:#FFFEEB;
+	width:920px;
+	border:1px solid #cccccc;
+	display:block;
+	height:30px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:7px 7px 7px 7px;
+	margin:.5em 0 .8em 5px;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	font-size:11px;
+	line-height:normal;
+}
+
+#latest-news-widget-admin  .genesis span { color:red; font-weight:bold; }
+
+#latest-news-widget-admin form.blog-horizontal-form {
+	background-color:#FFFEEB;
+	width:920px;
+	border:1px solid #cccccc;
+	padding:7px;
+	display:block;
+	height:30px;
+	text-align:center;
+	margin:.5em 0 .8em 5px;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	font-size:11px;
+	line-height:normal;
+}
+
+#latest-news-widget-admin form.blog-horizontal-form input[type=text] { width:100px; }
+
+#latest-news-widget-admin form.blog-horizontal-form span { font-weight:bold; padding-right:4px; }
