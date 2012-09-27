@@ -324,61 +324,61 @@ a img.alignleft {
 }
 /* =Responsiveness
 -------------------------------------------------------------- */
-/*
 @media (max-width: 767px) {
-	body {
-		padding:0;
-	}
-	.container {
-		width: auto;
-		padding: 0 10px;
-	}
-	#page {
-		margin: 0;
-		padding: 10px 10px 10px -20px;
-	}
-	.thumbnail[class*="span"],
-	.gallery [class*="span"] .thumbnail {
-		display: table;
-		float: left;
-	}
-	.carousel .item > img {
-		width: 100%;
-	}
-	.thumbnails > li:nth-child(4n+1) {
-		margin-left:0;
-	}
-	.thumbnails [class*="span"] {
-		width: 21%;
-	}
-	.thumbnail > img {
-		width: auto;
-	}
-	.sidebar-content #primary,
-	.sidebar-content #attachment-comment {
-		float: none;
-		margin: inherit;
-	}
-	#s {
-		display: inline-block;
-	}
-	#site-generator,
-	#site-generator.footer-nav-menu a {
-		float: none;
-		margin-top: 5px;
-	}
-	textarea[class*="span"] {
-		height: auto;
-	}
-	.navbar-fixed-top, .navbar-fixed-bottom {
-		margin: 0;
-	}
+  body {
+    padding: 0;
+  }
+  .container {
+    width: auto;
+    padding: 0 10px;
+  }
+  #page {
+    margin: 0;
+    padding: 10px 10px 10px -20px;
+  }
+  .thumbnail[class*="span"],
+  .gallery [class*="span"] .thumbnail {
+    display: table;
+    float: left;
+  }
+  .carousel .item > img {
+    width: 100%;
+  }
+  .thumbnails > li:nth-child(4n+1) {
+    margin-left: 0;
+  }
+  .thumbnails [class*="span"] {
+    width: 21%;
+  }
+  .thumbnail > img {
+    width: auto;
+  }
+  .sidebar-content #primary,
+  .sidebar-content #attachment-comment {
+    float: none;
+    margin: inherit;
+  }
+  #s {
+    display: inline-block;
+  }
+  #site-generator,
+  #site-generator.footer-nav-menu a {
+    float: none;
+    margin-top: 5px;
+  }
+  textarea[class*="span"] {
+    height: auto;
+  }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    margin: 0;
+  }
 }
 @media (min-width: 768px) and (max-width: 778px) {
-	#page {
-		margin-right: -15px;
-	}
-}*/
+  #page {
+    margin-right: -15px;
+  }
+}
 @media (min-width: 768px) and (max-width: 979px) {
   .dl-horizontal dt {
     width: 85px;
@@ -496,7 +496,7 @@ a:visited {
   color: white;
   margin-top: 30px;
 }
-.home-page #page #primary #recent-posts-3 {
+.home-page #page #primary #latest-news-widget-2 {
   width: 165px;
   height: 400px;
 }
