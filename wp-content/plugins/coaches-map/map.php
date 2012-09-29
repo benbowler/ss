@@ -36,7 +36,7 @@ foreach ($users as &$user) {
 //var_dump($googleMap);
 
 ?>
-<div id="map_canvas" style="width: 100%; height: 600px; display: block;"></div>
+<div id="map_canvas" style="width: 900px; height: 600px; display: block; margin: 0 auto 30px;"></div>
 
  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCQ-07W-Dl4MYDwj921fpfQNiokVNLeNoE&sensor=true"></script>
   <script type="text/javascript">
