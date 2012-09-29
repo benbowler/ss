@@ -34,7 +34,7 @@ add_action('generate_coords', 'coaches_map_generate_coords');
 
 function my_activation() {
   if ( !wp_next_scheduled( 'generate_coords' ) ) {
-    wp_schedule_event( current_time( 'timestamp' ), 'hourly', 'generate_coords');
+    wp_schedule_event( current_time( 'timestamp' ), 'daily', 'generate_coords');
   }
 }
 add_action('wp', 'my_activation');
