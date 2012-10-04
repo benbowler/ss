@@ -59,37 +59,86 @@
     <?php
     $user = wp_get_current_user();
     $user_id = $user->data->user_login;
-    echo var_dump($user_id);
+    //echo var_dump($user_id);
     $chart_data = $wpdb->get_results( "SELECT * FROM wp_wpsqt_all_results WHERE person_name='$user_id'" );
-    echo var_dump($chart_data);
-    ?>
 
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript">
+    $questions = array();
+    $answers = array();
 
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Week', 'Sales', 'Expenses'],
-          ['1',  1000,      400],
-          ['2',  1170,      460],
-          ['3',  660,       1120],
-          ['4',  660,       1120],
-          ['5',  1000,      400],
-          ['6',  1170,      460],
-          ['7',  660,       1120],
-          ['8',  660,       1120]
-        ]);
+    foreach ($chart_data as $data) {
+      $sections = unserialize($data->sections);
+      var_dump($sections);
 
-        var options = {
-          title: 'How Are You Feeling'
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
+      foreach ($sections[0][questions] as $key => $question) {
+        $questions[$key] = $question[name];
       }
-    </script>
+
+      foreach ($sections[0][answers] as $key => $answer) {
+        $answers[$key] = $answer[given];
+
+        //array_push($results[$key], $);
+      }
+
+      // Data
+      //$name = $question[$key]->name;
+
+      // $chart .= "['Week', 'Q1', 'Q2', 'Q3'],";
+
+    }
+    var_dump($questions);
+    var_dump($answers);
+
+    //php chart lib
+
+    // don't forget to update the path here
+    require_once('googlechartapi/lib/GoogleChart.php');
+
+    $chart = new GoogleChart('lc', 500, 200);
+
+    // manually forcing the scale to [0,100]
+    $chart->setScale(0,10);
+
+    // add one line
+    $data = new GoogleChartData(array(2,5,5,6,7,8,9,8));
+    $data->setLegend($questions[0]);
+    $data->setColor('F69F38');
+    $chart->addData($data);
+
+    // add one line
+    $data = new GoogleChartData(array(3,4,4,4,5,5,4,7));
+    $data->setLegend($questions[1]);
+    $data->setColor('00C0FF');
+    $chart->addData($data);
+
+    // add one line
+    $data = new GoogleChartData(array(1,1,1,4,3,3,5,7));
+    $data->setLegend($questions[2]);
+    $data->setColor('FF75EE');
+    $chart->addData($data);
+
+    // add one line
+    $data = new GoogleChartData(array(4,2,5,7,9,10,10,10));
+    $data->setLegend($questions[3]);
+    $data->setColor('FFDE00');
+    $chart->addData($data);
+
+    // customize y axis
+    $y_axis = new GoogleChartAxis('y');
+    $y_axis->setDrawTickMarks(false)->setLabels(array(1,2,3,4,5,6,7,8,9,10));
+    $chart->addAxis($y_axis);
+
+    // customize x axis
+    $x_axis = new GoogleChartAxis('x');
+    $x_axis->setTickMarks(1);
+    $chart->addAxis($x_axis);
+
+    //$chart->getLegend();
+
+    //header('Content-Type: image/png');
+    echo  $chart->toHtml();
+    //echo '<img src="data:image/png;base64,'.base64_encode($chart).'" alt="photo"><br>';
+
+    ?>
 
 
 				<?php do_action( 'bp_template_content' ); ?>

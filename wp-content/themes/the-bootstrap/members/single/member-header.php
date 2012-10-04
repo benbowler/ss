@@ -21,7 +21,9 @@
 
 <div id="item-header-content" class="span6">
 
-	<?php echo do_shortcode('[wppl_member_location]'); ?>
+	<?php 
+	// Do shortcode in PHP
+	//echo do_shortcode('[wppl_member_location]'); ?>
 
 	<h2>
 		<a href="<?php bp_displayed_user_link(); ?>"><?php bp_displayed_user_fullname(); ?></a>
@@ -62,22 +64,30 @@
 	</div><!-- #item-meta -->
 
 </div><!-- #item-header-content -->
+<?php if( bp_is_my_profile() ): ?>
 <?php
 	$user = wp_get_current_user();
+	//var_dump($user);
+	$role = $user->roles[0];
+	echo $role;
 
-    $time = time() - strtotime($user->user_registered); // to get the time since that moment
-    $dif = ceil($time/604800);
+	if($role == 'subscriber') {
 
-    if($dif > 8) {
-    	$weeks = "Complete!"; 
-    } else {
-    	$weeks = "Week $dif";
-    }
+	    $time = time() - strtotime($user->user_registered); // to get the time since that moment
+	    $dif = ceil($time/604800);
+
+	    if($dif > 8) {
+	    	$weeks = "Bronze Complete!"; 
+	    } else {
+	    	$weeks = "Week $dif";
+	    }
+ 	}
 ?>
 
 <div id="item-header-week" class="span4">
 	<h2><?php echo $weeks; ?></h2>
 </div>
+<?php endif; ?>
 
 <?php do_action( 'bp_after_member_header' ); ?>
 
