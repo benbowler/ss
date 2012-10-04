@@ -67,7 +67,7 @@
 
     foreach ($chart_data as $data) {
       $sections = unserialize($data->sections);
-      var_dump($sections);
+      //var_dump($sections);
 
       foreach ($sections[0][questions] as $key => $question) {
         $questions[$key] = $question[name];
@@ -85,15 +85,15 @@
       // $chart .= "['Week', 'Q1', 'Q2', 'Q3'],";
 
     }
-    var_dump($questions);
-    var_dump($answers);
+    //var_dump($questions);
+    //var_dump($answers);
 
     //php chart lib
 
     // don't forget to update the path here
     require_once('googlechartapi/lib/GoogleChart.php');
 
-    $chart = new GoogleChart('lc', 500, 200);
+    $chart = new GoogleChart('lc', 800, 320);
 
     // manually forcing the scale to [0,100]
     $chart->setScale(0,10);
@@ -129,7 +129,7 @@
 
     // customize x axis
     $x_axis = new GoogleChartAxis('x');
-    $x_axis->setTickMarks(1);
+    $x_axis->setDrawTickMarks(false)->setLabels(array(1,2,3,4,5,6,7,8));
     $chart->addAxis($x_axis);
 
     //$chart->getLegend();
