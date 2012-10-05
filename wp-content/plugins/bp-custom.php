@@ -34,7 +34,7 @@ function my_bp_nav_adder()
 			'name' => __('How Are You Feeling?', 'buddypress'),
 			'slug' => 'how-are-you-feeling',
 			'position' => 75,
-			'show_for_displayed_user' => true,
+			'show_for_displayed_user' => false,
 			'screen_function' => 'all_conversations_link',
 			'item_css_id' => 'all-conversations'
 		));
@@ -62,7 +62,7 @@ function my_bp_nav_adder_1()
 			'name' => __('Identify Your Goals', 'buddypress'),
 			'slug' => 'identify-your-goals',
 			'position' => 75,
-			'show_for_displayed_user' => true,
+			'show_for_displayed_user' => false,
 			'screen_function' => 'all_conversations_link_1',
 			'item_css_id' => 'all-conversations_1'
 		));

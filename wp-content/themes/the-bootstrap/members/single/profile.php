@@ -23,6 +23,15 @@
 
 	<?php endif; ?>
 
+	<?php if ( !bp_is_my_profile() ) : ?>
+	<!-- Hide  -->
+	<style type="text/css">
+	#activity-personal-li, #all-conversations-personal-li, #all-conversations_1-personal-li {
+		display: none;
+	}
+	</style>
+	<?php endif; ?>
+
 	<?php do_action( 'bp_before_profile_content' ); ?>
 
 	<div class="profile" role="main">
